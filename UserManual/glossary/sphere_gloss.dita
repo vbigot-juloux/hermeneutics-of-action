@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry id="glossentry_sphere">
+    <glossterm>Sphere</glossterm>
+    <glossdef><ul><li id="noLi_gloss" conref="../ObjVar.dita#concept_ObjVar01/sphere01" outputclass="-dita-use-conref-target" /></ul></glossdef>
+    
+</glossentry>

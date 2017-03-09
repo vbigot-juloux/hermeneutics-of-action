@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="topic_Hermen01" path="hermeneutics.html"/>
+   <appContext helpID="task_step" path="step.html"/>
+   <appContext helpID="concept_Cat01" path="categories.html#concept_Cat01"/>
+   <appContext helpID="concept_PrimVar01" path="categories.html#concept_PrimVar01"/>
+   <appContext helpID="concept_ObjVar01" path="categories.html#concept_ObjVar01"/>
+   <appContext helpID="concept_SubjVar01" path="categories.html#concept_SubjVar01"/>
+</map>

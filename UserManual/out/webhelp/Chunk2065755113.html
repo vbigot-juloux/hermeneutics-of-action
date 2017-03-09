@@ -1,0 +1,546 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="description" content="Three main categories are created for investigating texts: Primary data Objective data Subjective data These main catagories are described in the encoding description section to be used after: in the ..." /><meta name="copyright" content="(C) Copyright 2017" /><meta name="DC.rights.owner" content="(C) Copyright 2017" /><meta name="DC.Type" content="topic" /><meta name="DC.Title" content="XML-TEI" /><meta name="DC.Audience.Experiencelevel" content="general" /><meta name="DC.Audience.Experiencelevel" content="general" /><meta name="DC.Audience.Experiencelevel" content="general" /><meta name="DC.Audience.Experiencelevel" content="general" /><meta name="DC.Audience.Experiencelevel" content="general" /><meta name="DC.Audience.Experiencelevel" content="general" /><meta name="DC.Audience.Experiencelevel" content="general" /><meta name="DC.Audience.Experiencelevel" content="general" /><meta name="DC.Audience.Job" content="digital humaniste" /><meta name="DC.Audience.Job" content="digital humaniste" /><meta name="DC.Audience.Job" content="digital humaniste" /><meta name="DC.Audience.Job" content="digital humaniste" /><meta name="DC.Audience.Job" content="digital humaniste" /><meta name="DC.Audience.Job" content="digital humaniste" /><meta name="DC.Audience.Job" content="digital humaniste" /><meta name="DC.Audience.Job" content="digital humaniste" /><meta name="DC.Audience.Type" content="programmer" /><meta name="DC.Audience.Type" content="programmer" /><meta name="DC.Audience.Type" content="programmer" /><meta name="DC.Audience.Type" content="programmer" /><meta name="DC.Audience.Type" content="programmer" /><meta name="DC.Audience.Type" content="programmer" /><meta name="DC.Audience.Type" content="programmer" /><meta name="DC.Audience.Type" content="programmer" /><meta name="DC.Creator" content="Vanessa Juloux" /><meta name="DC.Creator" content="Vanessa Juloux" /><meta name="DC.Creator" content="Vanessa Juloux" /><meta name="DC.Creator" content="Vanessa Juloux" /><meta name="DC.Creator" content="Vanessa Juloux" /><meta name="DC.Creator" content="Vanessa Juloux" /><meta name="DC.Creator" content="Vanessa Juloux" /><meta name="DC.Creator" content="Vanessa Juloux" /><meta name="DC.Date.Created" content="February, 2017" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="Chunk2065755113" /><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/commonltr.css"><!----></link><title>XML-TEI</title><!--  Generated with Oxygen version 18.1, build number 2017013018.  --><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/webhelp_topic.css"><!----></link><link rel="stylesheet" type="text/css" href="Dita_UserManual.css" /><script type="text/javascript"><!--
+            
+            var prefix = "index.html";
+            
+            --></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-1.11.3.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.cookie.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-ui.custom.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.highlight-3.js"><!----></script><script type="text/javascript" charset="utf-8" src="oxygen-webhelp/resources/js/webhelp_topic.js"><!----></script></head>
+<body onload="highlightSearchTerm()" class="frmBody">
+<header role="banner"><table class="nav"><tbody><tr><td colspan="2"><div id="printlink"><a href="javascript:window.print();" title="Print this page"></a></div><div id="permalink"><a href="#" title="Link to this page"></a></div></td></tr><tr><td style="width:75%;"><span class="topic_breadcrumb_links"></span></td><td><span id="topic_navigation_links" class="navheader"></span></td></tr></tbody></table></header><main role="main"><article role="article" aria-labelledby="ariaid-title1"><article class="nested0" aria-labelledby="ariaid-title1" id="Chunk2065755113"><h1 class="title topictitle1" id="ariaid-title1">XML-TEI</h1>
+<article class="topic concept nested1" aria-labelledby="ariaid-title2" id="concept_Cat01">
+  <h2 class="title topictitle2" id="ariaid-title2">Structured analytic frame</h2>
+
+ 
+ <div class="body conbody"><p class="shortdesc"></p>
+
+  <p class="p">Three <strong class="ph b">main</strong> categories are created for investigating texts:</p>
+
+  <ol class="ol">
+   <li class="li"><a class="xref" href="Chunk2065755113.html#concept_PrimVar01">Primary data</a></li>
+
+   <li class="li"><a class="xref" href="Chunk2065755113.html#concept_ObjVar01">Objective data</a></li>
+
+   <li class="li"><a class="xref" href="Chunk2065755113.html#concept_SubjVar01">Subjective data</a></li>
+
+  </ol>
+
+  <div class="p">These main catagories are described in the <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD5" target="_blank">encoding description section</a> to be used after:
+   <ol class="ol">
+    <li class="li">in the <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-text.html" target="_blank">group text element</a> section for the transcription;</li>
+  
+    <li class="li">in the <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-interpGrp.html" target="_blank">intepretation element</a> section used for statistic purposes.</li>
+
+   </ol>
+
+  </div>
+
+  <pre class="pre codeblock language-xml"> 
+   <strong class="hl-tag" style="color:#000096">&lt;encodingDesc&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;classDecl&gt;</strong>
+     <strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"primaryData"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>  <em class="hl-comment" style="color:#006400">&lt;!-- Primary Data --&gt;</em> <strong class="hl-tag" style="color:#000096">&lt;/taxonomy&gt;</strong> 
+     <strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"objectiveData"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>  <em class="hl-comment" style="color:#006400">&lt;!-- Objective variables --&gt;</em> <strong class="hl-tag" style="color:#000096">&lt;/taxonomy&gt;</strong> 
+     <strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"subjectiveData"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>  <em class="hl-comment" style="color:#006400">&lt;!-- Sujective variables --&gt;</em> <strong class="hl-tag" style="color:#000096">&lt;/taxonomy&gt;</strong> 
+   <strong class="hl-tag" style="color:#000096">&lt;/classDecl&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;/encodingDesc&gt;</strong>
+ </pre>
+
+ </div>
+
+<article class="topic concept nested2" aria-labelledby="ariaid-title3" id="concept_PrimVar01">
+ <h3 class="title topictitle3" id="ariaid-title3">Primary Data</h3>
+
+ 
+ <div class="body conbody"><p class="shortdesc"></p>
+
+  <p class="p">Primary data are data faithfully extracted from text, and that are marking up with a type of
+   attributes for R statistics — <strong class="ph b">this first step is essential for counting the actions per
+    (animated) entity</strong>. </p>
+
+  <div class="note note"><span class="notetitle">Note:</span> <ul class="ul"><li class="li" id="concept_PrimVar01__xmlTEI_primD">XML-TEI elements: <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html" target="_blank">TEI</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-teiHeader.html" target="_blank">teiHeader</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-encodingDesc.html" target="_blank">encodingDesc</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-classDecl.html" target="_blank">classDecl</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-taxonomy.html" target="_blank">taxonomy</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-category.html" target="_blank">category</a></li>
+
+   <li class="li">XML-TEI attributes: <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" target="_blank"><code class="keyword markupname xmlatt">@xml:id</code></a></li>
+
+   <li class="li">Values: primaryData|verb|entity</li>
+
+  </ul>
+
+  </div>
+
+  <p class="lines">------------------------------------</p>
+
+  <div class="p"><div class="note note"><span class="notetitle">Note:</span> Preliminary step before introducing attributes values for Primary data: list of the animated entities (characters, <u class="ph u">attribute's value #entity</u>) within the XML-TEI element <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-listPerson.html" target="_blank"><code class="keyword markupname xmlelement">&lt;listPerson&gt;</code></a>:
+   <ul class="ul"><li class="li" id="concept_PrimVar01__xmlTEI_entity01">XML-TEI elements within <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html" target="_blank">TEI</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-teiHeader.html" target="_blank">teiHeader</a>: <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-profileDesc.html" target="_blank">profileDesc</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-particDesc.html" target="_blank">particDesc</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-listPerson.html" target="_blank">listPerson</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-person.html" target="_blank">person</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html" target="_blank">persName</a></li>
+
+    <li class="li">XML-TEI attributes: <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.typed.html" target="_blank"><code class="keyword markupname xmlatt">@type</code></a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.analytic.html" target="_blank"><code class="keyword markupname xmlatt">@ana</code></a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" target="_blank"><code class="keyword markupname xmlatt">@xml:id</code></a></li>
+
+    <li class="li">Values: mythological|entity|ID ENTITY|ENTITY'S NAME</li>
+   
+   </ul>
+
+   <span style="text-decoration:overline" class="ph overline"></span>
+    <ul class="ul"><li class="li">Current research in the Cycle of Baʿlu and ʿAnatu by alphabtetic order: ʿAnatu (ANT), ʾAṯiratu, (ATH), ʾAṯtartu (ATT), Baʿlu (BAL), ʾIlu (ILU), Koṯaru (KOT), Baʿlu's messengers (MES_B), ʾIlu's messengers (MES_I), Yammu's messenger (MES_Y)s, Môtu (MOT), Šapsu (SAP), Yammu (YAM), unknown (UNK).</li>
+
+    <li class="li">XML-TEI example for ʿAnatu, attributes within the <a class="xref" href="Chunk2065755113.html#concept_PrimVar01__xmlTEI_entity01">elements</a> <code class="keyword markupname xmlelement">&lt;profileDesc&gt;</code> ➞ <code class="keyword markupname xmlelement">&lt;particDesc&gt;</code> ➞ <code class="keyword markupname xmlelement">&lt;listPerson&gt;</code> elements before the XML-TEI attributes for xml:id <a class="xref" href="Chunk2065755113.html#concept_PrimVar01__xmlTEI_entity">entity</a> and <a class="xref" href="Chunk2065755113.html#concept_PrimVar01__xmlTEI_verb">verb</a>: 
+     <pre class="pre codeblock language-xml">
+      <strong class="hl-tag" style="color:#000096">&lt;profileDesc&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;particDesc&gt;</strong>
+        <strong class="hl-tag" style="color:#000096">&lt;listPerson</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">"mythological"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#entity"</span><strong class="hl-tag" style="color:#000096">&gt;</strong> 
+          <strong class="hl-tag" style="color:#000096">&lt;person</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"ANT"</span><strong class="hl-tag" style="color:#000096">&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;persName&gt;</strong>ʾAnatu<strong class="hl-tag" style="color:#000096">&lt;/persName&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;/person&gt;</strong>
+        <strong class="hl-tag" style="color:#000096">&lt;/listPerson&gt;</strong>
+      <strong class="hl-tag" style="color:#000096">&lt;/particDesc&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;/profileDesc&gt;</strong>
+     </pre>
+</li>
+</ul>
+</div>
+
+  </div>
+
+<p class="lines">------------------------------------</p>
+
+  <div class="p"><strong class="ph b">Primary data</strong> within the <a class="xref" href="Chunk2065755113.html#concept_PrimVar01__xmlTEI_primD">elements</a> <code class="keyword markupname xmlelement">&lt;encodingDesc&gt;</code> ➞ <code class="keyword markupname xmlelement">&lt;classDecl&gt;</code>:
+  <ul class="ul">   <li class="li">Verb:
+    <ul class="ul">
+     <li class="li">➯ Most relevant lexem in a group of words or a sentence. A verb belongs to a taxonomy or sub-category.</li>
+
+     <li class="li" id="concept_PrimVar01__xmlTEI_verb">XML-TEI:<pre class="pre codeblock language-xml">
+      <strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"primaryData"</span><strong class="hl-tag" style="color:#000096">&gt;</strong> 
+        <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"verb"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>  
+      <strong class="hl-tag" style="color:#000096">&lt;/taxonomy&gt;</strong>  
+      </pre>
+</li>
+
+    </ul>
+</li>
+
+   <li class="li">Animated entity:
+    <ul class="ul">
+     <li class="li">➯ who is the character acting in several ways with relevant <a class="xref" href="Chunk2065755113.html#concept_ObjVar01">objective</a> and <a class="xref" href="Chunk2065755113.html#concept_SubjVar01">subjective</a> variables.</li>
+
+     <li class="li" id="concept_PrimVar01__xmlTEI_entity02">XML-TEI attribute for Primary data animated entity:
+      <pre class="pre codeblock language-xml">
+       <strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"primaryData"</span><strong class="hl-tag" style="color:#000096">&gt;</strong> 
+         <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"entity"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>  
+       <strong class="hl-tag" style="color:#000096">&lt;/taxonomy&gt;</strong>  
+      </pre>
+</li>
+
+  </ul>
+</li>
+</ul>
+
+  </div>
+
+ </div>
+
+</article>
+<article class="topic concept nested2" aria-labelledby="ariaid-title4" id="concept_ObjVar01">
+
+ <h3 class="title topictitle3" id="ariaid-title4">Objective variables</h3>
+
+
+ 
+  
+ <div class="body conbody"><p class="shortdesc"></p>
+
+   <div class="note note"><span class="notetitle">Note:</span> <ul class="ul"><li class="li" id="concept_ObjVar01__xmlTEI_primD">XML-TEI elements: <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html" target="_blank">TEI</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-teiHeader.html" target="_blank">teiHeader</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-encodingDesc.html" target="_blank">encodingDesc</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-classDecl.html" target="_blank">classDecl</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-taxonomy.html" target="_blank">taxonomy</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-category.html" target="_blank">category</a></li>
+
+     <li class="li">XML-TEI attributes: <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" target="_blank"><code class="keyword markupname xmlatt">@xml:id</code></a></li>
+
+     <li class="li">Values: objectiveData|CATEGORIE|SUBCATEGORIE</li>
+
+   </ul>
+
+   </div>
+
+   <div class="p">They are several variables which provide relevant information on the character's acting (<a class="xref" href="Chunk2065755113.html#concept_PrimVar01">primary data</a>): <a class="xref" href="Chunk2065755113.html#concept_ObjVar01__verbSem01">verbal semantic</a>, <a class="xref" href="Chunk2065755113.html#concept_ObjVar01__sphere01">sphere</a>, <a class="xref" href="Chunk2065755113.html#concept_ObjVar01__context01">context</a>, <a class="xref" href="Chunk2065755113.html#concept_ObjVar01__role01">role</a>, <a class="xref" href="Chunk2065755113.html#concept_ObjVar01__bioSex01">biological sex</a>, which follow the same semantic frame for marking up a type of taxonomy:<pre class="pre codeblock language-xml">
+     <strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"objectiveData"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+       <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"NAME OF A VARIABLE"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+       <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"NAME OF A SUBVARIABLE"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+     <strong class="hl-tag" style="color:#000096">&lt;/taxonomy&gt;</strong></pre>
+</div>
+
+   <div class="note note"><span class="notetitle">Note:</span> a variable = categorie or taxonomy. A subvariable = subcategorie or subtaxonomie.</div>
+
+   <div class="p" id="concept_ObjVar01__verbSem01">Verbal semantic:
+     <ul class="ul">
+      <li class="li">Taxonomy: action <div class="note note"><span class="notetitle">Note:</span> <em class="ph i">The current research is on the animated entities action, but of course the
+        same semantic markup can be apply to other semantic categories.</em></div>
+
+       <ul class="ul">
+        <li class="li">Subtaxonomies: movement, agression, confrontation,destruction, displacement, put
+         together</li>
+
+        <li class="li">XLM-TEI example:
+         <pre class="pre codeblock language-xml">
+         <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"semantic"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+           <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"action"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+             <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"destruction"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+           <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong>    
+         <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong> 
+        </pre>
+</li>
+
+       </ul>
+</li>
+ 
+     </ul>
+
+     <ol class="ol">
+    <li class="li" id="concept_ObjVar01__context01">Context 
+     <ul class="ul">
+       <li class="li">➯ in which the action takes place.</li>
+
+      <li class="li">Subcategories: ritual, battle, single combat, assembly, prayer, feast, wedding, burial,
+       seduction, meeting, complaint, lawsuit, threat, revenge, visit, unknown (unknown_C), broken
+       context (B_ctx_C).</li>
+
+      <li class="li">XML-TEI example:
+       <pre class="pre codeblock language-xml">
+      <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"context"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+        <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"ritual"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+      <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong> 
+     </pre>
+
+      </li>
+
+     </ul>
+</li>
+
+     <li class="li" id="concept_ObjVar01__sphere01">Sphere <ul class="ul">
+       <li class="li">➯ where the event takes place, inside or outside the household.</li>
+
+      <li class="li">Subcategories: inside, outside, unknown (unknown_S), broken context (B_ctx_S).</li>
+
+      <li class="li">XMT-TEI
+       example:<pre class="pre codeblock language-xml">
+       <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"sphere"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+         <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"inside"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+       <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong>
+      </pre>
+</li>
+
+     </ul>
+</li>
+
+    <li class="li" id="concept_ObjVar01__role01">Role: <ul class="ul">
+      <li class="li">➯ of the animated entity</li>
+
+      <li class="li">Subcategories: active, passive, both Active (animated entities X and Y)</li>
+
+      <li class="li">XML-TEI example:
+       <pre class="pre codeblock language-xml">
+       <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"role"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+         <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"active"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+       <strong class="hl-tag" style="color:#000096">&lt;category/&gt;</strong> 
+      </pre>
+
+      </li>
+
+     </ul>
+</li>
+
+    <li class="li" id="concept_ObjVar01__bioSex01">Biological sex: <ul class="ul">
+      <li class="li">➯ traditionally known.</li>
+ 
+     <li class="li">Female, male</li>
+
+      <li class="li">XML-TEI example:
+       <pre class="pre codeblock language-xml">
+        <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"biologicalSex"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+          <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"female_Sx"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+        <strong class="hl-tag" style="color:#000096">&lt;category/&gt;</strong></pre>
+
+      </li>
+
+     </ul>
+</li>
+
+     </ol>
+
+  </div>
+
+ </div>
+
+
+</article>
+<article class="topic concept nested2" aria-labelledby="ariaid-title5" id="concept_SubjVar01">
+ <h3 class="title topictitle3" id="ariaid-title5">Subjective Variables</h3>
+
+ 
+ <div class="body conbody"><p class="shortdesc"></p>
+
+  <div class="note note"><span class="notetitle">Note:</span> <ul class="ul"><li class="li" id="concept_SubjVar01__xmlTEI_primD">XML-TEI elements: <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html" target="_blank">TEI</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-teiHeader.html" target="_blank">teiHeader</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-encodingDesc.html" target="_blank">encodingDesc</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-classDecl.html" target="_blank">classDecl</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-taxonomy.html" target="_blank">taxonomy</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-category.html" target="_blank">category</a></li>
+
+   <li class="li">XML-TEI attributes: <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" target="_blank"><code class="keyword markupname xmlatt">@xml:id</code></a></li>
+
+   <li class="li">Values: subjectiveData|CATEGORIE|SUBCATEGORIE</li>
+
+  </ul>
+
+  </div>
+
+  <div class="p">They are several variables: consequence, affectivity, degree of desire, volontary intent, fallibility, which follow the same semantic frame for marking up a type of taxonomy:<pre class="pre codeblock language-xml">
+   <strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"subjectiveData"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+     <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"NAME OF A VARIABLE"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+       <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"NAME OF A SUBVARIABLE"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;/taxonomy&gt;</strong></pre>
+
+   <div class="note note"><span class="notetitle">Note:</span> a variable = categorie or taxonomy. A subvariable = subcategorie or subtaxonomie.</div>
+
+   <ul class="ul">
+    <li class="li" id="concept_SubjVar01__conseq01">Consequence:
+    <ul class="ul">
+     <li class="li">➯ how is affected by the action.</li>
+
+     <li class="li">Subcategories: affects the animated entity (subject), affect the animated entity (subject) and other, affect other entity.</li>
+
+     <li class="li">XML-TEI example:
+      <pre class="pre codeblock language-xml">
+       <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"consequence"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+         <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"affectEntity"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+       <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong> 
+      </pre>
+
+     </li>
+
+    </ul>
+
+   </li>
+
+  </ul>
+
+   <ul class="ul">
+    <li class="li" id="concept_SubjVar01__affect01">Affectivity:
+     <ul class="ul">
+      <li class="li">➯ what kind of affectivity and its degree?</li>
+
+      <li class="li">Subcategories: rage, anger, anxious, betrayed, discouraged, hurt, pride, satifaction.
+      <ul class="ul"><li class="li">Degree of affectivity: feeble, medium, normal, hight, very hight.</li>
+</ul>
+</li>
+
+      <li class="li">XML-TEI example:
+       <pre class="pre codeblock language-xml">
+        <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"Affectivity"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+          <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"rage"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+            <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"degreeAffectivity"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+              <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"medium"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+          <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong>  
+        <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong> 
+       </pre>
+
+      </li>
+
+     </ul>
+
+    </li>
+
+   </ul>
+
+   <ul class="ul">
+    <li class="li" id="concept_SubjVar01__degree01">Degree of Desire:
+     <ul class="ul">
+      <li class="li">➯ What is the degree of desire of the action?</li>
+
+      <li class="li">Subcategories: from one to five (number_dD), and unknown (unknown_dD), broken context (B_ctx_dD)</li>
+
+      <li class="li">XML-TEI example:
+       <pre class="pre codeblock language-xml">
+        <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"degreeDesire"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+          <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"two_dD"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+        <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong> 
+       </pre>
+
+      </li>
+
+     </ul>
+
+    </li>
+
+   </ul>
+
+   <ul class="ul">
+    <li class="li" id="concept_SubjVar01__volIntent01">Volontary Intentionality:
+     <ul class="ul">
+      <li class="li">➯ What type of volontary intentionality, and what motivation?</li>
+
+      <li class="li">Subcategories: to kill, to perform a rtiual, to destroy, to fight.
+      <ul class="ul"><li class="li">What motivation: pressure or free.</li>
+</ul>
+</li>
+
+      <li class="li">XML-TEI example:
+       <pre class="pre codeblock language-xml">
+        <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"volontaryIntent"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+          <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"toKill"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+          <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"motivation_vI"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+            <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"free"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
+          <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong> 
+        <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong>   
+       </pre>
+
+      </li>
+
+     </ul>
+
+    </li>
+
+   </ul>
+
+  </div>
+
+ </div>
+
+</article>
+</article>
+<article class="topic concept nested1" aria-labelledby="ariaid-title6" id="concept_transcrip">
+ <h2 class="title topictitle2" id="ariaid-title6">Transcription</h2>
+
+ 
+ <div class="body conbody"><p class="shortdesc"></p>
+
+  <p class="p">For this explaining this step, I will use a section of the Cycle of Baʿlu and ʿAnatu, KTU 1.3:ii:4b-16.</p>
+
+  
+  
+ </div>
+
+
+<article class="topic concept nested2" aria-labelledby="ariaid-title7" id="concept_ephilo">
+ <h3 class="title topictitle3" id="ariaid-title7">E.philology</h3>
+
+ 
+ <div class="body conbody"><p class="shortdesc"></p>
+
+  <div class="note note"><span class="notetitle">Note:</span> <ul class="ul">
+   <li class="li" id="concept_ephilo__xmlTEI_transcript">XML-TEI elements: <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html" target="_blank">TEI</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-text.html" target="_blank">text</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html" target="_blank">div</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-body.html" target="_blank">body</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-head.html" target="_blank">head</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-lg.html" target="_blank">lg</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-l.html" target="_blank">l</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-w.html" target="_blank">w</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-name.html" target="_blank">name</a> (I won't developped specific elements such as <code class="keyword markupname xmlelement">&lt;space&gt;</code>, <code class="keyword markupname xmlelement">&lt;damage&gt;</code>, <code class="keyword markupname xmlelement">&lt;degree&gt;</code>, <code class="keyword markupname xmlelement">&lt;g&gt;</code>, <code class="keyword markupname xmlelement">&lt;lb&gt;</code>, <code class="keyword markupname xmlelement">&lt;supplied&gt;</code>, <code class="keyword markupname xmlelement">&lt;unclear&gt;</code>, <code class="keyword markupname xmlelement">&lt;gap&gt;</code> which are not usefull for this demonstration).</li>
+
+   <li class="li">XML-TEI attributes: <code class="keyword markupname xmlatt">@n</code>|<code class="keyword markupname xmlatt">@ana</code>|<code class="keyword markupname xmlatt">@facs</code>|<code class="keyword markupname xmlatt">@type</code>|<code class="keyword markupname xmlatt">@xml:id</code>|<code class="keyword markupname xmlatt">@corresp</code> </li>
+
+   <li class="li">Values:
+    <ul class="ul">
+     <li class="li">Traditionaly proposed in XML-TEI: noun|verb|adv|REF POINTER</li>
+
+     <li class="li">from <a class="xref" href="Chunk2065755113.html#concept_PrimVar01__xmlTEI_entity01">preliminary step</a> before primary data: ENTITY'S NAME</li>
+
+     <li class="li">from <a class="xref" href="Chunk2065755113.html#concept_PrimVar01">primary data</a>: <a class="xref" href="Chunk2065755113.html#concept_PrimVar01__xmlTEI_entity02">entity|VERB</a></li>
+
+     <li class="li">from <a class="xref" href="Chunk2065755113.html#concept_ObjVar01">objective variables</a>: <a class="xref" href="Chunk2065755113.html#concept_ObjVar01__verbSem01">VERB CATEGORY</a>|<a class="xref" href="Chunk2065755113.html#concept_ObjVar01__verbSem01">SUBCATEGORY ACTION VERB</a></li>
+
+    </ul>
+</li>
+
+  </ul>
+
+  </div>
+
+  <p class="p">Following transcription within the elements: TEI ➞ text ➞ group ➞ body ➞ div</p>
+
+  <div class="p"><pre class="pre codeblock language-xml">
+   <strong class="hl-tag" style="color:#000096">&lt;l</strong> <span class="hl-attribute" style="color: #ff7935">n</span>=<span class="hl-value" style="color: #993300">"5b-6a"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#ktu1-3_ii_l5b-6a"</span> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"ktu1.3_ii_5b-6a"</span> <span class="hl-attribute" style="color: #ff7935">corresp</span>=<span class="hl-value" style="color: #993300">"#ktu1-3_ii_l5b-6a_int"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+     <strong class="hl-tag" style="color:#000096">&lt;w&gt;</strong>w<strong class="hl-tag" style="color:#000096">&lt;/w&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;space/&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;w&gt;</strong>hln<strong class="hl-tag" style="color:#000096">&lt;/w&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;g&gt;</strong>.<strong class="hl-tag" style="color:#000096">&lt;/g&gt;</strong>
+     <strong class="hl-tag" style="color:#000096">&lt;name</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">"entity"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#ANT #entity #v-ANT-ktu1-3_ii_l5b-6a"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>ʿnt<strong class="hl-tag" style="color:#000096">&lt;/name&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;g&gt;</strong>.<strong class="hl-tag" style="color:#000096">&lt;/g&gt;</strong>
+     <strong class="hl-tag" style="color:#000096">&lt;w</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">"verb"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#MḪṢ01 #ANT #confrontation #verb #action"</span> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"ktu1-3_ii_l5b-6a_tmtḫṣ"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>tm<strong class="hl-tag" style="color:#000096">&lt;lb</strong> <span class="hl-attribute" style="color: #ff7935">break</span>=<span class="hl-value" style="color: #993300">"no"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>tḫṣ<strong class="hl-tag" style="color:#000096">&lt;/w&gt;</strong>
+     <strong class="hl-tag" style="color:#000096">&lt;g&gt;</strong>.<strong class="hl-tag" style="color:#000096">&lt;/g&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;w&gt;</strong>b<strong class="hl-tag" style="color:#000096">&lt;/w&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;space/&gt;</strong>
+     <strong class="hl-tag" style="color:#000096">&lt;w</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">"noun"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#ʿMQ"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>ʿmq<strong class="hl-tag" style="color:#000096">&lt;/w&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;g&gt;</strong>.<strong class="hl-tag" style="color:#000096">&lt;/g&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;/l&gt;</strong></pre>
+</div>
+
+  <p class="p"></p>
+
+  <div class="p">Only <a class="xref" href="Chunk2065755113.html#concept_PrimVar01">primary data</a> and <a class="xref" href="Chunk2065755113.html#concept_ObjVar01">objective variables</a> are used.
+   <ul class="ul">
+    <li class="li"><code class="keyword markupname xmlelement">&lt;w&gt;</code> with <code class="keyword markupname xmlatt">@type</code> noun and verb, as well as <code class="keyword markupname xmlelement">&lt;name&gt;</code> for 
+     <ol class="ol">
+       <li class="li">translation</li>
+
+       <li class="li">statistics</li>
+
+     </ol>
+.  
+    </li>
+
+    <li class="li"><code class="keyword markupname xmlatt">@type</code> 'entity': an entity could be a (1) protagonist (principal character), (2) second role, (3) third role, and (4) other. Since this is not the <a class="xref" href="Chunk2065755113.html#concept_dataMining">interpretation</a> section, the <code class="keyword markupname xmlatt">@type</code> choice has to remain as general as possible.</li>
+
+   
+  </ul>
+</div>
+
+  <p class="p"></p>
+
+ </div>
+
+</article>
+<article class="topic concept nested2" aria-labelledby="ariaid-title8" id="concept_dataMining">
+ <h3 class="title topictitle3" id="ariaid-title8">Data mining for a preliminary hermeneutics</h3>
+
+ 
+ <div class="body conbody"><p class="shortdesc"></p>
+
+  <div class="p">This sub-section is one of th emost important for interpreting data in R. Categories primary data, objective, and subjective variables... Text analyze from tge transctiption is a first step for this data mining. 
+  From previous analyzes data, the section for a preliminary hermeneutics contain:
+   <div class="note note"><span class="notetitle">Note:</span> Value in capital letters: implies to select the right choice of the subcategory, ie SPHERE ➞ outside.</div>
+
+   <ul class="ul">
+   <li class="li">Data mining within the elements <code class="keyword markupname xmlelement">&lt;TEI&gt;</code> ➞ <code class="keyword markupname xmlelement">&lt;body&gt;</code> ➞ <code class="keyword markupname xmlelement">&lt;div&gt;</code> ➞ <code class="keyword markupname xmlelement">&lt;interpGrp&gt;</code></li>
+
+   <li class="li" id="concept_dataMining__xmlTEI_dataMining">XML-TEI elements:<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-interp.html" target="_blank">interp</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-desc.html" target="_blank">desc</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-castList.html" target="_blank">castList</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-castItem.html" target="_blank">castItem</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html" target="_blank">persName</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-stage.html" target="_blank">stage</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-view.html" target="_blank">view</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-placeName.html" target="_blank">placeName</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-location.html" target="_blank">location</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-geo.html" target="_blank">geo</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-span.html" target="_blank">span</a>|</li>
+
+   <li class="li">XML-TEI attributes: <code class="keyword markupname xmlatt">@xml:id</code>|<code class="keyword markupname xmlatt">@ana</code>|<code class="keyword markupname xmlatt">@corresp</code>|<code class="keyword markupname xmlatt">@type</code></li>
+
+   <li class="li">Values:
+    <ul class="ul">
+     <li class="li">Traditionaly proposed in XML-TEI: modifier|purpose|REF POINTER </li>
+
+     <li class="li">from <a class="xref" href="Chunk2065755113.html#concept_PrimVar01__xmlTEI_entity01">preliminary step</a> before primary data: ENTITY'S NAME</li>
+
+     <li class="li">from <a class="xref" href="Chunk2065755113.html#concept_PrimVar01">primary data</a>: <a class="xref" href="Chunk2065755113.html#concept_PrimVar01__xmlTEI_entity02">entity</a></li>
+
+     <li class="li">from <a class="xref" href="Chunk2065755113.html#concept_ObjVar01">objective variables</a>: <a class="xref" href="Chunk2065755113.html#concept_ObjVar01__role01">ROLE</a>|<a class="xref" href="Chunk2065755113.html#concept_ObjVar01__verbSem01">SUBCATEGORY ACTION VERB</a>|SPHERE|CONTEXT</li>
+
+     <li class="li">from <a class="xref" href="Chunk2065755113.html#concept_SubjVar01">subjective variables</a>: <a class="xref" href="Chunk2065755113.html#concept_SubjVar01__degree01">degreeDesire</a>|<a class="xref" href="Chunk2065755113.html#concept_SubjVar01__affect01">AFFECTIVITY</a>|<a class="xref" href="Chunk2065755113.html#concept_SubjVar01__affect01">DEGREE AFFECTIVITY</a>|MOTIVATION|<a class="xref" href="Chunk2065755113.html#concept_SubjVar01__conseq01">CONSEQUENCE</a></li>
+
+     <li class="li">additional: protagonist</li>
+
+    </ul>
+</li>
+
+  </ul>
+</div>
+
+  <div class="p"><pre class="pre codeblock language-xml">
+   <strong class="hl-tag" style="color:#000096">&lt;interp</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"ktu1-3_ii_l5b_6a_int"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#primaryData #objectiveData #subjectiveData"</span> <span class="hl-attribute" style="color: #ff7935">corresp</span>=<span class="hl-value" style="color: #993300">"#ktu1.3_ii_l5b_6a"</span><strong class="hl-tag" style="color:#000096">&gt;</strong> 
+     <strong class="hl-tag" style="color:#000096">&lt;desc&gt;</strong>
+        <strong class="hl-tag" style="color:#000096">&lt;castList&gt;</strong> 
+          <strong class="hl-tag" style="color:#000096">&lt;castItem&gt;</strong>
+            <strong class="hl-tag" style="color:#000096">&lt;persName</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#ANT #entity"</span> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">"protagonist"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>ʾAnatu<strong class="hl-tag" style="color:#000096">&lt;state</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#active"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>: 
+              <strong class="hl-tag" style="color:#000096">&lt;interp&gt;</strong> 
+              <strong class="hl-tag" style="color:#000096">&lt;desc</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#degreeDesire"</span><strong class="hl-tag" style="color:#000096">&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;stage</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">"modifier"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#five_dD #rage"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>Rage with degree of desire<strong class="hl-tag" style="color:#000096">&lt;span</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#ktu1-3_ii_l5b_6a_tmtḫṣ"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>Five.<strong class="hl-tag" style="color:#000096">&lt;/stage&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;/desc&gt;</strong>
+              <strong class="hl-tag" style="color:#000096">&lt;desc</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">"purpose"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#toDestroy #free"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>Volontary intentionality: to destroy.<strong class="hl-tag" style="color:#000096">&lt;/desc&gt;</strong>
+             <strong class="hl-tag" style="color:#000096">&lt;/interp&gt;</strong>
+           <strong class="hl-tag" style="color:#000096">&lt;/persName&gt;</strong>
+         <strong class="hl-tag" style="color:#000096">&lt;/castItem&gt;</strong>
+         <strong class="hl-tag" style="color:#000096">&lt;view&gt;</strong>
+           <strong class="hl-tag" style="color:#000096">&lt;placeName</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">"theme"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#battle"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>battle <strong class="hl-tag" style="color:#000096">&lt;location</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#outside"</span><strong class="hl-tag" style="color:#000096"> /&gt;</strong> <strong class="hl-tag" style="color:#000096">&lt;geo&gt;</strong>valley <strong class="hl-tag" style="color:#000096">&lt;/geo&gt;</strong> <strong class="hl-tag" style="color:#000096">&lt;/placeName&gt;</strong>  
+           <strong class="hl-tag" style="color:#000096">&lt;span</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">"purpose"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#consequence #affectEntity_and_other"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>The result of action has an impact on ʾAnatu and others <strong class="hl-tag" style="color:#000096">&lt;/span&gt;</strong>
+         <strong class="hl-tag" style="color:#000096">&lt;/view&gt;</strong>   
+         <strong class="hl-tag" style="color:#000096">&lt;span</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#entity #ANT #toDestroy #active #rage #free #outside #affectEntity_and_other"</span><strong class="hl-tag" style="color:#000096"> /&gt;</strong>
+      <strong class="hl-tag" style="color:#000096">&lt;/castList&gt;</strong> 
+    <strong class="hl-tag" style="color:#000096">&lt;/desc&gt;</strong>   
+  <strong class="hl-tag" style="color:#000096">&lt;/interp&gt;</strong>
+  </pre>
+</div>
+
+  <div class="p">Explanation:
+   <ul class="ul"><li class="li">Ref pointer <code class="keyword markupname xmlatt">@xml:id</code>, and <code class="keyword markupname xmlatt">@corresp</code> are used to navigate through the webpage.</li>
+</ul>
+The last <code class="keyword markupname xmlatt">@ana</code> in <code class="keyword markupname xmlelement">&lt;span&gt;</code> is essentialy for R instructions.</div>
+
+ </div>
+
+</article>
+</article>
+</article>
+</article></main><footer role="contentinfo"><div class="navfooter"><!----></div><div class="footer" id="webhelp_copyright_information">WebHelp output generated by<a class="oxyFooter" href="http://www.oxygenxml.com" target="_blank">
+                            &lt;oXygen/&gt; XML Author
+                        </a></div></footer></body>
+</html>

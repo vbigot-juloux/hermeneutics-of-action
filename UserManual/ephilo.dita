@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ephilo">
+ <title>E.philology</title>
+ <shortdesc/>
+ <conbody>
+  <note>Value in capital letters: implies to select the right choice of the subcategory, ie ACTION VERB ➞ confrontation.<ul>
+   <li id="xmlTEI_transcript">XML-TEI elements: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html" format="html" scope="external">TEI</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-text.html" format="html" scope="external">text</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html" format="html" scope="external">div</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-body.html" format="html" scope="external">body</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-head.html" format="html" scope="external">head</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-lg.html" format="html" scope="external">lg</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-l.html" format="html" scope="external">l</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-w.html" format="html" scope="external">w</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-name.html" format="html" scope="external">name</xref> (I won't developped specific elements such as <xmlelement>space</xmlelement>, <xmlelement>damage</xmlelement>, <xmlelement>degree</xmlelement>, <xmlelement>g</xmlelement>, <xmlelement>lb</xmlelement>, <xmlelement>supplied</xmlelement>, <xmlelement>unclear</xmlelement>, <xmlelement>gap</xmlelement> which are not usefull for this demonstration).</li>
+   <li>XML-TEI attributes: <xmlatt>n</xmlatt>|<xmlatt>ana</xmlatt>|<xmlatt>facs</xmlatt>|<xmlatt>type</xmlatt>|<xmlatt>xml:id</xmlatt>|<xmlatt>corresp</xmlatt> </li>
+   <li>Values:
+    <ul>
+     <li>Traditionaly proposed in XML-TEI: noun|verb|adv|REF POINTER</li>
+     <li>from <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_entity01">preliminary step</xref> before primary data: ENTITY'S NAME</li>
+     <li>from <xref href="PrimData.dita">primary data</xref>: <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_entity02">entity</xref>|<xref href="PrimData.dita#concept_PrimVar01/xmlTEI_verb01">VERB</xref></li>
+     <li>from <xref href="ObjVar.dita">objective variables</xref>: <xref href="ObjVar.dita#concept_ObjVar01/verbSem01">VERB</xref>|<xref href="ObjVar.dita#concept_ObjVar01/verbSem01">ACTION VERB</xref></li>
+    </ul></li>
+  </ul>
+   <p/>
+  </note>
+  <p>Following transcription within the elements: TEI ➞ text ➞ group ➞ body ➞ div</p>
+  <p><codeblock outputclass="language-xml">
+   &#x3c;l n="5b-6a" ana="#ktu1-3_ii_l5b-6a" xml:id="ktu1.3_ii_5b-6a" corresp="#ktu1-3_ii_l5b-6a_int">
+     &#x3c;w>w&#x3c;/w>&#x3c;space/>&#x3c;w>hln&#x3c;/w>&#x3c;g>.&#x3c;/g>
+     &#x3c;name type="entity" ana="#ANT #entity #v-ANT-ktu1-3_ii_l5b-6a">ʿnt&#x3c;/name>&#x3c;g>.&#x3c;/g>
+     &#x3c;w type="verb" ana="#MḪṢ01 #ANT #confrontation #verb #action" xml:id="ktu1-3_ii_l5b-6a_tmtḫṣ">tm&#x3c;lb break="no"/>tḫṣ&#x3c;/w>
+     &#x3c;g>.&#x3c;/g>&#x3c;w>b&#x3c;/w>&#x3c;space/>
+     &#x3c;w type="noun" ana="#ʿMQ">ʿmq&#x3c;/w>&#x3c;g>.&#x3c;/g>
+   &#x3c;/l></codeblock></p>
+  <p/>
+  <p>Only <xref href="PrimData.dita">primary data</xref> and <xref href="ObjVar.dita">objective variables</xref> are used.
+   <ul>
+    <li><xmlelement>w</xmlelement> with <xmlatt>type</xmlatt> noun and verb, as well as <xmlelement>name</xmlelement> for 
+     <ol>
+       <li>translation</li>
+       <li>statistics</li>
+     </ol>.  
+    </li>
+    <li><xmlatt>type</xmlatt> 'entity': an entity could be a (1) protagonist (principal character), (2) second role, (3) third role, and (4) other. Since this is not the <xref href="dataMining.dita">interpretation</xref> section, the <xmlatt>type</xmlatt> choice has to remain as general as possible.</li>
+   
+  </ul></p>
+  <p></p>
+ </conbody>
+</concept>

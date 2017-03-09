@@ -1,0 +1,44 @@
+/*  CSS DITA User Manual  */
+
+h1 {color: blue; font-size: 24px}
+
+li.topicref.test{
+     list-style: none; font-weight: 600;}
+
+li.concept {color: red}
+
+textArea {
+    visibility: -oxy-collapse-text;
+    white-space: pre;
+}
+
+li.concept {
+    visibility: -oxy-collapse-text;
+    white-space: pre;
+}
+
+textArea[language="CSS"]:before {
+    content: oxy_textArea(
+      edit, '#text',
+      contentType, 'text/css');
+}
+
+li.concept[language="CSS"]:before {
+    content: oxy_textArea(
+      edit, '#text',
+      contentType, 'text/css');
+}
+
+textArea[language="XML"]:before {
+    content: oxy_textArea(
+      edit, '#text',
+      contentType, 'text/xml',
+      rows, 10,
+      columns, 30);}
+      
+li.concept[language="XML"]:before {
+    content: oxy_textArea(
+      edit, '#text',
+      contentType, 'text/xml',
+      rows, 10,
+      columns, 30);}

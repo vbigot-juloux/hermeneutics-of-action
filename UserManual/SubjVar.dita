@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_SubjVar01">
+ <title>Subjective Variables</title>
+ <shortdesc/>
+ <conbody>
+  <note><ul><li id="xmlTEI_primD">XML-TEI elements: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html" format="html" scope="external">TEI</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-teiHeader.html" format="html" scope="external">teiHeader</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-encodingDesc.html" format="html" scope="external">encodingDesc</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-classDecl.html" format="html" scope="external">classDecl</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-taxonomy.html" format="html" scope="external">taxonomy</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-category.html" format="html" scope="external">category</xref></li>
+   <li>XML-TEI attributes: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" format="html" scope="external"><xmlatt>xml:id</xmlatt></xref></li>
+   <li>Values: subjectiveData|CATEGORIE|SUBCATEGORIE</li>
+  </ul>
+  </note>
+  <p>They are several variables: consequence, affectivity, degree of desire, volontary intent, fallibility, which follow the same semantic frame for marking up a type of taxonomy:<codeblock outputclass="language-xml">
+   &#x3c;taxonomy xml:id="subjectiveData">
+     &#x3c;category xml:id="NAME OF A VARIABLE"/>
+       &#x3c;category xml:id="NAME OF A SUBVARIABLE"/>
+   &#x3c;/taxonomy></codeblock>
+   <note>a variable = categorie or taxonomy. A subvariable = subcategorie or subtaxonomie.</note>
+   <ul>
+    <li id="conseq01">Consequence:
+    <ul>
+     <li>&#x27af; how is affected by the action.</li>
+     <li>Subcategories: affects the animated entity (subject), affect the animated entity (subject) and other, affect other entity.</li>
+     <li>XML-TEI example:
+      <codeblock outputclass="language-xml">
+       &#x3c;category xml:id="consequence">
+         &#x3c;category xml:id="affectEntity"/>
+       &#x3c;/category> 
+      </codeblock>
+     </li>
+    </ul>
+   </li>
+  </ul>
+   <ul>
+    <li id="affect01">Affectivity:
+     <ul>
+      <li>&#x27af; what kind of affectivity and its degree?</li>
+      <li>Subcategories: rage, anger, anxious, betrayed, discouraged, hurt, pride, satifaction.
+      <ul><li>Degree of affectivity: feeble, medium, normal, hight, very hight.</li></ul></li>
+      <li>XML-TEI example:
+       <codeblock outputclass="language-xml">
+        &#x3c;category xml:id="Affectivity">
+          &#x3c;category xml:id="rage"/>
+            &#x3c;category xml:id="degreeAffectivity">
+              &#x3c;category xml:id="medium"/>
+          &#x3c;/category>  
+        &#x3c;/category> 
+       </codeblock>
+      </li>
+     </ul>
+    </li>
+   </ul>
+   <ul>
+    <li id="degree01">Degree of Desire:
+     <ul>
+      <li>&#x27af; What is the degree of desire of the action?</li>
+      <li>Subcategories: from one to five (number_dD), and unknown (unknown_dD), broken context (B_ctx_dD)</li>
+      <li>XML-TEI example:
+       <codeblock outputclass="language-xml">
+        &#x3c;category xml:id="degreeDesire">
+          &#x3c;category xml:id="two_dD"/>
+        &#x3c;/category> 
+       </codeblock>
+      </li>
+     </ul>
+    </li>
+   </ul>
+   <ul>
+    <li id="volIntent01">Volontary Intentionality:
+     <ul>
+      <li>&#x27af; What type of volontary intentionality, and what motivation?</li>
+      <li>Subcategories: to kill, to perform a rtiual, to destroy, to fight.
+      <ul><li>What motivation: pressure or free.</li></ul></li>
+      <li>XML-TEI example:
+       <codeblock outputclass="language-xml">
+        &#x3c;category xml:id="volontaryIntent">
+          &#x3c;category xml:id="toKill"/>
+          &#x3c;category xml:id="motivation_vI">
+            &#x3c;category xml:id="free"/>
+          &#x3c;/category> 
+        &#x3c;/category>   
+       </codeblock>
+      </li>
+     </ul>
+    </li>
+   </ul>
+  </p>
+ </conbody>
+</concept>

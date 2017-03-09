@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_dataMining">
+ <title>Data mining for a preliminary hermeneutics</title>
+ <shortdesc/>
+ <conbody>
+  <p>This subsection is one of the most important for interpreting data in R, from the categories primary data, objective, and subjective variables. Text analyze from the transctiption is a first step for this data mining. 
+  From previous analyzes data, this subsection for a preliminary hermeneutics contains:
+   <note>Value in capital letters: implies to select the right choice of the subcategory, ie SPHERE ➞ outside.</note>
+   <ul>
+   <li>Data mining within the elements <xmlelement>TEI</xmlelement> ➞ <xmlelement>body</xmlelement> ➞ <xmlelement>div</xmlelement> ➞ <xmlelement>interpGrp</xmlelement></li>
+   <li id="xmlTEI_dataMining">XML-TEI elements:<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-interp.html" format="html" scope="external">interp</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-desc.html" format="html" scope="external">desc</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-castList.html" format="html" scope="external">castList</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-castItem.html" format="html" scope="external">castItem</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html" format="html" scope="external">persName</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-stage.html" format="html" scope="external">stage</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-view.html" format="html" scope="external">view</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-placeName.html" format="html" scope="external">placeName</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-location.html" format="html" scope="external">location</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-geo.html" format="html" scope="external">geo</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-span.html" format="html" scope="external">span</xref>|</li>
+   <li>XML-TEI attributes: <xmlatt>xml:id</xmlatt>|<xmlatt>ana</xmlatt>|<xmlatt>corresp</xmlatt>|<xmlatt>type</xmlatt></li>
+   <li>Values:
+    <ul>
+     <li>Traditionaly proposed in XML-TEI: modifier|purpose|REF POINTER </li>
+     <li>from <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_entity01">preliminary step</xref> before primary data: ENTITY'S NAME</li>
+     <li>from <xref href="PrimData.dita">primary data</xref>: <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_entity02">entity</xref></li>
+     <li>from <xref href="ObjVar.dita">objective variables</xref>: <xref href="ObjVar.dita#concept_ObjVar01/role01">ROLE</xref>|<xref href="ObjVar.dita#concept_ObjVar01/verbSem01">ACTION VERB</xref>|<xref href="ObjVar.dita#concept_ObjVar01/sphere01">SPHERE</xref>|<xref href="ObjVar.dita#concept_ObjVar01/context01">CONTEXT</xref></li>
+     <li>from <xref href="SubjVar.dita">subjective variables</xref>: <xref href="SubjVar.dita#concept_SubjVar01/degree01">degreeDesire</xref>|<xref href="SubjVar.dita#concept_SubjVar01/affect01">AFFECTIVITY</xref>|<xref href="SubjVar.dita#concept_SubjVar01/affect01">DEGREE AFFECTIVITY</xref>|<xref href="SubjVar.dita#concept_SubjVar01/volIntent01">MOTIVATION</xref>|<xref href="SubjVar.dita#concept_SubjVar01/conseq01">CONSEQUENCE</xref></li>
+     <li>additional: protagonist</li>
+    </ul></li>
+  </ul></p>
+  <p><codeblock outputclass="language-xml">
+   &#x3c;interp xml:id="ktu1-3_ii_l5b_6a_int" ana="#primaryData #objectiveData #subjectiveData" corresp="#ktu1.3_ii_l5b_6a"> 
+     &#x3c;desc>
+     &#x3c;castList>  &#x3c;!-- which entity X/Y and role -->
+          &#x3c;castItem>
+            &#x3c;persName ana="#ANT #entity" type="protagonist">ʾAnatu&#x3c;state ana="#active"/>: 
+            &#x3c;interp>  &#x3c;!-- subjective data: affectivity -->
+              &#x3c;desc ana="#degreeDesire">&#x3c;stage type="modifier" ana="#five_dD #rage">Rage with degree of desire&#x3c;span ana="#ktu1-3_ii_l5b_6a_tmtḫṣ"/>Five.&#x3c;/stage>&#x3c;/desc>
+              &#x3c;desc type="purpose" ana="#toDestroy #free">Volontary intentionality: to destroy.&#x3c;/desc>
+             &#x3c;/interp>
+           &#x3c;/persName>
+         &#x3c;/castItem>
+         &#x3c;view>
+           &#x3c;placeName type="theme" ana="#battle">battle &#x3c;location ana="#outside" /> &#x3c;geo>valley &#x3c;/geo> &#x3c;/placeName>  
+           &#x3c;span type="purpose" ana="#consequence #affectEntity_and_other">The result of action has an impact on ʾAnatu and others &#x3c;/span>
+         &#x3c;/view>   
+         &#x3c;span ana="#entity #ANT #toDestroy #active #rage #free #outside #affectEntity_and_other" /> &#x3c;!-- For R -->
+      &#x3c;/castList> 
+    &#x3c;/desc>   
+  &#x3c;/interp>
+  </codeblock></p>
+  <p>Explanation:
+   <ul><li>Ref pointer <xmlatt>xml:id</xmlatt>, and <xmlatt>corresp</xmlatt> are used to navigate through the webpage.</li>
+    <li id="dataMining_last">The last <xmlatt>ana</xmlatt> in <xmlelement>span</xmlelement> is essentialy for R instructions.</li></ul></p>
+ </conbody>
+</concept>
