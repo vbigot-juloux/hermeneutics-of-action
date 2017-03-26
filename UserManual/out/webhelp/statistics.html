@@ -3,35 +3,322 @@
   SYSTEM "about:legacy-compat">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />        
-      <meta name="copyright" content="(C) Copyright 2017" /><meta name="DC.rights.owner" content="(C) Copyright 2017" /><meta name="DC.Type" content="concept" /><meta name="DC.Title" content="Statistics" /><meta name="abstract" content="" /><meta name="description" content="Manipulate data from XML-TEI file from preliminary hermeneutics subsection Primary data Objective variables Subjective variables" /><meta name="DC.Relation" scheme="URI" content="introR.html" /><meta name="DC.Audience.Experiencelevel" content="general" /><meta name="DC.Audience.Job" content="digital humaniste" /><meta name="DC.Audience.Type" content="programmer" /><meta name="DC.Creator" content="Vanessa Juloux" /><meta name="DC.Date.Created" content="February, 2017" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="concept_statistics" /><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/commonltr.css"><!----></link><title>Statistics</title><!--  Generated with Oxygen version 18.1, build number 2017013018.  --><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/webhelp_topic.css"><!----></link><script type="text/javascript"><!--
+      <meta name="copyright" content="(C) Copyright 2017" /><meta name="DC.rights.owner" content="(C) Copyright 2017" /><meta name="DC.Type" content="concept" /><meta name="DC.Title" content="Statistics" /><meta name="abstract" content="" /><meta name="description" content="Note: Fonctions: getNodeSet | docName | lenght.XMLNode | contains Elements nodes from w | span | persName Attributes nodes: @ana | @type 'Value' from: Primary data : verb | entity Preliminary step : ..." /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="concept_statistics" /><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/commonltr.css"><!----></link><title>Statistics</title><!--  Generated with Oxygen version 18.1, build number 2017013018.  --><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/webhelp_topic.css"><!----></link><link rel="stylesheet" type="text/css" href="Dita_UserManual.css" /><script type="text/javascript"><!--
             
             var prefix = "index.html";
             
             --></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-1.11.3.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.cookie.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-ui.custom.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.highlight-3.js"><!----></script><script type="text/javascript" charset="utf-8" src="oxygen-webhelp/resources/js/webhelp_topic.js"><!----></script></head>
 <body onload="highlightSearchTerm()" class="frmBody" id="concept_statistics">
-<header role="banner"><table class="nav"><tbody><tr><td colspan="2"><div id="printlink"><a href="javascript:window.print();" title="Print this page"></a></div><div id="permalink"><a href="#" title="Link to this page"></a></div></td></tr><tr><td style="width:75%;"><span class="topic_breadcrumb_links"><span class="topic_breadcrumb_link"><a class="navheader_parent_path" href="introR.html" title="R">R</a></span></span></td><td><span id="topic_navigation_links" class="navheader">
-<span class="navparent"><a class="link" href="introR.html" title="R"><span class="navheader_label">Parent topic</span><span class="navheader_separator">: </span><span class="navheader_linktext">R</span></a></span>  </span></td></tr></tbody></table></header><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+<header role="banner"><table class="nav"><tbody><tr><td colspan="2"><div id="printlink"><a href="javascript:window.print();" title="Print this page"></a></div><div id="permalink"><a href="#" title="Link to this page"></a></div></td></tr><tr><td style="width:75%;"><span class="topic_breadcrumb_links"></span></td><td><span id="topic_navigation_links" class="navheader"></span></td></tr></tbody></table></header><main role="main"><article role="article" aria-labelledby="ariaid-title1">
  <h1 class="title topictitle1" id="ariaid-title1">Statistics</h1>
 
  
  <div class="body conbody"><p class="shortdesc"></p>
 
-  <div class="p">Manipulate data from XML-TEI file from <a class="xref" href="dataMining.html#concept_dataMining__dataMining_last">preliminary
-    hermeneutics subsection</a>
-   <ul class="ul">
-    <li class="li">Primary data</li>
+   <div class="p"><div class="note note"><span class="notetitle">Note:</span> 
+     <ul class="ul">
+     <li class="li">Fonctions: <a class="xref" href="https://www.rdocumentation.org/packages/XML/versions/3.98-1.5/topics/getNodeSet" target="_blank">getNodeSet</a>|<a class="xref" href="https://www.rdocumentation.org/packages/XML/versions/3.98-1.5/topics/docName" target="_blank">docName</a>|<a class="xref" href="https://www.rdocumentation.org/packages/XML/versions/3.98-1.5/topics/length.XMLNode" target="_blank">lenght.XMLNode</a>|<a class="xref" href="https://www.w3.org/TR/xpath/#function-contains" target="_blank">contains</a></li>
 
-    <li class="li">Objective variables</li>
+       <li class="li" id="concept_statistics__nodes01">Elements nodes from <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-w.html" target="_blank">w</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-span.html" target="_blank">span</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html" target="_blank">persName</a></li>
 
-    <li class="li">Subjective variables</li>
+       <li class="li" id="concept_statistics__attribNodes01">Attributes nodes: <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.analytic.html" target="_blank"><code class="keyword markupname xmlatt">@ana</code></a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.typed.html" target="_blank"><code class="keyword markupname xmlatt">@type</code></a></li>
 
+     <li class="li" id="concept_statistics__valueNodes01">'Value' from: 
+       <ul class="ul"><li class="li"><a class="xref" href="PrimData.html">Primary data</a>: <a class="xref" href="PrimData.html#xmlTEI_verb">verb</a>|<a class="xref" href="PrimData.html#xmlTEI_entity02">entity</a></li>
+
+         <li class="li"><a class="xref" href="dataMining.html#concept_dataMining__dataMining_last">Preliminary
+           step</a>: <code class="keyword markupname xmlatt">@ana</code> of identified <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-person.html" target="_blank">person</a> </li>
+
+         <li class="li"><a class="xref" href="ObjVar.html">Objective variables</a> : <a class="xref" href="ObjVar.html#concept_ObjVar01__verbTaxo01">TAXO</a>|<a class="xref" href="ObjVar.html#concept_ObjVar01__verbSub01">subTAXO</a>|<a class="xref" href="ObjVar.html#concept_ObjVar01__context01">CONTEXT</a>|<a class="xref" href="ObjVar.html#concept_ObjVar01__sphere01">SPHERE</a>|<a class="xref" href="ObjVar.html#concept_ObjVar01__role01">ROLE</a>|<a class="xref" href="ObjVar.html#concept_ObjVar01__bioSex01">SEX</a>
+                <div class="note note"><span class="notetitle">Note:</span> Value in capital letters: implies to select the right choice of the
+                  subcategory, ie SPHERE ➞ ‘outside’.</div>
+</li>
+
+         <li class="li"><a class="xref" href="SubjVar.html">Subjective variables</a>: <a class="xref" href="SubjVar.html#conseq01">consequence</a>
+           <div class="note note"><span class="notetitle">Note:</span> Compute only for the need of the <a class="xref" href="process.html#hermeneutics01">last step (C)</a>: <a class="xref" href="SubjVar.html#affect01">affectivity</a>|<a class="xref" href="SubjVar.html#affect01">degree of affectivity</a>|<a class="xref" href="SubjVar.html#volIntent01">volontary intentention</a></div>
+</li>
+
+       <li class="li">Other: ‘purpose’</li>
+
+       </ul>
+</li>
+
+     
    </ul>
 </div>
+</div>
+
+      
+   <p class="p">For the interpretation, which is the last section for suggesting a hermeneutics of action:</p>
+ 
+   <div class="p"><strong class="ph b">Reminder</strong>: computation is done <u class="ph u">within two sections</u> in the XML-TEI file ‘doc’: <ol class="ol">
+        <li class="li"><a class="xref" href="ephilo.html">E.philology</a> section:
+          transcription with primary data and objective variables to compute verbs for each or all
+          animated entities (very useful for the agency) <a class="xref" href="statistics.html#concept_statistics__ephilo_R01">➟</a>.</li>
+
+        <li class="li"><a class="xref" href="dataMining.html">Data mining</a> section:
+          interpretation with primary data, objective variables and subjective variables, more
+          specifically the “R” <code class="keyword markupname xmlelement">&lt;span&gt;</code> element <a class="xref" href="statistics.html#concept_statistics__dataMin_R01">➟</a>:
+          <pre class="pre codeblock language-xml">
+         <strong class="hl-tag" style="color:#000096">&lt;catlList&gt;</strong>
+         <em class="hl-comment" style="color:#006400">&lt;!-- interpretation [...]  --&gt;</em>
+         <em class="hl-comment" style="color:#006400">&lt;!-- resume interpretation for R --&gt;</em><strong class="hl-tag" style="color:#000096">&lt;span</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#ANT #toDestroy #active #rage #free #outside #affectEntity_and_other"</span><strong class="hl-tag" style="color:#000096"> /&gt;</strong>
+         <strong class="hl-tag" style="color:#000096">&lt;/castList&gt;</strong>
+     </pre>
+</li>
+
+      </ol>
+</div>
+
+   <p class="p">Two functions are essentially used: <a class="xref" href="introR.html#getNodeSet"><code class="ph codeph">getNodeSet</code></a> and <code class="ph codeph">length</code>. The latter is used to compute <code class="ph codeph">nodes</code>.</p>
+
+   <div class="p">Four steps for parsing a file, <code class="ph codeph">doc</code>: (1) define PATH, (2) <a class="xref" href="statistics.html#nodes01">elements</a>, (3) select <code class="ph codeph">nodes</code> (, <a class="xref" href="statistics.html#attribNodes01">attributes</a>, and <a class="xref" href="statistics.html#valueNodes01">values</a>), (4) pourcentage from
+        <code class="ph codeph">lenght.XMLNode</code>. 
+     <ol class="ol">
+        <li class="li">Define <a class="xref" href="https://www.w3.org/TR/xpath/#axes" target="_blank">https://www.w3.org/TR/xpath/#axes</a>
+          path: i.e. <code class="ph codeph">//</code> (any descendants), <code class="ph codeph">descendant::</code> (children,
+          grandchildren, etc.) </li>
+
+        <li class="li">Select the <a class="xref" href="statistics.html#nodes01">elements</a> according to namespace
+            <code class="ph codeph">ns:element</code> (* when <code class="keyword markupname xmlelement">&lt;element&gt;</code> is not specified =
+          search within all <code class="ph codeph">doc</code>).</li>
+
+        <li class="li">Select nodes to match relevant criteria (@attributes and its ‘values’) within
+            /PATH/<code class="ph codeph">ns:element</code>: for analyzing an action: <ul class="ul">
+            <li class="li" id="concept_statistics__attribNodes02">According to the question, attributes nodes:
+              <code class="keyword markupname xmlatt">@ana</code>, <code class="keyword markupname xmlatt">@type</code> 'verb'; function
+                <code class="ph codeph">getNodeSet</code>: <pre class="pre codeblock"><code>nodes=getNodeSet(doc,"PATH[contains(<code class="keyword markupname xmlatt">@ATTRIBUTE</code>, 'VALUE')]", ns)</code></pre>
+              <ul class="ul" id="concept_statistics__ul_ok4_m43_fz">
+                <li class="li" id="concept_statistics__ephilo_R01">Within <a class="xref" href="ephilo.html">e.philology</a> section (primary data and objective variables), ns:w (=
+                  namespace <code class="keyword markupname xmlelement">&lt;w&gt;</code>) for counting verb's occurrences: <ul class="ul" id="concept_statistics__ul_esy_4x3_fz">
+                    <li class="li"><code class="keyword markupname xmlatt">@type</code> 'verb' from <a class="xref" href="ObjVar.html#verbSem01">semantic verbal: </a><code class="keyword markupname xmlatt">@ana</code> '#action'(= taxonomy, TAXO)
+                      and its subtaxonomy (subTAXO: #agression, #confrontation #destruction,
+                      #displacement, #movement, #put_together, #otherAction) </li>
+
+                    <li class="li">Optional: specify an animated entity's name (AE, #AE 'value'), i.e.ʿAnatu
+                        <code class="keyword markupname xmlatt">@ana</code> '#ANT' <a class="xref" href="ObjVar.html#verbSem01">ObjVar.html#verbSem01</a>
+                      <code class="keyword markupname xmlatt">@ana</code></li>
+
+                  </ul>
+
+                  <p class="lines"></p>
+
+                  
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="concept_statistics__table_kz2_m43_fz" class="table" frame="border" border="1" rules="all"><colgroup><col style="width:196px" /><col style="width:239px" /><col style="width:79px" /><col style="width:565px" /></colgroup><thead class="thead" style="text-align:left;">
+                        <tr>
+                          <th class="entry cellrowborder" style="text-align:center;" id="d2635e355">Question</th>
+
+                          <th class="entry cellrowborder" style="text-align:center;" id="d2635e358"><code class="keyword markupname xmlatt">@ana </code>values</th>
+
+                          <th class="entry cellrowborder" style="text-align:center;" id="d2635e363">/PATH/ns</th>
+
+                          <th class="entry cellrowborder" style="text-align:center;" id="d2635e366">R</th>
+
+                        </tr>
+
+                      </thead>
+<tbody class="tbody">
+                        <tr>
+                          <td class="entry cellrowborder" style="text-align:left;" headers="d2635e355 ">Occurences: verbs ➞ taxo action</td>
+
+                          <td class="entry cellrowborder" style="text-align:left;" headers="d2635e358 ">#action</td>
+
+                          <td class="entry cellrowborder" style="text-align:center;" headers="d2635e363 ">//ns:w</td>
+
+                          <td class="entry cellrowborder" style="text-align:left;" headers="d2635e366 ">
+                            <pre class="pre codeblock"><code>contains(<code class="keyword markupname xmlatt">@ana</code>,'#action') and contains(<code class="keyword markupname xmlatt">@type</code>,'verb')</code></pre>
+                          </td>
+
+                        </tr>
+
+                        <tr>
+                          <td class="entry cellrowborder" style="text-align:left;" headers="d2635e355 ">Occurences: verbs ➞ taxo action ➞ subTAXO</td>
+
+                          <td class="entry cellrowborder" style="text-align:left;" headers="d2635e358 ">#action ➞ #subTAXO VALUE </td>
+
+                          <td class="entry cellrowborder" style="text-align:center;" headers="d2635e363 ">//ns:w</td>
+
+                          <td class="entry cellrowborder" style="text-align:left;" headers="d2635e366 ">
+                            <pre class="pre codeblock"><code>contains(<code class="keyword markupname xmlatt">@ana</code>,'#action') and contains(<code class="keyword markupname xmlatt">@ana</code>,'#subTAXO VALUE') 
+and contains(<code class="keyword markupname xmlatt">@type</code>,'verb')</code></pre>
+                          </td>
+
+                        </tr>
+
+                        <tr>
+                          <td class="entry cellrowborder" style="text-align:left;" headers="d2635e355 ">ʿAnatu's occurences: verbs ➞ taxo action </td>
+
+                          <td class="entry cellrowborder" style="text-align:left;" headers="d2635e358 ">#ANT and #action ➞ #subTAXO VALUE </td>
+
+                          <td class="entry cellrowborder" style="text-align:center;" headers="d2635e363 ">//ns:w</td>
+
+                          <td class="entry cellrowborder" style="text-align:left;" headers="d2635e366 ">
+                            <pre class="pre codeblock"><code>contains(<code class="keyword markupname xmlatt">@ana</code>,'#ANT') and contains(<code class="keyword markupname xmlatt">@type</code>,'#action') 
+and contains(<code class="keyword markupname xmlatt">@type</code>,'verb')</code></pre>
+                          </td>
+
+                        </tr>
+
+                        <tr>
+                          <td class="entry cellrowborder" style="text-align:left;" headers="d2635e355 ">ʿAnatu's occurences: verbs ➞ taxo action ➞ subTAXO </td>
+
+                          <td class="entry cellrowborder" style="text-align:left;" headers="d2635e358 ">#ANT and #action ➞ #subTAXO VALUE </td>
+
+                          <td class="entry cellrowborder" style="text-align:center;" headers="d2635e363 ">//ns:w</td>
+
+                          <td class="entry cellrowborder" style="text-align:left;" headers="d2635e366 ">
+                            <pre class="pre codeblock"><code>contains(<code class="keyword markupname xmlatt">@ana</code>,'#ANT') and contains(<code class="keyword markupname xmlatt">@ana</code>,'#action') 
+and contains(<code class="keyword markupname xmlatt">@type</code>,'#subTAXO VALUE') and contains(<code class="keyword markupname xmlatt">@type</code>,'verb')</code></pre>
+                          </td>
+
+                        </tr>
+
+                        <tr>
+                          <td class="entry cellrowborder" style="text-align:left;" headers="d2635e355 ">Occurences without ʿAnatu: verbs ➞ taxo action </td>
+
+                          <td class="entry cellrowborder" style="text-align:left;" headers="d2635e358 ">#action, and not #ANT </td>
+
+                          <td class="entry cellrowborder" style="text-align:center;" headers="d2635e363 ">//ns:w</td>
+
+                          <td class="entry cellrowborder" style="text-align:left;" headers="d2635e366 ">
+                            <pre class="pre codeblock"><code>contains(<code class="keyword markupname xmlatt">@ana</code>,'#action') and not(contains(<code class="keyword markupname xmlatt">@ana</code>, '#ANT') 
+and contains(<code class="keyword markupname xmlatt">@type</code>,'verb') </code></pre>
+                          </td>
+
+                        </tr>
+
+                      </tbody>
+</table>
+</div>
+<p class="lines"></p>
+</li>
+
+                <li class="li" id="concept_statistics__dataMin_R01">Within <a class="xref" href="dataMining.html">Data mining</a> section (primary data, objective and subjectives variables):
+                    <ul class="ul" id="concept_statistics__ul_snz_wx3_fz">
+                    <li class="li"><code class="keyword markupname xmlatt">@type</code> 'summary', ns:span (= namespace
+                        <code class="keyword markupname xmlelement">&lt;span&gt;</code>) <ul class="ul" id="concept_statistics__ul_bdr_gkj_fz">
+                        <li class="li">From <a class="xref" href="ObjVar.html#verbSem01">semantic verbal: </a>
+                          <code class="keyword markupname xmlatt">@ana</code> '#action'(= taxonomy, TAXO) and its subtaxonomy
+                          (subTAXO: #agression, #confrontation #destruction, #displacement,
+                          #movement, #put_together, #otherAction) </li>
+
+                        <li class="li">Specify other <code class="keyword markupname xmlatt">@ana</code> objective variables' value-s, one or
+                          several: SPHERE #value (#outside/#inside), ROLE #value (#active/#passive),
+                          BIO #value (#female_Sx, #male_Sx) </li>
+
+                        <li class="li">Specify an animated entity's name (AE, #AE 'value'), i.e.ʿAnatu
+                            <code class="keyword markupname xmlatt">@ana</code> '#ANT' <a class="xref" href="ObjVar.html#verbSem01">
+                            <code class="keyword markupname xmlatt">@ana</code></a></li>
+
+                      </ul>
+</li>
+
+                    <li class="li"><code class="keyword markupname xmlatt">@type</code> 'character', ns:persName(= namespace
+                        <code class="keyword markupname xmlelement">&lt;persName&gt;</code>) : <ul class="ul" id="concept_statistics__ul_jhc_ykj_fz">
+                        <li class="li">To count number of animated entities for pourcentage's purpose.</li>
+
+                      </ul>
+
+                      <p class="lines"></p>
+
+                      
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="concept_statistics__table_dataMin_R01" class="table" frame="border" border="1" rules="all"><colgroup><col style="width:196px" /><col style="width:238px" /><col style="width:102px" /><col style="width:565px" /></colgroup><thead class="thead" style="text-align:left;">
+                            <tr>
+                              <th class="entry cellrowborder" style="text-align:center;" id="d2635e591">Question</th>
+
+                              <th class="entry cellrowborder" style="text-align:center;" id="d2635e594"><code class="keyword markupname xmlatt">@ana </code>values</th>
+
+                              <th class="entry cellrowborder" style="text-align:center;" id="d2635e599">/PATH/ns</th>
+
+                              <th class="entry cellrowborder" style="text-align:center;" id="d2635e602">R</th>
+
+                            </tr>
+
+                          </thead>
+<tbody class="tbody">
+                            <tr>
+                              <td class="entry cellrowborder" style="text-align:left;" headers="d2635e591 ">Amout of time ANT: taxo action ➞ subTAXO ➞ what SPHERE</td>
+
+                              <td class="entry cellrowborder" style="text-align:left;" headers="d2635e594 ">#ANT and #action ➞ #subTAXO VALUE ➞ SPHERE #value</td>
+
+                              <td class="entry cellrowborder" style="text-align:center;" headers="d2635e599 ">//ns:span</td>
+
+                              <td class="entry cellrowborder" style="text-align:left;" headers="d2635e602 ">
+                                <pre class="pre codeblock"><code>contains(<code class="keyword markupname xmlatt">@ana</code>,'#ANT') and contains(<code class="keyword markupname xmlatt">@ana</code>,'#action') and 
+contains(<code class="keyword markupname xmlatt">@ana</code>,'#outside') and contains(<code class="keyword markupname xmlatt">@type</code>,'summary')</code></pre>
+                              </td>
+
+                            </tr>
+
+                            <tr>
+                              <td class="entry cellrowborder" style="text-align:left;" headers="d2635e591 ">Amout of time ANT: taxo action ➞ subTAXO ➞ what SPHERE, which
+                                ROLE</td>
+
+                              <td class="entry cellrowborder" style="text-align:left;" headers="d2635e594 ">#ANT and #action ➞ #subTAXO VALUE ➞ SPHERE #value, ROLE
+                                #value</td>
+
+                              <td class="entry cellrowborder" style="text-align:center;" headers="d2635e599 ">//ns:span</td>
+
+                              <td class="entry cellrowborder" style="text-align:left;" headers="d2635e602 ">
+                                <pre class="pre codeblock"><code>contains(<code class="keyword markupname xmlatt">@ana</code>,'#ANT') and contains(<code class="keyword markupname xmlatt">@ana</code>,'#action') and
+contains(<code class="keyword markupname xmlatt">@ana</code>,'#outside') and contains(<code class="keyword markupname xmlatt">@ana</code>,'#active') 
+and contains(<code class="keyword markupname xmlatt">@type</code>,'summary')</code></pre>
+                              </td>
+
+                            </tr>
+
+                            <tr>
+                              <td class="entry cellrowborder" style="text-align:left;" headers="d2635e591 ">Total AE</td>
+
+                              <td class="entry cellrowborder" style="text-align:left;" headers="d2635e594 ">#entity</td>
+
+                              <td class="entry cellrowborder" style="text-align:center;" headers="d2635e599 ">//ns:persName</td>
+
+                              <td class="entry cellrowborder" style="text-align:left;" headers="d2635e602 ">
+                                <pre class="pre codeblock"><code>contains(<code class="keyword markupname xmlatt">@ana</code>,'#entity') and contains(<code class="keyword markupname xmlatt">@type</code>, 'character')</code></pre>
+                              </td>
+
+                            </tr>
+
+                          </tbody>
+</table>
+</div>
+<p class="lines"></p>
+</li>
+
+                  </ul>
+
+                </li>
+
+              </ul>
+</li>
+
+            <li class="li">Pourcentage: <ol class="ol" type="a">
+                <li class="li">assign variables, example for ʿAnatu's actions, variable 'action_anatu':
+                  <pre class="pre codeblock"><code>nodes=getNodeSet(doc,"//*[contains(@ana,'#action') and contains(@ana,'#ANT')]", ns)
+             action_anatu=length(nodes)
+             action_anatu</code></pre></li>
+
+                <li class="li"></li>
+
+              </ol>
+
+            </li>
+
+          </ul>
+</li>
+ 
+      </ol>
+
+     Example:<pre class="pre codeblock"><code>nodes=getNodeSet(doc,"//*[contains(@ana,'#action') and contains(#ana,'#movement') contains(@type,'verb')]", ns)</code></pre>
+     Meaning: find all animated entities who perform an action, type 'movement' in the <a class="xref" href="ephilo.html">e.philology</a>
+         subsection. 
+     
+    </div>
 
  </div>
 
-<nav role="navigation" class="related-links"></nav></article></main><footer role="contentinfo"><div class="navfooter"><!---->
-<span class="navparent"><a class="link" href="introR.html" title="R"><span class="navheader_label">Parent topic</span><span class="navheader_separator">: </span><span class="navheader_linktext">R</span></a></span>  </div><div class="footer" id="webhelp_copyright_information">WebHelp output generated by<a class="oxyFooter" href="http://www.oxygenxml.com" target="_blank">
+</article></main><footer role="contentinfo"><div class="navfooter"><!----></div><div class="footer" id="webhelp_copyright_information">WebHelp output generated by<a class="oxyFooter" href="http://www.oxygenxml.com" target="_blank">
                             &lt;oXygen/&gt; XML Author
                         </a></div></footer></body>
 </html>

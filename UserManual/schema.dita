@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_schemaIMG">
+ <title>Schema</title>
+ <shortdesc/>
+ <conbody>
+   <p id="image_genProc"><b>➯ General process for a hermeneutics of action:</b><lines/>
+     <image href="img/Guidelines_schema.svg" scope="local" height="500px" alt="schema of the process"/>
+     <lines/>
+     Back to <xref href="process.dita" format="dita" scope="local">Process for investigating a text</xref> ➟ 
+     <lines/>
+  --------------------------------------
+   </p>
+   <p id="image_primData"><b>➯ Primary data schema:</b> <lines/>
+   <image href="img/Analytical_taxonomy_01.png" height="400px" 
+    alt="schema primary data"/>
+  <lines/>
+     Back to <xref href="PrimData.dita" format="dita" scope="local">primary data</xref> ➟ 
+     <lines/>
+  --------------------------------------
+  </p>
+   <p id="image_objVar"> <b>➯ Objective variables schema:</b> <lines/>
+    <image href="img/Analytical_taxonomy_02.png" height="450px" 
+      alt="schema Objective variables"
+    /> <lines/>
+     Back to <xref href="ObjVar.dita" format="dita" scope="local">objective variables</xref> ➟ 
+     <lines/>
+  -------------------------------------- </p>
+   <p id="image_subjVar">
+      <b>Subjective variables schema:</b><lines/>
+     <image href="img/Analytical_taxonomy_03.png" height="650px" 
+       alt="schema Subjective variables"/><lines/> Back to <xref
+        href="SubjVar.dita" format="dita" scope="local">subjective variables</xref> ➟ <lines/>
+      -------------------------------------- </p>
+ 
+ </conbody>
+</concept>

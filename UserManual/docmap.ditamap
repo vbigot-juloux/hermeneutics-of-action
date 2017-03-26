@@ -14,27 +14,30 @@
 
  <!-- Menu -->
  <topicref navtitle="Process" href="process.dita"/>
-
- <!-- 
-  <topicref navtitle="XML-TEI" toc="yes" chunk="by-topic"/> -->
- <topicref navtitle="XML-TEI: Structured analytic frame" href="categories.dita" toc="yes" chunk="by-concept" > 
- <topicgroup>
-   <!-- <topicref navtitle="Categories"  chunk="to-content" linking="none"
-    toc="yes"> -->  
+ <!-- XML-TEI -->
+ <topicref navtitle="XML-TEI" href="xmlTEI.dita" toc="yes">
+  <topicgroup> <!-- taxonomies -->
+  <topicref navtitle="XML-TEI: Analytical taxonomies" href="categories.dita" toc="yes"
+   chunk="by-concept">
    <topicref href="PrimData.dita" toc="yes"/>
-    <topicref href="ObjVar.dita" toc="yes"/>
-    <topicref href="SubjVar.dita" toc="yes"/>   
-  <topicgroup>
-   <topicref navtitle="Transcription" href="transcription.dita" type="concept" toc="yes">
-   <topicref href="ephilo.dita" type="concept" toc="yes"/>
-   <topicref href="dataMining.dita" type="concept" toc="yes"/> 
+     <topicref href="ObjVar.dita" toc="yes"/>
+     <topicref href="SubjVar.dita" toc="yes"/>
   </topicref>
   </topicgroup>
- </topicgroup></topicref>
- <topicref navtitle="R" href="introR.dita" type="concept" toc="yes" chunk="by-concept">
+    <topicgroup> <!-- Data mining -->
+     <topicref navtitle="Data mining" href="dataMining.dita" type="concept" toc="yes">
+      <topicref href="withinTranscrip.dita" type="concept" toc="yes"/>
+      <topicref href="structuralUnit.dita" type="concept" toc="yes"/>
+      <topicref href="interpretation.dita" type="concept" toc="yes"/>
+     </topicref>
+    </topicgroup>
+  <topicref href="schema.dita" type="concept" toc="yes" />
+  </topicref>
+
+ <topicref navtitle="R" href="introR.dita" type="concept" toc="yes">
   <topicgroup>
-  <topicref href="statistics.dita" type="concept" toc="yes"/>
-  <topicref href="vizualisation.dita" type="concept" toc="yes"/>
+   <topicref href="parsingTEI.dita" type="concept" toc="yes"/>
+   <topicref href="vizualisation.dita" type="concept" toc="yes"/>
   </topicgroup>
  </topicref>
  <topicref href="glossaries_entries.ditamap" format="ditamap"/>

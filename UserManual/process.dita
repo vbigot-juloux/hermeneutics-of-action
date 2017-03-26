@@ -15,16 +15,32 @@
     </prolog>
     <taskbody>
         <context>
-            <p>
-                <i>Vanessa Juloux — <xref href="mailto:vanessa.juloux@ephe.sorbonne.fr" format="mail"
-                        >vanessa.juloux@ephe.sorbonne.fr</xref> — Ecole Pratique des Hautes
-                    Etudes</i><lines/></p>
-            <p>&#x27a0; <b>Guidelines for a hermeneutics of action</b></p>
+            <div>-----------------------------<note>
+                    <p><?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>A
+                        research project of Vanessa Juloux, from the <xref
+                            href="https://www.ephe.fr/en" format="html" scope="external">Ecole
+                            Pratique des Hautes Etudes</xref> (EPHE), Paris <xref
+                            href="https://www.univ-psl.fr/en" format="html" scope="external"
+                            >Sciences et Lettres (PSL) Research University</xref></p>
+                    <p><xref href="mailto:vanessa.juloux@ephe.sorbonne.fr" format="mail"
+                            >vanessa.juloux@ephe.sorbonne.fr</xref> | <xref
+                            href="http://vanessajuloux.xyz" format="html" scope="external"
+                            >vanessajuloux.xyz</xref> | For more information on <xref
+                            href="http://vanessajuloux.xyz/docs/research_project" format="html"
+                            scope="external">this research project ➟</xref>.</p>
+                    <p>⚠<i>This work is licensed under a <xref
+                                href="http://creativecommons.org/licenses/by-nc/4.0/" format="html"
+                                scope="external">Creative Commons Attribution-NonCommercial 4.0
+                                International License</xref>.</i><?oxy_custom_end?></p>
+                </note> -----------------------------</div>
+            <p><xref href="schema.dita#concept_schemaIMG/image_genProc" format="dita" scope="local">Schema of the general for a hermeneutics of action</xref> ➟</p>
+            <p></p>
+           
             <p>
                 <ul>
                     <li>A. <u>XML-TEI</u><lines/>
                         <ul>
-                            <li>A.i. Structured analytic frame <ol>
+                            <li>A.i. Analytical taxonomies <ol>
                                     <li><xref href="PrimData.dita" format="dita" type="concept"
                                             >Primary data</xref>
                                         <ol>
@@ -50,23 +66,43 @@
                                     <li><xref href="SubjVar.dita" format="dita" type="concept"
                                             >Subjective variables</xref>
                                         <ol>
-                                            <li>Affectivity</li>
-                                            <li>Consequence</li>
-                                            <li>Degree of desire</li>
-                                            <li>Vonluntary intention</li>
-                                            <li>Fallibility</li>
+                                            <li><xref href="SubjVar.dita#affect01" format="dita" scope="local">Affectivity</xref></li>
+                                            <li><xref href="SubjVar.dita#conseq01" format="dita" scope="local">Consequence</xref></li>
+                                            <li><xref href="SubjVar.dita#degree01" format="dita" scope="local">Degree of desire</xref></li>
+                                            <li><xref href="SubjVar.dita#volIntent01" format="dita" scope="local">Voluntary intention</xref></li>
                                         </ol></li>
                                 </ol></li>
-                            <li>A.ii. Transcription <ol>
-                                <li><xref href="ephilo.dita" format="dita">E.philology</xref></li>
-                                <li><xref href="dataMining.dita" format="dita">Data mining for a preliminary hermeneutics</xref></li>
+                            <li>A.ii. Data mining <ol>
+                                    <li><xref href="withinTranscrip.dita" format="dita"
+                                        >Within transcription</xref></li>
+                                <li><xref href="structuralUnit.dita" format="dita"
+                                    >Structural unit</xref></li>
+                                <li><xref href="interpretation.dita" format="dita">Interpretation for a preliminary hermeneutics</xref></li>
                                 </ol></li>
                         </ul><lines/></li>
                     <li>B. <u>R</u><lines/>
                         <ol>
-                            <li>Statistics</li>
+                            <li><xref href="parsingTEI.dita" format="dita">Parsing XML-TEI</xref></li>
                             <li>Vizualisation</li>
-                        </ol></li>
+                        </ol><lines/></li>
+                    <li id="hermeneutics01">C. <u>Setting up the hermeneutics of action</u>
+                        <note>It won't be developped in this user manual.</note><lines/>
+                        <ul>
+                            <li>Analyzing data from (A.ii) and (B) using 
+                                <ul>
+                                    <li>Pragmatics</li>
+                                    <li>Empiricism</li>
+                                    <li>Philosophy of action</li>
+                                    <li>Deontic power</li>
+                                    <li>Agency</li>
+                                    <li>Popperian deduction</li>
+                                    <li>Hermeneutics of action</li> 
+                                </ul>
+                            </li>
+                           
+                        </ul> 
+                        
+                    </li>
                 </ul>
             </p>
         </context>

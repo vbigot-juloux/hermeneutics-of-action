@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_dataMining">
+ <title>Interpretation for a preliminary hermeneutics</title>
+ <shortdesc/>
+ <conbody>
+  <p>This section is one of the most important for the hermeneutics of action, from the taxonomies
+            primary data, objective, and subjective variables. <note>Value in capital letters:
+                implies to select the right choice of the subcategory, ie SPHERE ➞ 'outside'.</note>
+            <ul>
+                <li>Data mining within the elements <xmlelement>TEI</xmlelement> ➞
+                        <xmlelement>body</xmlelement> ➞ <xmlelement>div</xmlelement> ➞
+                        <xmlelement>interpGrp</xmlelement></li>
+                <li id="xmlTEI_dataMining">XML-TEI elements:<xref
+                        href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-interp.html"
+                        format="html" scope="external">interp</xref>|<xref
+                        href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-desc.html"
+                        format="html" scope="external">desc</xref>|<xref
+                        href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-castList.html"
+                        format="html" scope="external">castList</xref>|<xref
+                        href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-castItem.html"
+                        format="html" scope="external">castItem</xref>|<xref
+                        href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html"
+                        format="html" scope="external">persName</xref>|<xref
+                        href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-stage.html"
+                        format="html" scope="external">stage</xref>|<xref
+                        href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-view.html"
+                        format="html" scope="external">view</xref>|<xref
+                        href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-placeName.html"
+                        format="html" scope="external">placeName</xref>|<xref
+                        href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-location.html"
+                        format="html" scope="external">location</xref>|<xref
+                        href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-span.html"
+                        format="html" scope="external">span</xref></li>
+                <li>XML-TEI attributes:
+                        <xmlatt>xml:id</xmlatt>|<xmlatt>ana</xmlatt>|<xmlatt>type</xmlatt>|<xmlatt>cert</xmlatt></li>
+                <li>Attributes values: <ul>
+                        <li>Traditionally proposed in XML-TEI: REF POINTER</li>
+                        <li id="xmlTEI_entity02">from <xref
+                                href="PrimData.dita#concept_PrimVar01/xmlTEI_entity01">preliminary
+                                step</xref> before primary data: ENTITY'S NAME</li>
+                        <li>from <xref href="PrimData.dita">primary data</xref>: <xref
+                                href="PrimData.dita#concept_PrimVar01/xmlTEI_entity02"
+                            >entity</xref></li>
+                        <li>from <xref href="ObjVar.dita">objective variables</xref>: <xref
+                                href="ObjVar.dita#concept_ObjVar01/verbSem01">TAXO</xref>|<xref
+                                href="ObjVar.dita#concept_ObjVar01/role01">ROLE</xref>|<xref
+                                href="ObjVar.dita#concept_ObjVar01/sphere01">SPHERE</xref>|<xref
+                                href="ObjVar.dita#concept_ObjVar01/context01">CONTEXT</xref></li>
+                        <li>from <xref href="SubjVar.dita">subjective variables</xref>: <xref
+                                href="SubjVar.dita#concept_SubjVar01/affect01"
+                                >AFFECTIVITY</xref>|<xref
+                                href="SubjVar.dita#concept_SubjVar01/affect01">DEGREE
+                                AFFECTIVITY</xref>|<xref
+                                href="SubjVar.dita#concept_SubjVar01/degree01">DEGREE
+                                DESIRE</xref>|<xref
+                                href="SubjVar.dita#concept_SubjVar01/volIntent01"
+                                >MOTIVATION</xref>|<xref
+                                href="SubjVar.dita#concept_SubjVar01/conseq01"
+                            >CONSEQUENCE</xref></li>
+                    </ul></li>
+            </ul></p>
+        <p/>
+     <p><codeblock outputclass="language-xml">&lt;interp xml:id="ktu1-3_ii_l5b_6a_int" ana="<b>#ktu1.3_ii_5b-6a</b>"> 
+   &lt;desc>
+      &lt;ref ana="#perform <b>#ktu1-3_ii_l5b-6a_tmtḫṣ</b> <b>#action #confrontation</b>">Action, subcategory confrontation&lt;/ref> 
+      &lt;castList> 
+        &lt;castItem>
+          &lt;persName type="character" ana="#who #entity <b>#ANT</b>">&lt;state ana="#behav<b> #active</b>"/>ʾAnatu&lt;/persName>
+          &lt;persName cert="low" ana="#entity<b> </b>#UNK" type="character">&lt;state ana="#passive"/>People from Qaratu&lt;/persName>
+        &lt;/castItem>                                                                 
+      &lt;/castList>
+        &lt;view>
+          &lt;placeName ana="#occasion <b>#battle</b>">battle&lt;location ana="#where <b>#outside</b>"/>outside her household&lt;geo>valley&lt;/geo>&lt;/placeName>
+        &lt;/view> 
+        &lt;stage ana="how">
+          &lt;span ana="<b>#toDestroy #free #rage #five_dD</b>">Voluntary intentionality, to destroy of her free will, with rage (level five).&lt;/span>
+          &lt;span ana="<b>#affectEntity_and_other</b>">The result of action has an impact on ʾAnatu and others&lt;/span>
+        &lt;/stage>
+   &lt;/desc>  
+&lt;/interp></codeblock></p>
+     <p>Explanations of <b>relevant elements and attributes</b> for the interpretation, according to
+            (1) <xref href="structuralUnit.dita" format="dita">structural unit</xref>, and (2) <xref
+                href="categories.dita" format="dita">analytical taxonomies</xref>: </p>
+        <p>Preliminary step, one shall define the linked subsection within <xref
+                href="withinTranscrip.dita#concept_ephilo/xmlID01">within transcription</xref>  to
+            the words' group that are investigated: in <xmlelement>interp</xmlelement> , ref pointer
+                <xmlatt>ana</xmlatt> refers to <xmlatt>xml:id</xmlatt>  of
+                <xmlelement>l</xmlelement>  — in example below <b>ktu1.3_ii_l5b_6a</b><ol
+                id="ol_ppt_ztz_gz">
+                <li><u>What performance</u> (#perform) within <xmlelement>ref</xmlelement>:<ol
+                        id="ol_nvl_tsz_gz">
+                        <li>VERB (belongs to #primaryData) within <xref
+                                href="withinTranscrip.dita#concept_ephilo/xmlID01">within
+                                transcription</xref> , <xmlatt>ana</xmlatt> refers to
+                                <xmlatt>xml:id</xmlatt> of  <xmlelement>w</xmlelement>,
+                                <xmlatt>type</xmlatt> ‘verb’ that is analyzed — in example below
+                                <b>#ktu1-3_ii_l5b-6a_tmtḫṣ</b> for ‘tmtḫṣ’</li>
+                        <li> ‘TAXO’ and ‘subTAXO’ (belongs to #objectiveData)  according to “1.a.” —
+                            in example below <b>#action #confrontation</b></li>
+                    </ol></li>
+                <li><u>Who</u> (belongs to #primaryData) in <xmlelement>persName</xmlelement>,
+                        <xmlatt>ana</xmlatt> ‘entity’ and ‘AE value’ — in example below
+                    <b>#ANT</b></li>
+                <li><u>What behavior</u> (belongs to #objectiveData) in
+                        <xmlelement>state</xmlelement>, <xmlatt>ana</xmlatt> ‘ROLE’  — in example
+                    below <b>#active</b></li>
+                <li><u>What occasion</u> (belongs to #objectiveData) in
+                        <xmlelement>placeName</xmlelement>, <xmlatt>ana</xmlatt> ‘CONTEXT’ — in
+                    example below <b>#battle</b></li>
+                <li><u>Where</u> (belongs to #objectiveData) in <xmlelement>location</xmlelement>,
+                        <xmlatt>ana</xmlatt> ‘SPHERE’ — in example below <b>#outside</b></li>
+                <li><u>How</u> (belongs to #subjectiveData) AE is performing the action in
+                        <xmlelement>state</xmlelement> ➞ <xmlelement>span</xmlelement><ul
+                        id="ol_k3n_wyt_gz">
+                        <li><xmlatt>ana</xmlatt>
+                            <xref href="SubjVar.dita#concept_SubjVar01/volIntent01">VOLUNTARY
+                                INTENTIONALITY</xref> and <xref
+                                href="SubjVar.dita#concept_SubjVar01/motiv_vI01">MOTIVATION</xref> —
+                            in example below <b>#toDestroy #free</b></li>
+                        <li><xmlatt>ana</xmlatt>
+                            <xref href="SubjVar.dita#concept_SubjVar01/degree01">DEGREE
+                                DESIRE</xref> — in example below <b>#five_dD</b></li>
+                        <li><xmlatt>ana</xmlatt>
+                            <xref href="SubjVar.dita#concept_SubjVar01/conseq01" format="dita"
+                                >CONSEQUENCE</xref> — in example below
+                                <b>#affectEntity_and_other</b></li>
+                    </ul>
+                </li>
+            </ol>
+        </p>
+     <p>Meaning: the animated entity ʿAnatu is performing an action "de type" confrontation with a
+            hight degree of desire. She wants to destroy with a free will in a context of battlle
+            oustide her household. Her performance is affecting her and other entities.</p>
+ </conbody>
+</concept>

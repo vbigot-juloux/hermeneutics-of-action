@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_Struct01">
+ <title>Structural Unit</title>
+ <shortdesc/>
+ <conbody>
+ <p> 
+  <ul>
+   <li>Data mining within the elements <xmlelement>TEI</xmlelement> ➞ <xmlelement>body</xmlelement>
+     ➞ <xmlelement>div</xmlelement></li>
+   <li id="xmlTEI_dataMining">XML-TEI elements: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-interpGrp.html" format="html" scope="external">interpGrp</xref>|<xref
+      href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-interp.html" format="html"
+      scope="external">interp</xref></li>
+   <li>XML-TEI attributes: <xmlatt>resp</xmlatt>
+     <xmlatt>xml:id</xmlatt>|<xmlatt>ana</xmlatt>|<xmlatt>type</xmlatt></li>
+   <li>Attributes values: 
+    <ul><li>Traditionally proposed in XML-TEI: structuralUnit </li>
+     <li>for structural unit of the preparation to a hermeneutics: perform|who|behav|occasion|where|how </li>
+    </ul></li>
+ </ul></p>
+  <p>Structural unit of the interpretation according to taxonomies:
+   <codeblock outputclass="language-xml">
+    &lt;interpGrp resp="#Juloux" xml:id="hermeneutics" type="structuralUnit" ana="#taxonomies">
+      &lt;!-- ref -->
+      &lt;interp n="1" xml:id="perform" ana="#primaryData #objectiveData #verb #semantic">What performance&lt;/interp>
+      &lt;!-- castList > castItem -->
+      &lt;interp n="2" xml:id="who" ana="#entity #primaryData #biologicalSex">Animated entity&lt;/interp>
+      &lt;interp n="3" xml:id="behav" ana="#role #objectiveData">What behavior&lt;/interp> 
+      &lt;!-- view -->
+      &lt;interp n="4" xml:id="occasion" ana="#context">What occasion&lt;/interp>
+      &lt;interp n="5" xml:id="where" ana="#objectiveData #sphere">Where&lt;/interp>
+      &lt;!-- stage -->
+      &lt;interp n="6" xml:id="how" ana="#subjectiveData">How acts the animated entity&lt;/interp>
+   &lt;/interpGrp></codeblock>
+  </p>
+ </conbody>
+</concept>

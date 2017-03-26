@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_Cat01">
-  <title>Structured analytic frame</title>
+  <title>Analytical taxonomies</title>
  <shortdesc/>
  <conbody>
-  <p>Three <b>main</b> categories are created for investigating texts:</p>
+   <note>xPath: /teiCorpus/TEI/teiHeader/encodingDesc
+     <ul><li id="xmlTEI_cat"> xPath XML-TEI elements: <xref
+            href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-teiCorpus.html"
+            format="html" scope="external">teiCorpus</xref>|<xref
+            href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html" format="html"
+            scope="external">TEI</xref>|<xref
+            href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-teiHeader.html"
+            format="html" scope="external">teiHeader</xref>|<xref
+            href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-encodingDesc.html"
+            format="html" scope="external">encodingDesc</xref></li></ul></note>
+  <p>Three <b>main</b> taxonomies are created for investigating a narrative text:</p>
   <ol>
    <li><xref href="PrimData.dita">Primary data</xref></li>
    <li><xref href="ObjVar.dita">Objective data</xref></li>
    <li><xref href="SubjVar.dita">Subjective data</xref></li>
   </ol>
-  <p>These main catagories are described in the <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD5"  format="html" scope="external">encoding description section</xref> to be used after:
-   <ol>
-    <li>in the <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-text.html" format="html" scope="external">group text element</xref> section for the transcription;</li>  
-    <li>in the <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-interpGrp.html" format="html" scope="external">intepretation element</xref> section used for statistic purposes.</li>
-   </ol>
-  </p>
-  <codeblock outputclass="language-xml"> 
-   &#60;encodingDesc>&#60;classDecl>
-     &#60;taxonomy xml:id="primaryData">  &#60;!-- Primary Data --> &#60;/taxonomy> 
-     &#60;taxonomy xml:id="objectiveData">  &#60;!-- Objective variables --> &#60;/taxonomy> 
-     &#60;taxonomy xml:id="subjectiveData">  &#60;!-- Sujective variables --> &#60;/taxonomy> 
-   &#60;/classDecl>&#60;/encodingDesc>
- </codeblock>
+  <p>These taxonomies are described within two <xref
+        href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD5" format="html"
+        scope="external">encoding description sections</xref>: </p>
+  <codeblock outputclass="language-xml">&#60;encodingDesc>&#60;classDecl>
+   &#60;taxonomy xml:id="primaryData">  &#60;!-- Primary Data --> &#60;/taxonomy> 
+   &#60;taxonomy xml:id="objectiveData">  &#60;!-- Objective variables --> &#60;/taxonomy> 
+   &#60;taxonomy xml:id="subjectiveData">  &#60;!-- Subjective variables --> &#60;/taxonomy> 
+&#60;/classDecl>&#60;/encodingDesc> </codeblock>
  </conbody>
 </concept>

@@ -6,26 +6,30 @@
  <conbody>
   <p><ul>
    <li>Packages: <xref href="https://cran.r-project.org/web/packages/xml2/index.html" format="html" scope="external">XML2</xref>|<xref href="https://cran.r-project.org/web/packages/XML2R/index.html" format="html" scope="external">XML2R</xref></li>
-   <li>Fonctions: <xref href="https://www.rdocumentation.org/packages/XML/versions/3.98-1.5/topics/getNodeSet" format="html" scope="external">getNodeSet</xref>|<xref href="https://www.rdocumentation.org/packages/XML/versions/3.98-1.4/topics/xmlTreeParse" format="html" scope="external" >xmlTreeParse</xref>|<xref href="http://stat.ethz.ch/R-manual/R-patched/library/base/html/getwd.html" format="html" scope="external">setwd</xref>|<xref href="http://stat.ethz.ch/R-manual/R-patched/library/base/html/getwd.html" format="html" scope="external">getwd</xref></li>
+    <li>Fonctions: <xref href="https://www.rdocumentation.org/packages/XML/versions/3.98-1.5/topics/getNodeSet" format="html" scope="external">getNodeSet</xref>|<xref href="https://www.rdocumentation.org/packages/XML/versions/3.98-1.4/topics/xmlTreeParse" format="html" scope="external" >xmlTreeParse</xref>|<xref href="http://stat.ethz.ch/R-manual/R-patched/library/base/html/getwd.html" format="html" scope="external">setwd</xref>|<xref href="http://stat.ethz.ch/R-manual/R-patched/library/base/html/getwd.html" format="html" scope="external">getwd</xref>|<xref href="https://www.rdocumentation.org/packages/XML/versions/3.98-1.5/topics/docName" format="html" scope="external">docName</xref></li>
  </ul></p>
 
   <p>To manipulate XML data: <lines/>
    <ul>
-    <li>Load the packages for XML: 
-    <codeblock outputclass="language-cpp">
-   dir()
-   setwd(dir="FOLDER"); getwd ()
-   library(xml2)
-   library(XML2R)
-   </codeblock></li>
-    <li>Upload XML-TEI data: 
-  <codeblock outputclass="language-cpp">
-   doc  &#60;- xmlTreeParse("FILE_NAME.xml" , useInternalNodes=TRUE, encoding="UTF-8")
-    ns =  c(ns =  "http://www.tei-c.org/ns/1.0")
-    namespaces = ns
-    getNodeSet(doc,"//* and //@*", ns) 
-    doc
-  </codeblock>
-    </li></ul></p>
+     <li>Load the appropriate packages for parsing XML <codeph>doc</codeph> :
+          <codeblock outputclass="language-cpp">dir()
+setwd(dir="FOLDER"); getwd ()
+library(xml2)
+library(XML2R)   </codeblock></li>
+     <li>Load XML file and define where to find attributes:
+          <codeblock outputclass="language-cpp">doc &lt;- xmlTreeParse("FILE_NAME.xml" , useInternalNodes=TRUE, encoding="UTF-8")
+ns =  c(ns =  "http://www.tei-c.org/ns/1.0")
+namespaces = ns
+getNodeSet(doc,"//* and //@*", ns) 
+doc</codeblock>
+        </li></ul>
+    The function <codeph id="getNodeSet">getNodeSet</codeph> uses a <xref href="https://www.w3.org/TR/xpath/" format="html" scope="external"><xmlpi>XPath</xmlpi></xref> syntax to match nodes in <codeph>doc</codeph> (file), according to a valide value of <xref href="https://www.w3.org/TR/REC-xml-names/" format="html" scope="external">namespace</xref> (<codeph>ns</codeph>) which are identified by the <xref href="https://www.w3.org/TR/REC-xml-names/#iri-use" format="html" scope="external">URI</xref> reference <xmlnsname>
+      http://www.tei-c.org/ns/1.0</xmlnsname>:
+    <ul><li>Location <xref href="https://www.w3.org/TR/xpath/#axes" format="html" scope="external"></xref>path (= axis) in <codeph>doc</codeph>: any descendants, <codeph>//*</codeph> </li>
+      <li>Criteria (= nodes): all attributes, <codeph>//@*</codeph></li>
+    </ul></p>
+   
+   
+   
  </conbody>
 </concept>

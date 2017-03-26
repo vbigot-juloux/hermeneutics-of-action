@@ -2,6 +2,5 @@
 <!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
 <glossentry id="glossentry_verbSem">
     <glossterm>Verbal semantic</glossterm>
-    <glossdef><ul><li id="noLi_gloss"  conref="../ObjVar.dita#concept_ObjVar01/verbSem01" outputclass="-dita-use-conref-target" /></ul></glossdef>
-
-    </glossentry>
+    <glossdef><ul><li id="noLi_gloss" conref="../ObjVar.dita#concept_ObjVar01/verbSem01" outputclass="dita-use-conref-target"/></ul></glossdef>
+</glossentry>
