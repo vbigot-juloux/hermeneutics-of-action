@@ -6,7 +6,7 @@
  <conbody>
   <note>XML-TEI elements: teiCorpus|TEI|text|group|text|body|div[n] </note>
     
-  <p>Data mining is divided in two sections:
+  <p>Data mining is divided into two sections:
   <ol>
    <li><xref href="withinTranscrip.dita" format="dita" scope="local">Within transcription</xref>:
           (a) primary data, and (b) objective variables which principal aim is to count verb
