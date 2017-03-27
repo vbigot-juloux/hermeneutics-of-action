@@ -66,8 +66,8 @@
       &lt;ref ana="#perform <b>#ktu1-3_ii_l5b-6a_tmtḫṣ</b> <b>#action #confrontation</b>">Action, subcategory confrontation&lt;/ref> 
       &lt;castList> 
         &lt;castItem>
-          &lt;persName type="character" ana="#who #entity <b>#ANT</b>">&lt;state ana="#behav<b> #active</b>"/>ʾAnatu&lt;/persName>
-          &lt;persName cert="low" ana="#entity<b> </b>#UNK" type="character">&lt;state ana="#passive"/>People from Qaratu&lt;/persName>
+          &lt;persName ana="#who #Character <b>#ANT</b> #Female" type="character" >&lt;state ana="#behav<b> #active</b>"/>ʾAnatu&lt;/persName>
+          &lt;persName cert="low" ana="#who #Character #UNK #Unknown" type="character">&lt;state ana="#passive"/>People from Qaratu&lt;/persName>
         &lt;/castItem>                                                                 
       &lt;/castList>
         &lt;view>

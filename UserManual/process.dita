@@ -32,6 +32,15 @@
                                 href="http://creativecommons.org/licenses/by-nc/4.0/" format="html"
                                 scope="external">Creative Commons Attribution-NonCommercial 4.0
                                 International License</xref>.</i><?oxy_custom_end?></p>
+                    <p/>
+                    <p>Particular acknowledgment to <xref
+                            href="http://anu-au.academia.edu/TerhiNurmikkoFuller" format="html"
+                            scope="external">Terhi Nurmikko-Fuller</xref>(ANU) and <xref
+                            href="https://www.ephe.fr/ecole/nos-enseignants-chercheurs/daniel-stockholm"
+                            format="html" scope="external">Daniel Stockholm</xref> (EPHE). Both have
+                        been very helpful respectively for her kind advices for taxonomies
+                        attributes (in anticipation of LOD) and his contribution for parsing XML-TEI
+                        into R.</p>
                 </note> -----------------------------</div>
             <p><xref href="schema.dita#concept_schemaIMG/image_genProc" format="dita" scope="local">Schema of the general for a hermeneutics of action</xref> ➟</p>
             <p></p>
@@ -45,7 +54,7 @@
                                             >Primary data</xref>
                                         <ol>
                                             <li>Verb</li>
-                                            <li>Animated entity</li>
+                                            <li>Being</li>
                                         </ol></li>
                                     <li><xref href="ObjVar.dita" format="dita" type="concept"
                                             >Objective variables</xref>
@@ -60,7 +69,7 @@
                                             <li><xref href="ObjVar.dita#concept_ObjVar01/role01"
                                                   format="dita" type="li">Role</xref></li>
                                             <li><xref href="ObjVar.dita#concept_ObjVar01/bioSex01"
-                                                  format="dita" type="li">Biological sex</xref></li>
+                                                  format="dita" type="li">Genetic-sex</xref></li>
                                         </ol>
                                     </li>
                                     <li><xref href="SubjVar.dita" format="dita" type="concept"

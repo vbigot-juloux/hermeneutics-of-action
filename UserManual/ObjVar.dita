@@ -21,6 +21,12 @@
             format="html" scope="external">category</xref></li>
      <li>XML-TEI attributes: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" format="html" scope="external"><xmlatt>xml:id</xmlatt></xref></li>
      <li>Values: objectiveData|CATEGORY|SUBCATEGORY</li>
+        <li>OntoMedia ontology: <ul id="ul_z1h_vwn_jz">
+          <li>Ontology module: <xref
+                href="http://www.contextus.net/ontology/ontomedia/ex/ext/common/trait" format="html"
+                scope="external">Trait</xref> (characteristics),
+              <codeph>rdf:ID</codeph>="Genetic-Sex"</li>
+          </ul></li>
      <li><xref href="schema.dita#concept_schemaIMG/image_objVar" format="dita" scope="local">Schema
        of objective variables</xref> ➟</li>
    </ul>
@@ -31,8 +37,8 @@
         href="ObjVar.dita#concept_ObjVar01/sphere01" format="dita">sphere</xref>, <xref
         href="ObjVar.dita#concept_ObjVar01/context01" format="dita">context</xref>, <xref
         href="ObjVar.dita#concept_ObjVar01/role01" format="dita">role</xref>, <xref
-        href="ObjVar.dita#concept_ObjVar01/bioSex01" format="dita">biological sex</xref>, which
-      follow the same semantic frame for marking up a type of
+        href="ObjVar.dita#concept_ObjVar01/bioSex01" format="dita">Genetic-sex</xref>, which follow
+      the same semantic frame for marking up a type of
       taxonomy:<codeblock outputclass="language-xml">&lt;taxonomy xml:id="objectiveData">
     &lt;category xml:id="NAME OF A VARIABLE"/>
     &lt;category xml:id="NAME OF A SUBVARIABLE"/>
@@ -85,9 +91,9 @@
 &lt;/category></codeblock></li>
      </ul></li>
        <li id="role01"><b>Role</b> <ul>
-            <li>&#x27af; of the animated entity</li>
+            <li>&#x27af; of the animated entity (= Being)</li>
             <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: active,
-              passive, both Active (animated entities X and Y)</li>
+            passive, both Active (animated entities X and Y)</li>
             <li>XML-TEI example:
             <codeblock outputclass="language-xml">&lt;category xml:id="role">
     &lt;category xml:id="active"/>
@@ -99,8 +105,8 @@
      <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: female,
             male</li>
       <li>XML-TEI example:
-            <codeblock outputclass="language-xml">&lt;category xml:id="biologicalSex">
-    &lt;category xml:id="female_Sx"/>
+            <codeblock outputclass="language-xml">&lt;category xml:id="Genetic-sex">
+    &lt;category xml:id="Female"/>
 &lt;category/></codeblock>
           </li>
      </ul></li>

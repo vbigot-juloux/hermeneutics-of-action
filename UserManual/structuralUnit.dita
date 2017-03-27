@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_Struct01">
- <title>Structural Unit</title>
+ <title>Structural unit</title>
  <shortdesc/>
  <conbody>
  <p> 
@@ -15,16 +15,17 @@
      <xmlatt>xml:id</xmlatt>|<xmlatt>ana</xmlatt>|<xmlatt>type</xmlatt></li>
    <li>Attributes values: 
     <ul><li>Traditionally proposed in XML-TEI: structuralUnit </li>
-     <li>for structural unit of the preparation to a hermeneutics: perform|who|behav|occasion|where|how </li>
+     <li>for structural unit of the preparation to a hermeneutics:
+              Event|perform|who|behav|occasion|where|how </li>
     </ul></li>
  </ul></p>
   <p>Structural unit of the interpretation according to taxonomies:
-   <codeblock outputclass="language-xml">
+      <codeblock outputclass="language-xml">
     &lt;interpGrp resp="#Juloux" xml:id="hermeneutics" type="structuralUnit" ana="#taxonomies">
       &lt;!-- ref -->
       &lt;interp n="1" xml:id="perform" ana="#primaryData #objectiveData #verb #semantic">What performance&lt;/interp>
       &lt;!-- castList > castItem -->
-      &lt;interp n="2" xml:id="who" ana="#entity #primaryData #biologicalSex">Animated entity&lt;/interp>
+      &lt;interp n="2" xml:id="who" ana="#Character #primaryData #Genetic-sex">Animated entity&lt;/interp>
       &lt;interp n="3" xml:id="behav" ana="#role #objectiveData">What behavior&lt;/interp> 
       &lt;!-- view -->
       &lt;interp n="4" xml:id="occasion" ana="#context">What occasion&lt;/interp>
@@ -32,6 +33,6 @@
       &lt;!-- stage -->
       &lt;interp n="6" xml:id="how" ana="#subjectiveData">How acts the animated entity&lt;/interp>
    &lt;/interpGrp></codeblock>
-  </p>
+    </p>
  </conbody>
 </concept>

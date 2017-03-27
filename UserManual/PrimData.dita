@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_PrimVar01">
- <title>Primary Data</title>
+ <title>Primary data</title>
  <shortdesc/>
  <conbody>
     <p>Primary data are data faithfully extracted from text, and that are marking up with a type of
@@ -12,34 +12,63 @@
         <li>XPath: /teiCorpus/TEI/teiHeader/encodingDesc[1]/classDecl[1]/taxonomy[1]</li>
         <li id="xmlTEI_primD">XML-TEI elements: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-taxonomy.html" format="html" scope="external">taxonomy</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-category.html" format="html" scope="external">category</xref></li>
         <li>XML-TEI attributes: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" format="html" scope="external"><xmlatt>xml:id</xmlatt></xref></li>
-        <li>Values: verb|entity</li>
+        <li>Values: verb|Being</li>
+        <li>OntoMedia ontology: class <xref
+            href="http://www.contextus.net/ontology/ontomedia/ex/ext/common/being" format="html"
+            scope="external">Being</xref>, specific use in fiction — be aware that for the
+          explanation, “animated entity” will be used.</li>
         <li><xref href="schema.dita#concept_schemaIMG/image_primData" format="dita" scope="local" >Schema of primary data</xref> ➟</li>
       </ul>
     </note>
     <lines>------------------------------------</lines>
     <p>
       <note>Preliminary step before introducing attributes values for Primary data: list of the
-        animated entities (characters, <u>attribute's value #entity</u>) within the XML-TEI element
-          <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-listPerson.html" scope="external" format="html"><xmlelement>listPerson</xmlelement></xref>: <ul>
+        animated entities (characters, <u>attribute's value #Being</u>) within the XML-TEI element
+          <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-listPerson.html"
+          scope="external" format="html"><xmlelement>listPerson</xmlelement></xref>: <ul>
           <li>XPath: /teiCorpus/TEI[1]/teiHeader[1]/profileDesc[1]/particDesc[1]</li>
-          <li id="xmlTEI_entity01">XML-TEI elements within <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html" format="html" scope="external">TEI</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-teiHeader.html" format="html" scope="external">teiHeader</xref>: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-profileDesc.html" scope="external" format="html">profileDesc</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-particDesc.html" format="html" scope="external">particDesc</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-listPerson.html" scope="external" format="html">listPerson</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-person.html" format="html" scope="external">person</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html" format="html" scope="external">persName</xref></li>
-          <li>XML-TEI attributes: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.typed.html" format="html" scope="external"><xmlatt>type</xmlatt></xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.analytic.html" format="html" scope="external"><xmlatt>ana</xmlatt></xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" format="html" scope="external"><xmlatt>xml:id</xmlatt></xref></li>
-          <li>Values: entity|ID ENTITY|ENTITY'S NAME</li>
+          <li id="xmlTEI_entity01">XML-TEI elements within <xref
+              href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html" format="html"
+              scope="external">TEI</xref>|<xref
+              href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-teiHeader.html"
+              format="html" scope="external">teiHeader</xref>: <xref
+              href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-profileDesc.html"
+              scope="external" format="html">profileDesc</xref>|<xref
+              href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-particDesc.html"
+              format="html" scope="external">particDesc</xref>|<xref
+              href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-listPerson.html"
+              scope="external" format="html">listPerson</xref>|<xref
+              href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-person.html"
+              format="html" scope="external">person</xref>|<xref
+              href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html"
+              format="html" scope="external">persName</xref></li>
+          <li>XML-TEI attributes: <xref
+              href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.typed.html"
+              format="html" scope="external"><xmlatt>type</xmlatt></xref>|<xref
+              href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.analytic.html"
+              format="html" scope="external"><xmlatt>ana</xmlatt></xref>|<xref
+              href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" format="html"
+              scope="external"><xmlatt>xml:id</xmlatt></xref></li>
+          <li>Values: Being|ID Being|CHARACTER'S NAME</li>
         </ul>
         <overline/>
         <ul>
           <li id="AE_value01">Current research in the Cycle of Baʿlu and ʿAnatu by alphabtetic
-            order: ʿAnatu (ANT), ʾAṯiratu, (ATH), ʾAṯtartu (ATT), Baʿlu (BAL), ʾIlu (ILU), Koṯaru
-            (KOT), Baʿlu's messengers (MES_B), ʾIlu's messengers (MES_I), Yammu's messenger
-            (MES_Y)s, Môtu (MOT), Šapsu (SAP), Yammu (YAM), warrior(s) (WAR), unknown (UNK).</li>
-          <li>XML-TEI example for ʿAnatu, attributes within the <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_entity01" format="dita">elements</xref>
+            order, “Character”: ʿAnatu (ANT), ʾAṯiratu, (ATH), ʾAṯtartu (ATT), Baʿlu (BAL), ʾIlu
+            (ILU), Koṯaru (KOT), Baʿlu's messengers (MES_B), ʾIlu's messengers (MES_I), Yammu's
+            messenger (MES_Y)s, Môtu (MOT), Šapsu (SAP), Yammu (YAM), warrior(s) (WAR), unknown
+            (UNK).</li>
+          <li>XML-TEI example for ʿAnatu, attributes within the <xref
+              href="PrimData.dita#concept_PrimVar01/xmlTEI_entity01" format="dita">elements</xref>
             <xmlelement>profileDesc</xmlelement> ➞ <xmlelement>particDesc</xmlelement> ➞
               <xmlelement>listPerson</xmlelement> elements before the XML-TEI attributes for xml:id
-              <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_entity" format="dita">entity</xref>
-            and <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_verb" format="dita">verb</xref>:
+              <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_verb" format="dita">verb</xref> and
+              <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_entity" format="dita">Being</xref>:
             <codeblock outputclass="language-xml">&lt;profileDesc>&lt;particDesc>
-   &lt;listPerson type="mythological" ana="#entity"> 
-      &lt;person xml:id="ANT">&lt;persName>ʾAnatu&lt;/persName>&lt;/person>
+   &lt;listPerson type="character" ana="#Being" xml:id="Character"> &lt;!-- animated entity -->
+      &lt;person ana="#who">
+         &lt;persName xml:id="ANT">ʾAnatu&lt;/persName>
+       &lt;/person>
    &lt;/listPerson>
 &lt;/particDesc>&lt;/profileDesc>   </codeblock></li>
         </ul></note>
@@ -49,21 +78,24 @@
       <xmlelement>encodingDesc</xmlelement> ➞ <xmlelement>classDecl</xmlelement>: </p>
       <ul id="ul_qtp_t4g_jz">
         <li>Verb: <ul id="ul_rtp_t4g_jz">
-            <li>&#x27af; Most relevant lexem in a group of words or a sentence. A verb belongs to a
-              taxonomy (= <xmlelement>category</xmlelement>) and sub-taxonomy (<xref href="ObjVar.dita#concept_ObjVar01/verbSem01" format="dita">objective
-                variables</xref>).</li>
+            <li>&#x27af; Most relevant lexem in a group of words or a sentence, according to the
+            philosophy of action and pragmatics. A verb belongs to a taxonomy (=
+              <xmlelement>category</xmlelement>) and sub-taxonomy (<xref
+              href="ObjVar.dita#concept_ObjVar01/verbSem01" format="dita">objective
+            variables</xref>).</li>
             <li id="xmlTEI_verb">XML-TEI:<codeblock outputclass="language-xml">&lt;taxonomy xml:id="primaryData"> 
     &lt;category xml:id="verb"/>  
 &lt;/taxonomy>     </codeblock></li>
           </ul></li>
-        <li>Animated entity: <ul id="ul_stp_t4g_jz">
-            <li>&#x27af; who is the character acting in several ways with relevant <xref href="ObjVar.dita">objective</xref> and <xref href="SubjVar.dita">subjective</xref>
-              variables.</li>
-            <li id="xmlTEI_entity02">XML-TEI attribute for Primary data animated entity:
-              <codeblock outputclass="language-xml">&lt;taxonomy xml:id="primaryData"> 
-   &lt;category xml:id="entity"/>  
+        <li>Being (= animated entity): <ul id="ul_stp_t4g_jz">
+          <li>&#x27af; who is the character acting in several ways with relevant <xref
+              href="ObjVar.dita">objective</xref> and <xref href="SubjVar.dita">subjective</xref>
+            variables.</li>
+          <li id="xmlTEI_entity02">XML-TEI attribute for Primary data Being:
+            <codeblock outputclass="language-xml">&lt;taxonomy xml:id="primaryData"> 
+   &lt;category xml:id="Being"/>  
 &lt;/taxonomy>       </codeblock></li>
-          </ul></li>
+        </ul></li>
       </ul>
   </conbody>
 </concept>
