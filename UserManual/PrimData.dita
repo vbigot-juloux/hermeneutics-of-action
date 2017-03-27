@@ -4,9 +4,7 @@
  <title>Primary data</title>
  <shortdesc/>
  <conbody>
-    <p>Primary data are data faithfully extracted from text, and that are marking up with a type of
-      attributes tob be parsed with R — <b>this first step is essential for counting the performance
-        of acting per (animated) entity</b>. </p>
+   <p>Primary data are data faithfully extracted from text, and marked up with a type of attributes to be parsed with R - <b>this first step is essential for counting the performances of action per (animated) entity</b>.</p>
     <note>
       <ul>
         <li>XPath: /teiCorpus/TEI/teiHeader/encodingDesc[1]/classDecl[1]/taxonomy[1]</li>
@@ -78,9 +76,8 @@
       <xmlelement>encodingDesc</xmlelement> ➞ <xmlelement>classDecl</xmlelement>: </p>
       <ul id="ul_qtp_t4g_jz">
         <li>Verb: <ul id="ul_rtp_t4g_jz">
-            <li>&#x27af; Most relevant lexem in a group of words or a sentence, according to the
-            philosophy of action and pragmatics. A verb belongs to a taxonomy (=
-              <xmlelement>category</xmlelement>) and sub-taxonomy (<xref
+          <li>&#x27af; Most relevant lexeme in a group of words or a sentence which is used to denote a performance of acting — this hypothesis for this preliminary of hermeneutics of action was made following my reading on the philosophy of action and the pragmatics<fn>a detailed explanation will be given in a forthcoming paper by November 2017.</fn>. A verb belongs to a
+            taxonomy (= <xmlelement>category</xmlelement>) and sub-taxonomy (<xref
               href="ObjVar.dita#concept_ObjVar01/verbSem01" format="dita">objective
             variables</xref>).</li>
             <li id="xmlTEI_verb">XML-TEI:<codeblock outputclass="language-xml">&lt;taxonomy xml:id="primaryData"> 

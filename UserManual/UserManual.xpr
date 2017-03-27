@@ -7424,7 +7424,7 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>schema.dita</String>
+                                    <String>categories.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -7454,21 +7454,6 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>ObjVar.dita</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>docmap (WebHelp Classic)1</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>process.dita</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -7484,7 +7469,7 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../../../../Desktop/UserManual/ObjVar.dita</String>
+                                    <String>dataMining.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -7514,11 +7499,11 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>withinTranscrip.dita</String>
+                                    <String>ObjVar.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>docmap (WebHelp Classic)4</String>
+                                        <String>docmap (WebHelp Classic)1</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -7544,7 +7529,7 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>introR.dita</String>
+                                    <String>schema.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -7559,11 +7544,41 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>dataMining.dita</String>
+                                    <String>../../../../Desktop/UserManual/ObjVar.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>docmap (WebHelp Classic)</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>withinTranscrip.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>docmap (WebHelp Classic)4</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>introR.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>docmap (WebHelp Classic)4</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
