@@ -32,23 +32,35 @@
 
   </ol>
 
-  <p class="p">These taxonomies are described within two <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD5" target="_blank">encoding description sections</a>: </p>
+  <div class="p">These taxonomies are described within two <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD5" target="_blank">encoding description sections</a>: <p class="lines"></p>
 
   <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;encodingDesc&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;classDecl&gt;</strong>
    <strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"primaryData"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>  <em class="hl-comment" style="color:#006400">&lt;!-- Primary Data --&gt;</em> <strong class="hl-tag" style="color:#000096">&lt;/taxonomy&gt;</strong> 
    <strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"objectiveData"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>  <em class="hl-comment" style="color:#006400">&lt;!-- Objective variables --&gt;</em> <strong class="hl-tag" style="color:#000096">&lt;/taxonomy&gt;</strong> 
    <strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"subjectiveData"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>  <em class="hl-comment" style="color:#006400">&lt;!-- Subjective variables --&gt;</em> <strong class="hl-tag" style="color:#000096">&lt;/taxonomy&gt;</strong> 
-<strong class="hl-tag" style="color:#000096">&lt;/classDecl&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;/encodingDesc&gt;</strong> </pre>
+   <strong class="hl-tag" style="color:#000096">&lt;/classDecl&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;/encodingDesc&gt;</strong> </pre>
+</div>
+<p class="lines"></p>
+
+   <p class="p">In anticipation of the ontology (<a class="xref" href="https://www.w3.org/TR/owl-guide/" target="_blank">OWL</a>) of power relationships with linked open data standards, I use
+      as XML-TEI attributes few OWL class <code class="ph codeph">rdf:ID</code> of the <a class="xref" href="https://www.w3.org/TR/REC-rdf-syntax/" target="_blank">Resource
+        Description Framework</a> (RDF) proposed by <a class="xref" href="http://www.contextus.net/ontomedia/model" target="_blank">OntoMedia
+        ontology</a>. The OWL <a class="xref" href="https://www.w3.org/TR/2004/REC-owl-ref-20040210/#Class-def" target="_blank">class</a> is similar to the XML attribute, which is of course a very
+      valuable argument. When a OWL class is used for XML-TEI attribute, it will be specified.</p>
+
+    <p class="p">My choice of using the OntoMedia ontology is relevant because we share the same primary goal,
+      althought final purpose is different since mine is for anthropological purpose: <span class="q" xml:lang="en" lang="en">"to allow people to explore and analyse
+        narratives"</span> . </p>
 
  </div>
 
 <nav role="navigation" class="related-links">
 <ul class="ullinks">
-<li class="link ulchildlink"><strong><a href="PrimData.html">Primary Data</a></strong><br />
+<li class="link ulchildlink"><strong><a href="PrimData.html">Primary data</a></strong><br />
 </li>
 <li class="link ulchildlink"><strong><a href="ObjVar.html">Objective variables</a></strong><br />
 </li>
-<li class="link ulchildlink"><strong><a href="SubjVar.html">Subjective Variables</a></strong><br />
+<li class="link ulchildlink"><strong><a href="SubjVar.html">Subjective variables</a></strong><br />
 </li>
 </ul>
 </nav></article></main><footer role="contentinfo"><div class="navfooter"><!---->
