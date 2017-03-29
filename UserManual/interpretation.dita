@@ -47,12 +47,13 @@
                                 >SPHERE</xref>|<xref href="ObjVar.dita#concept_ObjVar01/context01"
                                 >CONTEXT</xref></li>
                         <li>from <xref href="SubjVar.dita">subjective variables</xref>: <xref
-                                href="SubjVar.dita#concept_SubjVar01/affect01">EMOTION</xref>|<xref
-                                href="SubjVar.dita#concept_SubjVar01/affect01">DEGREE
-                                EMOTION</xref>|<xref href="SubjVar.dita#concept_SubjVar01/degree01"
-                                >DEGREE DESIRE</xref>|<xref
-                                href="SubjVar.dita#concept_SubjVar01/volIntent01"
+                                href="SubjVar.dita#concept_SubjVar01/volIntent01">VOLUNTARY
+                                INTENT</xref>|<xref href="SubjVar.dita#concept_SubjVar01/motiv_vI01"
                                 >MOTIVATION</xref>|<xref
+                                href="SubjVar.dita#concept_SubjVar01/degree01">DEGREE
+                                DESIRE</xref>|<xref href="SubjVar.dita#concept_SubjVar01/affect01"
+                                >EMOTION</xref>|<xref href="SubjVar.dita#concept_SubjVar01/affect01"
+                                >hasEmotionIntensity</xref>|<xref
                                 href="SubjVar.dita#concept_SubjVar01/conseq01"
                             >CONSEQUENCE</xref></li>
                     </ul></li>
@@ -71,7 +72,8 @@
           &lt;placeName ana="#whatContext <b>#battle</b>">battle&lt;location ana="#whatSphere <b>#outside</b>"/>outside her household&lt;geo>valley&lt;/geo>&lt;/placeName>
         &lt;/view> 
         &lt;stage ana="whatBehavior">
-          &lt;span ana="<b>#toDestroy #free #rage #veryHight</b>">Voluntary intentionality, to destroy of her free will, with rage (level five).&lt;/span>
+          &lt;span ana="<b>#toDestroy #free #five_dD</b>">Voluntary intentionality, to destroy of her free will, and with a degree of desire level five&lt;/span>
+          &lt;span ana="<b>#rage #veryHight</b>">Emotion of rage, very hight&lt;/span> 
           &lt;span ana="<b>#affectEntity_and_other</b>">The result of action has an impact on ʾAnatu and others&lt;/span>
         &lt;/stage>
    &lt;/desc>  
@@ -111,17 +113,20 @@
                     example below <b>#outside</b></li>
                 <li><u>What behavior</u> (#whatRole which belongs to #subjectiveData) AE is
                     performing the action in <xmlelement>state</xmlelement> ➞
-                        <xmlelement>span</xmlelement><ul id="ol_k3n_wyt_gz">
+                        <xmlelement>span</xmlelement>:<ul id="ol_k3n_wyt_gz">
                         <li><xmlatt>ana</xmlatt>
                             <xref href="SubjVar.dita#concept_SubjVar01/volIntent01">VOLUNTARY
                                 INTENTIONALITY</xref>, <xref
                                 href="SubjVar.dita#concept_SubjVar01/motiv_vI01" format="dita"
-                                scope="local">MOTIVATION</xref>, and <xref
-                                href="SubjVar.dita#concept_SubjVar01/motiv_vI01">EMOTION</xref> — in
-                            example below <b>#toDestroy #free #rage</b></li>
-                        <li><xmlatt>ana</xmlatt>
-                            <xref href="SubjVar.dita#concept_SubjVar01/degree01">DEGREE
-                                DESIRE</xref> — in example below <b>#five_dD</b></li>
+                                scope="local">MOTIVATION</xref>, <xref
+                                href="SubjVar.dita#concept_SubjVar01/degree01">DEGREE DESIRE</xref>:
+                            — in example below <b>#toDestroy #free #five_dD</b></li>
+                        <li><xmlatt>ana</xmlatt> ,  <xref
+                                href="SubjVar.dita#concept_SubjVar01/motiv_vI01">EMOTION</xref>, and
+                                <xref href="SubjVar.dita#concept_SubjVar01/affect01"
+                                >hasEmotionIntensity</xref>: — in example below <b>#rage
+                                #veryHight</b>
+                        </li>
                         <li><xmlatt>ana</xmlatt>
                             <xref href="SubjVar.dita#concept_SubjVar01/conseq01" format="dita"
                                 >CONSEQUENCE</xref> — in example below
@@ -130,7 +135,8 @@
                 </li>
             </ol>Meaning: the animated entity ʿAnatu is performing an action from competition's verb
             grouping subcategory contend with a voluntary intentationality of destroying, from a
-            free will, with rage's emotion and a hight degree of desire. She performes oustide her
-            household, and she will be affected by her action as well as other entities.</p>
+            free will, with hight level of rage's emotion, and a hight degree of desire. She
+            performes oustide her household, and she will be affected by her action as well as other
+            entities.</p>
  </conbody>
 </concept>

@@ -38,8 +38,9 @@
 
                         <li class="li">from <a class="xref" href="ObjVar.html">objective variables</a>: <a class="xref" href="ObjVar.html#concept_ObjVar01__verbSem01">TAXO</a>|<a class="xref" href="ObjVar.html#concept_ObjVar01__verbSub01">subTAXO</a>|<a class="xref" href="ObjVar.html#concept_ObjVar01__role01">ROLE</a>|<a class="xref" href="ObjVar.html#concept_ObjVar01__sphere01">SPHERE</a>|<a class="xref" href="ObjVar.html#concept_ObjVar01__context01">CONTEXT</a></li>
 
-                        <li class="li">from <a class="xref" href="SubjVar.html">subjective variables</a>: <a class="xref" href="SubjVar.html#concept_SubjVar01__affect01">EMOTION</a>|<a class="xref" href="SubjVar.html#concept_SubjVar01__affect01">DEGREE
-                                EMOTION</a>|<a class="xref" href="SubjVar.html#concept_SubjVar01__degree01">DEGREE DESIRE</a>|<a class="xref" href="SubjVar.html#concept_SubjVar01__volIntent01">MOTIVATION</a>|<a class="xref" href="SubjVar.html#concept_SubjVar01__conseq01">CONSEQUENCE</a></li>
+                        <li class="li">from <a class="xref" href="SubjVar.html">subjective variables</a>: <a class="xref" href="SubjVar.html#concept_SubjVar01__volIntent01">VOLUNTARY
+                                INTENT</a>|<a class="xref" href="SubjVar.html#concept_SubjVar01__motiv_vI01">MOTIVATION</a>|<a class="xref" href="SubjVar.html#concept_SubjVar01__degree01">DEGREE
+                                DESIRE</a>|<a class="xref" href="SubjVar.html#concept_SubjVar01__affect01">EMOTION</a>|<a class="xref" href="SubjVar.html#concept_SubjVar01__affect01">hasEmotionIntensity</a>|<a class="xref" href="SubjVar.html#concept_SubjVar01__conseq01">CONSEQUENCE</a></li>
 
                     </ul>
 </li>
@@ -62,7 +63,8 @@
           <strong class="hl-tag" style="color:#000096">&lt;placeName</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#whatContext </span><strong class="ph b">#battle</strong>"&gt;battle<strong class="hl-tag" style="color:#000096">&lt;location</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#whatSphere </span><strong class="ph b">#outside</strong>"/&gt;outside her household<strong class="hl-tag" style="color:#000096">&lt;geo&gt;</strong>valley<strong class="hl-tag" style="color:#000096">&lt;/geo&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;/placeName&gt;</strong>
         <strong class="hl-tag" style="color:#000096">&lt;/view&gt;</strong> 
         <strong class="hl-tag" style="color:#000096">&lt;stage</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"whatBehavior"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
-          <strong class="hl-tag" style="color:#000096">&lt;span</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"</span><strong class="ph b">#toDestroy #free #rage #veryHight</strong>"&gt;Voluntary intentionality, to destroy of her free will, with rage (level five).<strong class="hl-tag" style="color:#000096">&lt;/span&gt;</strong>
+          <strong class="hl-tag" style="color:#000096">&lt;span</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"</span><strong class="ph b">#toDestroy #free #five_dD</strong>"&gt;Voluntary intentionality, to destroy of her free will, and with a degree of desire level five<strong class="hl-tag" style="color:#000096">&lt;/span&gt;</strong>
+          <strong class="hl-tag" style="color:#000096">&lt;span</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"</span><strong class="ph b">#rage #veryHight</strong>"&gt;Emotion of rage, very hight<strong class="hl-tag" style="color:#000096">&lt;/span&gt;</strong> 
           <strong class="hl-tag" style="color:#000096">&lt;span</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"</span><strong class="ph b">#affectEntity_and_other</strong>"&gt;The result of action has an impact on ʾAnatu and others<strong class="hl-tag" style="color:#000096">&lt;/span&gt;</strong>
         <strong class="hl-tag" style="color:#000096">&lt;/stage&gt;</strong>
    <strong class="hl-tag" style="color:#000096">&lt;/desc&gt;</strong>  
@@ -107,15 +109,16 @@
 
                 <li class="li"><u class="ph u">What behavior</u> (#whatRole which belongs to #subjectiveData) AE is
                     performing the action in <code class="keyword markupname xmlelement">&lt;state&gt;</code> ➞
-                        <code class="keyword markupname xmlelement">&lt;span&gt;</code><ul class="ul" id="concept_dataMining__ol_k3n_wyt_gz">
+                        <code class="keyword markupname xmlelement">&lt;span&gt;</code>:<ul class="ul" id="concept_dataMining__ol_k3n_wyt_gz">
                         <li class="li"><code class="keyword markupname xmlatt">@ana</code>
                             <a class="xref" href="SubjVar.html#concept_SubjVar01__volIntent01">VOLUNTARY
-                                INTENTIONALITY</a>, <a class="xref" href="SubjVar.html#concept_SubjVar01__motiv_vI01">MOTIVATION</a>, and <a class="xref" href="SubjVar.html#concept_SubjVar01__motiv_vI01">EMOTION</a> — in
-                            example below <strong class="ph b">#toDestroy #free #rage</strong></li>
+                                INTENTIONALITY</a>, <a class="xref" href="SubjVar.html#concept_SubjVar01__motiv_vI01">MOTIVATION</a>, <a class="xref" href="SubjVar.html#concept_SubjVar01__degree01">DEGREE DESIRE</a>:
+                            — in example below <strong class="ph b">#toDestroy #free #five_dD</strong></li>
 
-                        <li class="li"><code class="keyword markupname xmlatt">@ana</code>
-                            <a class="xref" href="SubjVar.html#concept_SubjVar01__degree01">DEGREE
-                                DESIRE</a> — in example below <strong class="ph b">#five_dD</strong></li>
+                        <li class="li"><code class="keyword markupname xmlatt">@ana</code> ,  <a class="xref" href="SubjVar.html#concept_SubjVar01__motiv_vI01">EMOTION</a>, and
+                                <a class="xref" href="SubjVar.html#concept_SubjVar01__affect01">hasEmotionIntensity</a>: — in example below <strong class="ph b">#rage
+                                #veryHight</strong>
+                        </li>
 
                         <li class="li"><code class="keyword markupname xmlatt">@ana</code>
                             <a class="xref" href="SubjVar.html#concept_SubjVar01__conseq01">CONSEQUENCE</a> — in example below
@@ -128,8 +131,9 @@
             </ol>
 Meaning: the animated entity ʿAnatu is performing an action from competition's verb
             grouping subcategory contend with a voluntary intentationality of destroying, from a
-            free will, with rage's emotion and a hight degree of desire. She performes oustide her
-            household, and she will be affected by her action as well as other entities.</div>
+            free will, with hight level of rage's emotion, and a hight degree of desire. She
+            performes oustide her household, and she will be affected by her action as well as other
+            entities.</div>
 
  </div>
 
