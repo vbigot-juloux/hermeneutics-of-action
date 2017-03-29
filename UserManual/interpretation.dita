@@ -119,12 +119,12 @@
                                 INTENTIONALITY</xref>, <xref
                                 href="SubjVar.dita#concept_SubjVar01/motiv_vI01" format="dita"
                                 scope="local">MOTIVATION</xref>, <xref
-                                href="SubjVar.dita#concept_SubjVar01/degree01">DEGREE DESIRE</xref>:
+                                href="SubjVar.dita#concept_SubjVar01/degree01">DEGREE DESIRE</xref>
                             — in example below <b>#toDestroy #free #five_dD</b></li>
-                        <li><xmlatt>ana</xmlatt> ,  <xref
-                                href="SubjVar.dita#concept_SubjVar01/motiv_vI01">EMOTION</xref>, and
+                        <li><xmlatt>ana</xmlatt>
+                            <xref href="SubjVar.dita#concept_SubjVar01/motiv_vI01">EMOTION</xref>,
                                 <xref href="SubjVar.dita#concept_SubjVar01/affect01"
-                                >hasEmotionIntensity</xref>: — in example below <b>#rage
+                                >hasEmotionIntensity</xref> — in example below <b>#rage
                                 #veryHight</b>
                         </li>
                         <li><xmlatt>ana</xmlatt>
