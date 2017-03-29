@@ -4,21 +4,38 @@
  <title>Parsing XML-TEI</title>
  <shortdesc/>
  <conbody>
-   <p><note>
-     <ul>
-     <li>Fonctions: <xref href="https://www.rdocumentation.org/packages/XML/versions/3.98-1.5/topics/getNodeSet" format="html" scope="external">getNodeSet</xref>|<xref href="https://www.rdocumentation.org/packages/XML/versions/3.98-1.5/topics/docName" format="html" scope="external">docName</xref>|<xref href="https://www.rdocumentation.org/packages/XML/versions/3.98-1.5/topics/length.XMLNode" format="html" scope="external">lenght.XMLNode</xref>|<xref href="https://www.w3.org/TR/xpath/#function-contains" format="html" scope="external">contains</xref></li>
-       <li id="nodes01">Elements nodes from <xref
+   <p><note> ⚠ Be aware: this section is under development. <ul>
+          <li>Fonctions: <xref
+              href="https://www.rdocumentation.org/packages/XML/versions/3.98-1.5/topics/getNodeSet"
+              format="html" scope="external">getNodeSet</xref>|<xref
+              href="https://www.rdocumentation.org/packages/XML/versions/3.98-1.5/topics/docName"
+              format="html" scope="external">docName</xref>|<xref
+              href="https://www.rdocumentation.org/packages/XML/versions/3.98-1.5/topics/length.XMLNode"
+              format="html" scope="external">lenght.XMLNode</xref>|<xref
+              href="https://www.w3.org/TR/xpath/#function-contains" format="html" scope="external"
+              >contains</xref></li>
+          <li id="nodes01">Elements nodes from <xref
               href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-w.html" format="html"
               scope="external">w</xref>|<xref
               href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-span.html" format="html"
-              scope="external">span</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html" format="html" scope="external">persName</xref></li>
-       <li id="attribNodes01">Attributes nodes: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.analytic.html" format="html" scope="external"><xmlatt>ana</xmlatt></xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.typed.html" format="html" scope="external"><xmlatt>type</xmlatt></xref></li>
-     <li id="valueNodes01">'Value' from: 
-       <ul><li><xref href="PrimData.dita">Primary data</xref>: <xref href="PrimData.dita#xmlTEI_verb" format="dita" scope="local">verb</xref>|<xref href="PrimData.dita#xmlTEI_entity02" format="dita" scope="local">entity</xref></li>
-         <li><xref
-           href="dataMining.dita#concept_dataMining/dataMining_last" format="dita" type="li">Preliminary
-           step</xref>: <xmlatt>ana</xmlatt> of identified <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-person.html" format="html" scope="external">person</xref> </li>
-         <li><xref href="ObjVar.dita">Objective variables</xref> : <xref
+              scope="external">span</xref>|<xref
+              href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html"
+              format="html" scope="external">persName</xref></li>
+          <li id="attribNodes01">Attributes nodes: <xref
+              href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.analytic.html"
+              format="html" scope="external"><xmlatt>ana</xmlatt></xref>|<xref
+              href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.typed.html"
+              format="html" scope="external"><xmlatt>type</xmlatt></xref></li>
+          <li id="valueNodes01">'Value' from: <ul>
+              <li><xref href="PrimData.dita">Primary data</xref>: <xref
+                  href="PrimData.dita#xmlTEI_verb" format="dita" scope="local">action</xref>|<xref
+                  href="PrimData.dita#xmlTEI_entity02" format="dita" scope="local">Being</xref></li>
+              <li><xref href="dataMining.dita#concept_dataMining/dataMining_last" format="dita"
+                  type="li">Preliminary step</xref>: <xmlatt>ana</xmlatt> of identified <xref
+                  href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-person.html"
+                  format="html" scope="external">Character</xref>
+              </li>
+              <li><xref href="ObjVar.dita">Objective variables</xref> : <xref
                   href="ObjVar.dita#concept_ObjVar01/verbTaxo01" format="dita" scope="local"
                   >TAXO</xref>|<xref href="ObjVar.dita#concept_ObjVar01/verbSub01" format="dita"
                   scope="local">subTAXO</xref>|<xref href="ObjVar.dita#concept_ObjVar01/context01"
@@ -26,26 +43,25 @@
                   href="ObjVar.dita#concept_ObjVar01/sphere01" format="dita" scope="local"
                   >SPHERE</xref>|<xref href="ObjVar.dita#concept_ObjVar01/role01" format="dita"
                   scope="local">ROLE</xref>|<xref href="ObjVar.dita#concept_ObjVar01/bioSex01"
-                  >SEX</xref>
+                  >GENETIC SEX</xref>
                 <note>Value in capital letters: implies to select the right choice of the
                   subcategory, ie SPHERE ➞ ‘outside’.</note></li>
-         <li><xref href="SubjVar.dita">Subjective variables</xref>: <xref
+              <li><xref href="SubjVar.dita">Subjective variables</xref>: <xref
                   href="SubjVar.dita#conseq01" format="dita" scope="local">consequence</xref>
                 <note>Compute only for the need of the <xref href="process.dita#hermeneutics01">last
                     step (C)</xref>: <xref href="SubjVar.dita#affect01" format="dita" scope="local"
-                    >affectivity</xref>|<xref href="SubjVar.dita#affect01" format="dita"
-                    scope="local">degree of affectivity</xref>|<xref href="SubjVar.dita#volIntent01"
-                    >volontary intention</xref></note></li>
-       <li>Other: ‘purpose’</li>
-       </ul></li>
-     
-   </ul></note></p>
+                    >Emotion</xref>|<xref href="SubjVar.dita#affect01" format="dita" scope="local"
+                    >degree of emotion</xref>|<xref href="SubjVar.dita#volIntent01">volontary
+                    intention</xref></note></li>
+              <li>Other: ‘purpose’</li>
+            </ul></li>
+        </ul></note></p>
       
    <p>For the interpretation, which is the last section for suggesting a hermeneutics of action:</p> 
    <p><b>Reminder</b>: computation is done <u>within two sections</u> in the XML-TEI file ‘doc’: <ol>
-        <li><xref href="withinTranscrip.dita" format="dita" scope="local">Within transcription</xref> section:
-          transcription with primary data and objective variables to compute verbs for each or all
-          animated entities (very useful for the agency) <xref
+        <li><xref href="withinTranscrip.dita" format="dita" scope="local">Within
+            transcription</xref> section: transcription with primary data and objective variables to
+          compute verbs for each or all animated entities (very useful for the agency) <xref
             href="parsingTEI.dita#concept_statistics/ephilo_R01" format="dita" type="li"
           >➟</xref>.</li>
         <li><xref href="interpretation.dita" format="dita" scope="local">Interpretation</xref>
@@ -54,18 +70,18 @@
             href="parsingTEI.dita#concept_statistics/dataMin_R01" format="dita" type="li">➟</xref>:
           <codeblock outputclass="language-xml">&lt;interp xml:id="ktu1-3_ii_l5b_6a_int" ana="<b>#ktu1.3_ii_5b-6a</b>"> 
    &lt;desc>
-      &lt;ref ana="#perform <b>#ktu1-3_ii_l5b-6a_tmtḫṣ</b> <b>#action #confrontation</b>">Action, subcategory confrontation&lt;/ref> 
+      &lt;ref ana="#whatAction <b>#ktu1-3_ii_l5b-6a_tmtḫṣ</b> <b>#verb.competition #contend</b>">competition verb: contend (mḫṣ, Gt: to fight)&lt;/ref> 
       &lt;castList> 
         &lt;castItem>
-          &lt;persName type="character" ana="#who #entity <b>#ANT</b>">&lt;state ana="#behav<b> #active</b>"/>ʾAnatu&lt;/persName>
-          &lt;persName cert="low" ana="#entity<b> </b>#UNK" type="character">&lt;state ana="#passive"/>People from Qaratu&lt;/persName>
+          &lt;persName ana="#whatCharacter <b>#ANT</b> #Female" type="character" >&lt;state ana="#whatRole<b> #active</b>"/>ʾAnatu&lt;/persName>
+          &lt;persName cert="low" ana="#UNK #Unknown" type="character">&lt;state ana="#passive"/>People from Qaratu&lt;/persName>
         &lt;/castItem>                                                                 
       &lt;/castList>
         &lt;view>
-          &lt;placeName ana="#occasion <b>#battle</b>">battle&lt;location ana="#where <b>#outside</b>"/>outside her household&lt;geo>valley&lt;/geo>&lt;/placeName>
+          &lt;placeName ana="#whatContext <b>#battle</b>">battle&lt;location ana="#whatSphere <b>#outside</b>"/>outside her household&lt;geo>valley&lt;/geo>&lt;/placeName>
         &lt;/view> 
-        &lt;stage ana="how">
-          &lt;span ana="<b>#toDestroy #free #rage #five_dD</b>">Voluntary intentionality, to destroy of her free will, with rage (level five).&lt;/span>
+        &lt;stage ana="whatBehavior">
+          &lt;span ana="<b>#toDestroy #free #rage #veryHight</b>">Voluntary intentionality, to destroy of her free will, with rage (level five).&lt;/span>
           &lt;span ana="<b>#affectEntity_and_other</b>">The result of action has an impact on ʾAnatu and others&lt;/span>
         &lt;/stage>
    &lt;/desc>  
@@ -73,15 +89,14 @@
       </ol></p>
    <p>Two functions are essentially used: <xref href="introR.dita#getNodeSet" format="dita" scope="local"><codeph>getNodeSet</codeph></xref> and <codeph>length</codeph>. The latter is used to compute <codeph>nodes</codeph>.</p>
    <p>Four steps for parsing a file, <codeph>doc</codeph>: (1) define PATH, (2) <xref
-     href="parsingTEI.dita#nodes01">elements</xref>, (3) select <codeph>nodes</codeph> (, <xref
-       href="parsingTEI.dita#attribNodes01">attributes</xref>, and <xref
-         href="parsingTEI.dita#valueNodes01">values</xref>), (4) pourcentage from
-        <codeph>lenght.XMLNode</codeph>. 
-     <ol>
+        href="parsingTEI.dita#nodes01">elements</xref>, (3) select <codeph>nodes</codeph> (, <xref
+        href="parsingTEI.dita#attribNodes01">attributes</xref>, and <xref
+        href="parsingTEI.dita#valueNodes01">values</xref>), (4) pourcentage from
+        <codeph>lenght.XMLNode</codeph>. <ol>
         <li>Define <xref href="https://www.w3.org/TR/xpath/#axes" format="html" scope="external"/>
           path: i.e. <codeph>//</codeph> (any descendants), <codeph>descendant::</codeph> (children,
           grandchildren, etc.) </li>
-       <li>Select the <xref href="parsingTEI.dita#nodes01">elements</xref> according to namespace
+        <li>Select the <xref href="parsingTEI.dita#nodes01">elements</xref> according to namespace
             <codeph>ns:element</codeph> (* when <xmlelement>element</xmlelement> is not specified =
           search within all <codeph>doc</codeph>).</li>
         <li>Select nodes to match relevant criteria (@attributes and its ‘values’) within
@@ -91,14 +106,13 @@
                 <codeph>getNodeSet</codeph>: <codeblock>nodes=getNodeSet(doc,"PATH[contains(<xmlatt>ATTRIBUTE</xmlatt>, 'VALUE')]", ns)</codeblock>
               <ul id="ul_ok4_m43_fz">
                 <li id="ephilo_R01"><xref href="withinTranscrip.dita" format="dita" scope="local"
-                  >Within transcription</xref> section (primary data and objective variables), ns:w (=
-                  namespace <xmlelement>w</xmlelement>) for counting verb's occurrences: <ul
+                    >Within transcription</xref> section (primary data and objective variables),
+                  ns:w (= namespace <xmlelement>w</xmlelement>) for counting verb's occurrences: <ul
                     id="ul_esy_4x3_fz">
-                    <li><xmlatt>type</xmlatt> 'verb' from <xref href="ObjVar.dita#verbSem01"
-                        >semantic verbal: </xref><xmlatt>ana</xmlatt> '#action'(= taxonomy, TAXO)
-                      and its subtaxonomy (subTAXO: #agression, #confrontation #destruction,
-                      #displacement, #movement, #put_together, #otherAction) </li>
-                    <li>Optional: specify an animated entity's name (AE, #AE 'value'), i.e.ʿAnatu
+                    <li>i.e previous example: <xmlatt>type</xmlatt> 'verb' from <xref
+                        href="ObjVar.dita#verbSem01">semantic verbal: </xref><xmlatt>ana</xmlatt>
+                      '#verb.competition'(= taxonomy, TAXO) and its subtaxonomy (subTAXO: #contend) </li>
+                    <li>Optional: specify an animated entity's name (#Character 'value'), i.e.ʿAnatu
                         <xmlatt>ana</xmlatt> '#ANT' <xref href="ObjVar.dita#verbSem01"/>
                       <xmlatt>ana</xmlatt></li>
                   </ul>
@@ -123,46 +137,47 @@
                       </thead>
                       <tbody>
                         <row>
-                          <entry>Occurences: verbs ➞ taxo action</entry>
-                          <entry>#action</entry>
+                          <entry>Occurences: verbs ➞ taxo verb.competition</entry>
+                          <entry>#verb.competition</entry>
                           <entry>//ns:w</entry>
                           <entry>
-                            <codeblock>contains(<xmlatt>ana</xmlatt>,'#action') and contains(<xmlatt>type</xmlatt>,'verb')</codeblock>
+                            <codeblock>contains(<xmlatt>ana</xmlatt>,'#verb.competition') and contains(<xmlatt>type</xmlatt>,'verb')</codeblock>
                           </entry>
                         </row>
                         <row>
-                          <entry>Occurences: verbs ➞ taxo action ➞ subTAXO</entry>
-                          <entry>#action ➞ #subTAXO VALUE </entry>
+                          <entry>Occurences: verbs ➞ taxo verb.competition ➞ subTAXO contend</entry>
+                          <entry>#verb.competition ➞ #subTAXO VALUE #contend</entry>
                           <entry>//ns:w</entry>
                           <entry>
-                            <codeblock>contains(<xmlatt>ana</xmlatt>,'#action') and contains(<xmlatt>ana</xmlatt>,'#subTAXO VALUE') 
+                            <codeblock>contains(<xmlatt>ana</xmlatt>,'#verb.competition') and contains(<xmlatt>ana</xmlatt>,'#contend') 
 and contains(<xmlatt>type</xmlatt>,'verb')</codeblock>
                           </entry>
                         </row>
                         <row>
-                          <entry>ʿAnatu's occurences: verbs ➞ taxo action </entry>
-                          <entry>#ANT and #action ➞ #subTAXO VALUE </entry>
+                          <entry>ʿAnatu's occurences: verbs ➞ taxo verb.competition</entry>
+                          <entry>#ANT and #verb.competition ➞ #subTAXO VALUE #contend</entry>
                           <entry>//ns:w</entry>
                           <entry>
-                            <codeblock>contains(<xmlatt>ana</xmlatt>,'#ANT') and contains(<xmlatt>type</xmlatt>,'#action') 
+                            <codeblock>contains(<xmlatt>ana</xmlatt>,'#ANT') and contains(<xmlatt>type</xmlatt>,'#verb.competition') 
 and contains(<xmlatt>type</xmlatt>,'verb')</codeblock>
                           </entry>
                         </row>
                         <row>
-                          <entry>ʿAnatu's occurences: verbs ➞ taxo action ➞ subTAXO </entry>
-                          <entry>#ANT and #action ➞ #subTAXO VALUE </entry>
+                          <entry>ʿAnatu's occurences: verbs ➞ taxo verb.competition ➞ subTAXO
+                            contend</entry>
+                          <entry>#ANT and #verb.competition ➞ #subTAXO VALUE #contend </entry>
                           <entry>//ns:w</entry>
                           <entry>
-                            <codeblock>contains(<xmlatt>ana</xmlatt>,'#ANT') and contains(<xmlatt>ana</xmlatt>,'#action') 
-and contains(<xmlatt>type</xmlatt>,'#subTAXO VALUE') and contains(<xmlatt>type</xmlatt>,'verb')</codeblock>
+                            <codeblock>contains(<xmlatt>ana</xmlatt>,'#ANT') and contains(<xmlatt>ana</xmlatt>,'#verb.competition') 
+and contains(<xmlatt>type</xmlatt>,'#contend') and contains(<xmlatt>type</xmlatt>,'verb')</codeblock>
                           </entry>
                         </row>
                         <row>
-                          <entry>Occurences without ʿAnatu: verbs ➞ taxo action </entry>
-                          <entry>#action, and not #ANT </entry>
+                          <entry>Occurences without ʿAnatu: verbs ➞ taxo verb.competition </entry>
+                          <entry>#verb.competition, and not #ANT </entry>
                           <entry>//ns:w</entry>
                           <entry>
-                            <codeblock>contains(<xmlatt>ana</xmlatt>,'#action') and not(contains(<xmlatt>ana</xmlatt>, '#ANT') 
+                            <codeblock>contains(<xmlatt>ana</xmlatt>,'#verb.competition') and not(contains(<xmlatt>ana</xmlatt>, '#ANT') 
 and contains(<xmlatt>type</xmlatt>,'verb') </codeblock>
                           </entry>
                         </row>
@@ -171,20 +186,17 @@ and contains(<xmlatt>type</xmlatt>,'verb') </codeblock>
                   </table><lines/></li>
                 <li id="dataMin_R01">Within <xref href="dataMining.dita" format="dita" scope="local"
                     >Data mining</xref> section (primary data, objective and subjectives variables):
-                    <ul id="ul_snz_wx3_fz">
-                    <li><xmlatt>type</xmlatt> 'summary', ns:span (= namespace
-                        <xmlelement>span</xmlelement>) <ul id="ul_bdr_gkj_fz">
-                        <li>From <xref href="ObjVar.dita#verbSem01">semantic verbal: </xref>
-                          <xmlatt>ana</xmlatt> '#action'(= taxonomy, TAXO) and its subtaxonomy
-                          (subTAXO: #agression, #confrontation #destruction, #displacement,
-                          #movement, #put_together, #otherAction) </li>
-                        <li>Specify other <xmlatt>ana</xmlatt> objective variables' value-s, one or
-                          several: SPHERE #value (#outside/#inside), ROLE #value (#active/#passive),
-                          BIO #value (#female_Sx, #male_Sx) </li>
-                        <li>Specify an animated entity's name (AE, #AE 'value'), i.e.ʿAnatu
-                            <xmlatt>ana</xmlatt> '#ANT' <xref href="ObjVar.dita#verbSem01">
-                            <xmlatt>ana</xmlatt></xref></li>
-                      </ul></li>
+                    <ul id="ul_bdr_gkj_fz">
+                    <li>From <xref href="ObjVar.dita#verbSem01">semantic category: </xref>
+                      <xmlatt>ana</xmlatt> i.e. '#verb.competition'(= taxonomy, TAXO) and its
+                      subtaxonomy (subTAXO: i.e. #contend) </li>
+                    <li>Specify other <xmlatt>ana</xmlatt> objective variables' value-s, one or
+                      several: SPHERE #value (#outside/#inside), ROLE #value (#active/#passive),
+                      Genetic sex #value (#Female, #Male) </li>
+                    <li>Specify an animated entity's name (#CHARACTER 'value'), i.e.ʿAnatu
+                        <xmlatt>ana</xmlatt> '#ANT' <xref href="ObjVar.dita#verbSem01">
+                        <xmlatt>ana</xmlatt></xref></li>
+                  </ul><ul id="ul_snz_wx3_fz">
                     <li><xmlatt>type</xmlatt> 'character', ns:persName(= namespace
                         <xmlelement>persName</xmlelement>) : <ul id="ul_jhc_ykj_fz">
                         <li>To count number of animated entities for pourcentage's purpose.</li>
@@ -210,32 +222,31 @@ and contains(<xmlatt>type</xmlatt>,'verb') </codeblock>
                           </thead>
                           <tbody>
                             <row>
-                              <entry>Amout of time ANT: taxo action ➞ subTAXO ➞ what SPHERE</entry>
-                              <entry>#ANT and #action ➞ #subTAXO VALUE ➞ SPHERE #value</entry>
+                              <entry>Amout of time ANT: TAXO ➞ subTAXO ➞ what SPHERE</entry>
+                              <entry>#ANT and TAXO #value ➞ subTAXO #value ➞ SPHERE #value</entry>
                               <entry>//ns:span</entry>
                               <entry>
-                                <codeblock>contains(<xmlatt>ana</xmlatt>,'#ANT') and contains(<xmlatt>ana</xmlatt>,'#action') and 
-contains(<xmlatt>ana</xmlatt>,'#outside') and contains(<xmlatt>type</xmlatt>,'summary')</codeblock>
+                                <codeblock>contains(<xmlatt>ana</xmlatt>,'#ANT') and contains(<xmlatt>ana</xmlatt>,'#TAXO') and 
+contains(<xmlatt>ana</xmlatt>,'#SPHERE')</codeblock>
                               </entry>
                             </row>
                             <row>
-                              <entry>Amout of time ANT: taxo action ➞ subTAXO ➞ what SPHERE, which
+                              <entry>Amout of time ANT: TAXO ➞ subTAXO ➞ what SPHERE, which
                                 ROLE</entry>
-                              <entry>#ANT and #action ➞ #subTAXO VALUE ➞ SPHERE #value, ROLE
+                              <entry>#ANT and TAXO #value ➞ subTAXO #value ➞ SPHERE #value, ROLE
                                 #value</entry>
                               <entry>//ns:span</entry>
                               <entry>
-                                <codeblock>contains(<xmlatt>ana</xmlatt>,'#ANT') and contains(<xmlatt>ana</xmlatt>,'#action') and
-contains(<xmlatt>ana</xmlatt>,'#outside') and contains(<xmlatt>ana</xmlatt>,'#active') 
-and contains(<xmlatt>type</xmlatt>,'summary')</codeblock>
+                                <codeblock>contains(<xmlatt>ana</xmlatt>,'#ANT') and contains(<xmlatt>ana</xmlatt>,'#TAXO') and
+contains(<xmlatt>ana</xmlatt>,'#SPHERE') and contains(<xmlatt>ana</xmlatt>,'#ROLE') </codeblock>
                               </entry>
                             </row>
                             <row>
-                              <entry>Total AE</entry>
-                              <entry>#entity</entry>
+                              <entry>Total AE (Character)</entry>
+                              <entry>CHARACTER #value</entry>
                               <entry>//ns:persName</entry>
                               <entry>
-                                <codeblock>contains(<xmlatt>ana</xmlatt>,'#entity') and contains(<xmlatt>type</xmlatt>, 'character')</codeblock>
+                                <codeblock>contains(<xmlatt>ana</xmlatt>,'#CHARACTER') and contains(<xmlatt>type</xmlatt>, 'character')</codeblock>
                               </entry>
                             </row>
                           </tbody>
@@ -245,19 +256,21 @@ and contains(<xmlatt>type</xmlatt>,'summary')</codeblock>
                 </li>
               </ul></li>
             <li>Pourcentage: <ol>
-                <li>assign variables, example for ʿAnatu's actions, variable 'action_anatu':
-                  <codeblock>nodes=getNodeSet(doc,"//*[contains(@ana,'#action') and contains(@ana,'#ANT')]", ns)
-             action_anatu=length(nodes)
-             action_anatu</codeblock></li>
+                <li>assign variables, example for ʿAnatu's competition's verb, variable
+                  'verbComp_anatu':
+                  <codeblock>nodes=getNodeSet(doc,"//*[contains(@ana,'#verb.competition') and contains(@ana,'#ANT')]", ns)
+             verbComp_anatu=length(nodes)
+             verbComp_anatu</codeblock></li>
                 <li/>
               </ol>
             </li>
-          </ul></li> 
-      </ol>
-     Example:<codeblock>nodes=getNodeSet(doc,"//*[contains(@ana,'#action') and contains(#ana,'#movement') contains(@type,'verb')]", ns)</codeblock>
-     Meaning: find all animated entities who perform an action, type 'movement' <xref href="withinTranscrip.dita" format="dita" scope="local">within transcription</xref>
-         subsection. 
-     
-    </p>
+          </ul></li>
+      </ol> Example
+      :<codeblock>nodes=getNodeSet(doc,"//*[contains(@ana,'#verb.competition') and contains(#ana,'#contend') contains(@type,'verb')]", ns)</codeblock>
+      Meaning: find all animated entities (Character) who perform a competition's verb, type
+      'contend' <xref href="withinTranscrip.dita" format="dita" scope="local">within
+        transcription</xref> subsection. </p>
+   <lines/>
+   <p>➤ Shorly other examples for multiple requests.</p>
  </conbody>
 </concept>

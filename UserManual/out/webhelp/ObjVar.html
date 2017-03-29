@@ -27,9 +27,9 @@
 
      <li class="li">Values: objectiveData|CATEGORY|SUBCATEGORY</li>
 
-        <li class="li">OntoMedia ontology: <ul class="ul" id="concept_ObjVar01__ul_z1h_vwn_jz">
-          <li class="li">Ontology module: <a class="xref" href="http://www.contextus.net/ontology/ontomedia/ex/ext/common/trait" target="_blank">Trait</a> (characteristics),
-              <code class="ph codeph">rdf:ID</code>="Genetic-Sex"</li>
+        <li class="li">Ontology: <ul class="ul" id="concept_ObjVar01__ul_z1h_vwn_jz">
+            <li class="li" id="concept_ObjVar01__objVar_ontoM01">OntoMedia module: <a class="xref" href="http://www.contextus.net/ontology/ontomedia/ex/ext/common/trait" target="_blank">Trait</a> (characteristics),
+              <code class="ph codeph">rdf:ID</code>="Genetic-sex"</li>
 
           </ul>
 </li>
@@ -42,7 +42,7 @@
    </div>
 
    <div class="p">They are several variables (<code class="keyword markupname xmlelement">&lt;category&gt;</code>) which provide relevant
-      information on the character's acting (<a class="xref" href="PrimData.html">primary data</a>): <a class="xref" href="ObjVar.html#concept_ObjVar01__verbSem01">verbal semantic</a>, <a class="xref" href="ObjVar.html#concept_ObjVar01__sphere01">sphere</a>, <a class="xref" href="ObjVar.html#concept_ObjVar01__context01">context</a>, <a class="xref" href="ObjVar.html#concept_ObjVar01__role01">role</a>, <a class="xref" href="ObjVar.html#concept_ObjVar01__bioSex01">Genetic-sex</a>, which follow
+      information on the character's acting (<a class="xref" href="PrimData.html">primary data</a>): <a class="xref" href="ObjVar.html#concept_ObjVar01__verbSem01">verb category</a>, <a class="xref" href="ObjVar.html#concept_ObjVar01__sphere01">sphere</a>, <a class="xref" href="ObjVar.html#concept_ObjVar01__context01">context</a>, <a class="xref" href="ObjVar.html#concept_ObjVar01__role01">role</a>, <a class="xref" href="ObjVar.html#concept_ObjVar01__bioSex01">genetic-sex</a>, which follow
       the same semantic frame for marking up a type of
       taxonomy:<pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"objectiveData"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
     <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"NAME OF A VARIABLE"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
@@ -53,47 +53,70 @@
    <div class="note note"><span class="notetitle">Note:</span> a variable = category or taxonomy. A subvariable = subcategory or subtaxonomy.</div>
 
     <p class="p">➤ Each <code class="keyword markupname xmlatt">@xml:id</code> from <code class="keyword markupname xmlelement">&lt;taxonomy&gt;</code> ➞
-        <code class="keyword markupname xmlelement">&lt;category&gt;</code>, and <code class="keyword markupname xmlelement">&lt;taxonomy&gt;</code> ➞
-        <code class="keyword markupname xmlelement">&lt;category&gt;</code> ➞ <code class="keyword markupname xmlelement">&lt;category&gt;</code> will be use in R. </p>
+        <code class="keyword markupname xmlelement">&lt;category&gt;</code>[1], and <code class="keyword markupname xmlelement">&lt;taxonomy&gt;</code> ➞
+        <code class="keyword markupname xmlelement">&lt;category&gt;</code>[1] ➞ <code class="keyword markupname xmlelement">&lt;category&gt;</code>[2] will be use in
+      R. </p>
 
     <p class="p"></p>
 
      <ol class="ol">
-       <li class="li" id="concept_ObjVar01__verbSem01"><strong class="ph b">Verbal semantic</strong>
-         <ul class="ul">
-           <li class="li" id="concept_ObjVar01__verbTaxo01">Taxonomy <code class="keyword markupname xmlelement">&lt;category&gt;</code> ➞ <code class="keyword markupname xmlatt">@xml:id</code>
-            TAXO: action <div class="note note"><span class="notetitle">Note:</span> <em class="ph i">The current research is on the animated entities action, but of
-                course the same semantic markup can be apply to other semantic
-              categories.</em></div>
+       <li class="li" id="concept_ObjVar01__verbSem01"><strong class="ph b">Verb category</strong> (= action category)<ul class="ul">
+          <li class="li">
+            <p class="p">For the semantic type of the lexicon verb — semantics categories are the ones used by
+              the lexical database <a class="xref" href="http://wordnet.princeton.edu" target="_blank">WordNet</a>, semantics correspondance come from both WordNet and
+                <a class="xref" href="http://verbs.colorado.edu/verb-index/index.php" target="_blank">VerbNet</a> and for checking the relation between concept, <a class="xref" href="http://babelnet.org/about" target="_blank">BabelNet</a> and
+                <a class="xref" href="https://framenet2.icsi.berkeley.edu" target="_blank">FrameNet</a><a name="fnsrc_1" href="#fntarg_1"><sup>1</sup></a>. It goes without saying that
+              variation of ugaritic meaning will be analyzed within the <a class="xref" href="process.html#task_step__hermeneutics01">hermeneutics</a> argumentation.</p>
 
-            <ul class="ul">
-              <li class="li" id="concept_ObjVar01__verbSub01">Subtaxonomies, <code class="keyword markupname xmlelement">&lt;category&gt;</code> ➞
-                  <code class="keyword markupname xmlatt">@xml:id</code> subTAXO: movement, agression, confrontation,destruction,
-                displacement, put together</li>
+            <ul class="ul" id="concept_ObjVar01__ul_vrj_lfv_jz">
+              <li class="li">Semantics categories of: bodily functions and care (verb.body), cognition
+                (verb.cognition), communication (verb.communication), competition
+                (verb.competition), consumpution (verb.consumpution), contact (verb.contact),
+                creation (verb.creation), emotion (verb.emotion), motion (verb.motion),perception
+                (verb.perception), possession (verb.possession), social (verb.social), stative
+                (verb.stative)</li>
+
+            </ul>
+
+          </li>
+
+          <li class="li" id="concept_ObjVar01__verbTaxo01">Category <code class="keyword markupname xmlelement">&lt;category&gt;</code>[1] ➞
+              <code class="keyword markupname xmlatt">@xml:id</code> TAXO: verb.creation <ul class="ul">
+              <li class="li" id="concept_ObjVar01__verbSub01">Subcategories (still under development as the transciption moves
+                forward), <code class="keyword markupname xmlelement">&lt;category&gt;</code>[2] ➞ <code class="keyword markupname xmlatt">@xml:id</code> subTAXO:
+                i.e. destroying (for TAXO verb creation)</li>
 
               <li class="li">XLM-TEI example:
-                <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"semantic"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
-   <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"action"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
-     <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"destruction"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
-   <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong>    
-<strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong>                </pre>
+                <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"verb.category"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#action"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"verb.creation"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+    <em class="hl-comment" style="color:#006400">&lt;!-- according to WordNet: “verbs of sewing, baking, painting, performing” --&gt;</em>
+    <strong class="hl-tag" style="color:#000096">&lt;catDesc&gt;</strong>taxonomy: creation verbs<strong class="hl-tag" style="color:#000096">&lt;/catDesc&gt;</strong>
+    <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"destroying"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+      <strong class="hl-tag" style="color:#000096">&lt;catDesc&gt;</strong>subcategory of creaction's verb, as a concept: destroying
+      — see <strong class="hl-tag" style="color:#000096">&lt;ref</strong> <span class="hl-attribute" style="color: #ff7935">target</span>=<span class="hl-value" style="color: #993300">"http://verbs.colorado.edu"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>VerbNet<strong class="hl-tag" style="color:#000096">&lt;idno</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">"URI"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>http://verbs.colorado.edu/verb-index/vn/destroy-44.php<strong class="hl-tag" style="color:#000096">&lt;/idno&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;/ref&gt;</strong>, 
+      <strong class="hl-tag" style="color:#000096">&lt;ref</strong> <span class="hl-attribute" style="color: #ff7935">target</span>=<span class="hl-value" style="color: #993300">"https://framenet2.icsi.berkeley.edu/"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>FrameNet<strong class="hl-tag" style="color:#000096">&lt;idno</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">"https://framenet2.icsi.berkeley.edu/fnReports/data/frame/Destroying.xml"</span><strong class="hl-tag" style="color:#000096">&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;/idno&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;/ref&gt;</strong>,
+      and <strong class="hl-tag" style="color:#000096">&lt;ref</strong> <span class="hl-attribute" style="color: #ff7935">target</span>=<span class="hl-value" style="color: #993300">"http://wordnetweb.princeton.edu"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>WordNet<strong class="hl-tag" style="color:#000096">&lt;idno</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">"URI"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>https://tinyurl.com/mxkdgw8<strong class="hl-tag" style="color:#000096">&lt;/idno&gt;</strong> (<strong class="hl-tag" style="color:#000096">&lt;note&gt;</strong>WordNet URI not conformed for "idno" element<strong class="hl-tag" style="color:#000096">&lt;/note&gt;</strong>)<strong class="hl-tag" style="color:#000096">&lt;/ref&gt;</strong> 
+    <strong class="hl-tag" style="color:#000096">&lt;/catDesc&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong>
+ <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong> 
+ […]
+<strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong>              </pre>
 </li>
 
             </ul>
 </li>
- 
-         </ul>
 
-       </li>
+        </ul>
+
+      </li>
 
        <li class="li" id="concept_ObjVar01__context01"><strong class="ph b">Context </strong>
      <ul class="ul">
        <li class="li">➯ in which the action takes place.</li>
 
-      <li class="li">Subcategories <code class="keyword markupname xmlelement">&lt;category&gt;</code> ➞ <code class="keyword markupname xmlatt">@xml:id</code>: ritual, battle,
-              single combat, assembly, prayer, feast, wedding, burial, seduction, meeting,
-              complaint, lawsuit, threat, revenge, visit, unknown (unknown_C), broken context
-              (B_ctx_C).</li>
+      <li class="li">Subcategories <code class="keyword markupname xmlelement">&lt;category&gt;</code> ➞ <code class="keyword markupname xmlatt">@xml:id</code>: assembly,
+            battle, burial, complaint, feast, lawsuit, prayer, revenge, ritual, seduction, single
+            combat, threat, visit, wedding, unknown (unknown_C), broken context (B_ctx_C).</li>
 
       <li class="li">XML-TEI example:
             <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"context"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
@@ -136,20 +159,21 @@
           </ul>
 </li>
 
-       <li class="li" id="concept_ObjVar01__bioSex01"><strong class="ph b">Biological sex</strong> <ul class="ul">
-      <li class="li">➯ traditionally known.</li>
- 
-     <li class="li">Subcategories <code class="keyword markupname xmlelement">&lt;category&gt;</code> ➞ <code class="keyword markupname xmlatt">@xml:id</code>: female,
+       <li class="li" id="concept_ObjVar01__bioSex01"><strong class="ph b">Genetic sex</strong>
+        <ul class="ul">
+          <li class="li">➯ traditionally known.</li>
+
+          <li class="li">Subcategories <code class="keyword markupname xmlelement">&lt;category&gt;</code> ➞ <code class="keyword markupname xmlatt">@xml:id</code>: female,
             male</li>
 
-      <li class="li">XML-TEI example:
+          <li class="li">XML-TEI example:
             <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"Genetic-sex"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
     <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"Female"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
 <strong class="hl-tag" style="color:#000096">&lt;category/&gt;</strong></pre>
 
           </li>
 
-     </ul>
+        </ul>
 </li>
 
      </ol>
@@ -158,7 +182,8 @@
  </div>
 
 
-<nav role="navigation" class="related-links"></nav></article></main><footer role="contentinfo"><div class="navfooter"><!---->
+<nav role="navigation" class="related-links"></nav><div class="fn"><a name="fntarg_1" href="#fnsrc_1"><sup>1</sup></a>  Of course, the interpretation of their content in the current
+                guidelines relies on my own responsibility.</div></article></main><footer role="contentinfo"><div class="navfooter"><!---->
 <span class="navparent"><a class="link" href="categories.html" title="Analytical taxonomies"><span class="navheader_label">Parent topic</span><span class="navheader_separator">: </span><span class="navheader_linktext">Analytical taxonomies</span></a></span>  </div><div class="footer" id="webhelp_copyright_information">WebHelp output generated by<a class="oxyFooter" href="http://www.oxygenxml.com" target="_blank">
                             &lt;oXygen/&gt; XML Author
                         </a></div></footer></body>

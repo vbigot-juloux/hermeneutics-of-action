@@ -10,8 +10,8 @@
         <li>XPath: /teiCorpus/TEI/teiHeader/encodingDesc[1]/classDecl[1]/taxonomy[1]</li>
         <li id="xmlTEI_primD">XML-TEI elements: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-taxonomy.html" format="html" scope="external">taxonomy</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-category.html" format="html" scope="external">category</xref></li>
         <li>XML-TEI attributes: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" format="html" scope="external"><xmlatt>xml:id</xmlatt></xref></li>
-        <li>Values: verb|Being</li>
-        <li>OntoMedia ontology: class <xref
+        <li>Values: action|Being</li>
+        <li id="primData_ontoM01">OntoMedia ontology: class <xref
             href="http://www.contextus.net/ontology/ontomedia/ex/ext/common/being" format="html"
             scope="external">Being</xref>, specific use in fiction — be aware that for the
           explanation, “animated entity” will be used.</li>
@@ -47,7 +47,7 @@
               format="html" scope="external"><xmlatt>ana</xmlatt></xref>|<xref
               href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" format="html"
               scope="external"><xmlatt>xml:id</xmlatt></xref></li>
-          <li>Values: Being|ID Being|CHARACTER'S NAME</li>
+          <li>Values: Being|CHARACTER</li>
         </ul>
         <overline/>
         <ul>
@@ -60,11 +60,12 @@
               href="PrimData.dita#concept_PrimVar01/xmlTEI_entity01" format="dita">elements</xref>
             <xmlelement>profileDesc</xmlelement> ➞ <xmlelement>particDesc</xmlelement> ➞
               <xmlelement>listPerson</xmlelement> elements before the XML-TEI attributes for xml:id
-              <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_verb" format="dita">verb</xref> and
-              <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_entity" format="dita">Being</xref>:
+              <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_verb" format="dita">action</xref>
+            and <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_entity" format="dita"
+              >Being</xref>:
             <codeblock outputclass="language-xml">&lt;profileDesc>&lt;particDesc>
    &lt;listPerson type="character" ana="#Being" xml:id="Character"> &lt;!-- animated entity -->
-      &lt;person ana="#who">
+      &lt;person ana="#whatCharacter">
          &lt;persName xml:id="ANT">ʾAnatu&lt;/persName>
        &lt;/person>
    &lt;/listPerson>
@@ -75,22 +76,28 @@
     <p><b>Primary data</b> within the <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_primD" format="dita">elements</xref>
       <xmlelement>encodingDesc</xmlelement> ➞ <xmlelement>classDecl</xmlelement>: </p>
       <ul id="ul_qtp_t4g_jz">
-        <li>Verb: <ul id="ul_rtp_t4g_jz">
-          <li>&#x27af; Most relevant lexeme in a group of words or a sentence which is used to denote a performance of acting — this hypothesis for this preliminary of hermeneutics of action was made following my reading on the philosophy of action and the pragmatics<fn>a detailed explanation will be given in a forthcoming paper by November 2017.</fn>. A verb belongs to a
-            taxonomy (= <xmlelement>category</xmlelement>) and sub-taxonomy (<xref
-              href="ObjVar.dita#concept_ObjVar01/verbSem01" format="dita">objective
-            variables</xref>).</li>
-            <li id="xmlTEI_verb">XML-TEI:<codeblock outputclass="language-xml">&lt;taxonomy xml:id="primaryData"> 
-    &lt;category xml:id="verb"/>  
+        <li>Action (verb): <ul id="ul_rtp_t4g_jz">
+          <li>&#x27af; A <b>verb</b> is the most relevant lexeme in a group of words or a sentence
+            which is used to denote an action — this hypothesis for this preliminary of hermeneutics
+            of action was made following my reading on the philosophy of action and the
+              pragmatics<fn>a detailed explanation will be given in a forthcoming paper by November
+              2017.</fn>. A verb (<xmlatt>xml:id</xmlatt>="action") belongs to a category (=
+              <xmlelement>category</xmlelement>: <xref
+              href="ObjVar.dita#concept_ObjVar01/verbTaxo01" format="dita" scope="local"
+            >TAXO</xref>) and sub-category (= <xmlelement>category</xmlelement>: <xref
+              href="ObjVar.dita#concept_ObjVar01/verbSub01" format="dita" scope="local"
+              >subTAXO</xref>).</li>
+          <li id="xmlTEI_verb"
+            >XML-TEI:<codeblock outputclass="language-xml">&lt;taxonomy xml:id="primaryData"> 
+    &lt;category xml:id="action"/> 
 &lt;/taxonomy>     </codeblock></li>
-          </ul></li>
+        </ul></li>
         <li>Being (= animated entity): <ul id="ul_stp_t4g_jz">
-          <li>&#x27af; who is the character acting in several ways with relevant <xref
-              href="ObjVar.dita">objective</xref> and <xref href="SubjVar.dita">subjective</xref>
-            variables.</li>
+          <li>&#x27af; any character acting within one or several relevant <xref href="ObjVar.dita"
+              >objective</xref>  and <xref href="SubjVar.dita">subjective</xref> variables.</li>
           <li id="xmlTEI_entity02">XML-TEI attribute for Primary data Being:
             <codeblock outputclass="language-xml">&lt;taxonomy xml:id="primaryData"> 
-   &lt;category xml:id="Being"/>  
+   &lt;category xml:id="Being"/>   
 &lt;/taxonomy>       </codeblock></li>
         </ul></li>
       </ul>

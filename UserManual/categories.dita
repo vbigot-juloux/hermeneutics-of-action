@@ -28,19 +28,19 @@
    &#60;taxonomy xml:id="objectiveData">  &#60;!-- Objective variables --> &#60;/taxonomy> 
    &#60;taxonomy xml:id="subjectiveData">  &#60;!-- Subjective variables --> &#60;/taxonomy> 
    &#60;/classDecl>&#60;/encodingDesc> </codeblock></p><lines/>
-   <p>In anticipation of the ontology (<xref href="https://www.w3.org/TR/owl-guide/" format="html"
-        scope="external">OWL</xref>) of power relationships with linked open data standards, I use
-      as XML-TEI attributes few OWL class <codeph>rdf:ID</codeph> of the <xref
-        href="https://www.w3.org/TR/REC-rdf-syntax/" format="html" scope="external">Resource
-        Description Framework</xref> (RDF) proposed by <xref
-        href="http://www.contextus.net/ontomedia/model" format="html" scope="external">OntoMedia
-        ontology</xref>. The OWL <xref
-          href="https://www.w3.org/TR/2004/REC-owl-ref-20040210/#Class-def" format="html"
-        scope="external">class</xref> is similar to the XML attribute, which is of course a very
-      valuable argument. When a OWL class is used for XML-TEI attribute, it will be specified.</p>
+   <p>In anticipation or the future development of an (<xref href="https://www.w3.org/TR/owl-guide/"
+        format="html" scope="external">OWL</xref>) ontology of power relationships using linked open
+      data standards, I have equated existent OWL or RDF classes with certain XML-TEI attributes (these
+      have been specified where relevant):
+     <ul><li><xref href="http://www.gsi.dit.upm.es/ontologies/onyx/" format="html" scope="external">Onyx
+            Ontology Specification</xref> for subjective data</li>
+       <li><xref href="http://www.contextus.net/ontomedia" format="html" scope="external">OntoMedia ontology</xref> for <xref href="PrimData.dita#concept_PrimVar01/primData_ontoM01" format="dita" scope="local">primary data</xref> and <xref href="ObjVar.dita#concept_ObjVar01/objVar_ontoM01" format="dita" scope="local">objective data</xref></li></ul></p>
+    
     <p>My choice of using the OntoMedia ontology is relevant because we share the same primary goal,
       althought final purpose is different since mine is for anthropological purpose: <q
         xml:lang="en" xtrf="http://www.contextus.net">to allow people to explore and analyse
-        narratives</q><fn><xref href="http://www.contextus.net" format="html" scope="external"/></fn>.</p>
+        narratives</q><fn><xref href="http://www.contextus.net" format="html" scope="external"
+        /></fn></p>
+    <p/>
  </conbody>
 </concept>

@@ -9,14 +9,20 @@
   <p>Data mining is divided into two sections:
   <ol>
    <li><xref href="withinTranscrip.dita" format="dita" scope="local">Within transcription</xref>:
-          (a) primary data, and (b) objective variables which principal aim is to count verb
-          occurrences and their TAXO, subTAXO according to AEs.</li>
-   <li><xref href="interpretation.dita" format="dita" scope="local">Interpretation</xref>: (a)
-          primary data, (b) objective variables, and (c) subjective variables for the interpretation
-          of AE's action.</li>
+     (a) <xref href="PrimData.dita" format="dita" scope="local">primary data</xref>, and (b) <xref
+      href="ObjVar.dita" format="dita" scope="local">objective variables</xref> which principal aim
+     is to count verb occurrences and their <xref href="ObjVar.dita#concept_ObjVar01/verbTaxo01"
+      format="dita">TAXO</xref> (category), <xref href="ObjVar.dita#concept_ObjVar01/verbSub01"
+      format="dita">subTAXO</xref> (subCategory) according to animated entities.</li>
+   <li><xref href="interpretation.dita" format="dita" scope="local">Interpretation</xref>: (a) <xref
+      href="PrimData.dita" format="dita" scope="local">primary data</xref>, (b) <xref
+      href="SubjVar.dita" format="dita" scope="local">objective variables</xref>, and (c) <xref
+      href="SubjVar.dita" format="dita" scope="local">subjective</xref> variables for the
+     interpretation of animated entities' action.</li>
   </ol></p>
    
-   <p>Explanation through a practical example: passage KTU 1.3:ii:4b-16 of the Cycle of Baʿlu and ʿAnatu.</p>
+   <p>Explanation through a practical example: passage KTU 1.3:ii:4b-30 of the Cycle of Baʿlu and
+   ʿAnatu.</p>
   
 
  </conbody>

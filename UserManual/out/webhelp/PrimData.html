@@ -26,9 +26,9 @@
 
         <li class="li">XML-TEI attributes: <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" target="_blank"><code class="keyword markupname xmlatt">@xml:id</code></a></li>
 
-        <li class="li">Values: verb|Being</li>
+        <li class="li">Values: action|Being</li>
 
-        <li class="li">OntoMedia ontology: class <a class="xref" href="http://www.contextus.net/ontology/ontomedia/ex/ext/common/being" target="_blank">Being</a>, specific use in fiction — be aware that for the
+        <li class="li" id="concept_PrimVar01__primData_ontoM01">OntoMedia ontology: class <a class="xref" href="http://www.contextus.net/ontology/ontomedia/ex/ext/common/being" target="_blank">Being</a>, specific use in fiction — be aware that for the
           explanation, “animated entity” will be used.</li>
 
         <li class="li"><a class="xref" href="schema.html#concept_schemaIMG__image_primData">Schema of primary data</a> ➟</li>
@@ -49,7 +49,7 @@
 
           <li class="li">XML-TEI attributes: <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.typed.html" target="_blank"><code class="keyword markupname xmlatt">@type</code></a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.analytic.html" target="_blank"><code class="keyword markupname xmlatt">@ana</code></a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" target="_blank"><code class="keyword markupname xmlatt">@xml:id</code></a></li>
 
-          <li class="li">Values: Being|ID Being|CHARACTER'S NAME</li>
+          <li class="li">Values: Being|CHARACTER</li>
 
         </ul>
 
@@ -64,11 +64,11 @@
           <li class="li">XML-TEI example for ʿAnatu, attributes within the <a class="xref" href="PrimData.html#concept_PrimVar01__xmlTEI_entity01">elements</a>
             <code class="keyword markupname xmlelement">&lt;profileDesc&gt;</code> ➞ <code class="keyword markupname xmlelement">&lt;particDesc&gt;</code> ➞
               <code class="keyword markupname xmlelement">&lt;listPerson&gt;</code> elements before the XML-TEI attributes for xml:id
-              <a class="xref" href="PrimData.html#concept_PrimVar01__xmlTEI_verb">verb</a> and
-              <a class="xref" href="PrimData.html#concept_PrimVar01__xmlTEI_entity">Being</a>:
+              <a class="xref" href="PrimData.html#concept_PrimVar01__xmlTEI_verb">action</a>
+            and <a class="xref" href="PrimData.html#concept_PrimVar01__xmlTEI_entity">Being</a>:
             <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;profileDesc&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;particDesc&gt;</strong>
    <strong class="hl-tag" style="color:#000096">&lt;listPerson</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">"character"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#Being"</span> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"Character"</span><strong class="hl-tag" style="color:#000096">&gt;</strong> <em class="hl-comment" style="color:#006400">&lt;!-- animated entity --&gt;</em>
-      <strong class="hl-tag" style="color:#000096">&lt;person</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#who"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+      <strong class="hl-tag" style="color:#000096">&lt;person</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#whatCharacter"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
          <strong class="hl-tag" style="color:#000096">&lt;persName</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"ANT"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>ʾAnatu<strong class="hl-tag" style="color:#000096">&lt;/persName&gt;</strong>
        <strong class="hl-tag" style="color:#000096">&lt;/person&gt;</strong>
    <strong class="hl-tag" style="color:#000096">&lt;/listPerson&gt;</strong>
@@ -86,26 +86,27 @@
       <code class="keyword markupname xmlelement">&lt;encodingDesc&gt;</code> ➞ <code class="keyword markupname xmlelement">&lt;classDecl&gt;</code>: </p>
 
       <ul class="ul" id="concept_PrimVar01__ul_qtp_t4g_jz">
-        <li class="li">Verb: <ul class="ul" id="concept_PrimVar01__ul_rtp_t4g_jz">
-          <li class="li">➯ Most relevant lexeme in a group of words or a sentence which is used to denote a performance of acting — this hypothesis for this preliminary of hermeneutics of action was made following my reading on the philosophy of action and the pragmatics<a name="fnsrc_1" href="#fntarg_1"><sup>1</sup></a>. A verb belongs to a
-            taxonomy (= <code class="keyword markupname xmlelement">&lt;category&gt;</code>) and sub-taxonomy (<a class="xref" href="ObjVar.html#concept_ObjVar01__verbSem01">objective
-            variables</a>).</li>
+        <li class="li">Action (verb): <ul class="ul" id="concept_PrimVar01__ul_rtp_t4g_jz">
+          <li class="li">➯ A <strong class="ph b">verb</strong> is the most relevant lexeme in a group of words or a sentence
+            which is used to denote an action — this hypothesis for this preliminary of hermeneutics
+            of action was made following my reading on the philosophy of action and the
+              pragmatics<a name="fnsrc_1" href="#fntarg_1"><sup>1</sup></a>. A verb (<code class="keyword markupname xmlatt">@xml:id</code>="action") belongs to a category (=
+              <code class="keyword markupname xmlelement">&lt;category&gt;</code>: <a class="xref" href="ObjVar.html#concept_ObjVar01__verbTaxo01">TAXO</a>) and sub-category (= <code class="keyword markupname xmlelement">&lt;category&gt;</code>: <a class="xref" href="ObjVar.html#concept_ObjVar01__verbSub01">subTAXO</a>).</li>
 
-            <li class="li" id="concept_PrimVar01__xmlTEI_verb">XML-TEI:<pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"primaryData"</span><strong class="hl-tag" style="color:#000096">&gt;</strong> 
-    <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"verb"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>  
+          <li class="li" id="concept_PrimVar01__xmlTEI_verb">XML-TEI:<pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"primaryData"</span><strong class="hl-tag" style="color:#000096">&gt;</strong> 
+    <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"action"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong> 
 <strong class="hl-tag" style="color:#000096">&lt;/taxonomy&gt;</strong>     </pre>
 </li>
 
-          </ul>
+        </ul>
 </li>
 
         <li class="li">Being (= animated entity): <ul class="ul" id="concept_PrimVar01__ul_stp_t4g_jz">
-          <li class="li">➯ who is the character acting in several ways with relevant <a class="xref" href="ObjVar.html">objective</a> and <a class="xref" href="SubjVar.html">subjective</a>
-            variables.</li>
+          <li class="li">➯ any character acting within one or several relevant <a class="xref" href="ObjVar.html">objective</a>  and <a class="xref" href="SubjVar.html">subjective</a> variables.</li>
 
           <li class="li" id="concept_PrimVar01__xmlTEI_entity02">XML-TEI attribute for Primary data Being:
             <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"primaryData"</span><strong class="hl-tag" style="color:#000096">&gt;</strong> 
-   <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"Being"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>  
+   <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"Being"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>   
 <strong class="hl-tag" style="color:#000096">&lt;/taxonomy&gt;</strong>       </pre>
 </li>
 
@@ -116,7 +117,8 @@
 
   </div>
 
-<nav role="navigation" class="related-links"></nav><div class="fn"><a name="fntarg_1" href="#fnsrc_1"><sup>1</sup></a>  a detailed explanation will be given in a forthcoming paper by November 2017.</div></article></main><footer role="contentinfo"><div class="navfooter"><!---->
+<nav role="navigation" class="related-links"></nav><div class="fn"><a name="fntarg_1" href="#fnsrc_1"><sup>1</sup></a>  a detailed explanation will be given in a forthcoming paper by November
+              2017.</div></article></main><footer role="contentinfo"><div class="navfooter"><!---->
 <span class="navparent"><a class="link" href="categories.html" title="Analytical taxonomies"><span class="navheader_label">Parent topic</span><span class="navheader_separator">: </span><span class="navheader_linktext">Analytical taxonomies</span></a></span>  </div><div class="footer" id="webhelp_copyright_information">WebHelp output generated by<a class="oxyFooter" href="http://www.oxygenxml.com" target="_blank">
                             &lt;oXygen/&gt; XML Author
                         </a></div></footer></body>

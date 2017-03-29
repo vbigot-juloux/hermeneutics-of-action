@@ -23,15 +23,15 @@
       <codeblock outputclass="language-xml">
     &lt;interpGrp resp="#Juloux" xml:id="hermeneutics" type="structuralUnit" ana="#taxonomies">
       &lt;!-- ref -->
-      &lt;interp n="1" xml:id="perform" ana="#primaryData #objectiveData #verb #semantic">What performance&lt;/interp>
+      &lt;interp n="1" xml:id="whatAction" ana="#primaryData #objectiveData #action #verb.category"/>
       &lt;!-- castList > castItem -->
-      &lt;interp n="2" xml:id="who" ana="#Character #primaryData #Genetic-sex">Animated entity&lt;/interp>
-      &lt;interp n="3" xml:id="behav" ana="#role #objectiveData">What behavior&lt;/interp> 
+      &lt;interp n="2" xml:id="whatCharacter" who" ana="#Character #primaryData #Genetic-sex"/>
+      &lt;interp n="3" xml:id="whatRole" ana="#role #objectiveData"/>
       &lt;!-- view -->
-      &lt;interp n="4" xml:id="occasion" ana="#context">What occasion&lt;/interp>
-      &lt;interp n="5" xml:id="where" ana="#objectiveData #sphere">Where&lt;/interp>
+      &lt;interp n="4" xml:id="whatContext" ana="#context"/>
+      &lt;interp n="5" xml:id="whatSphere" ana="#objectiveData #sphere"/>
       &lt;!-- stage -->
-      &lt;interp n="6" xml:id="how" ana="#subjectiveData">How acts the animated entity&lt;/interp>
+      &lt;interp n="6" xml:id="whatBehavior" ana="#subjectiveData">How acts the animated entity&lt;/interp>
    &lt;/interpGrp></codeblock>
     </p>
  </conbody>

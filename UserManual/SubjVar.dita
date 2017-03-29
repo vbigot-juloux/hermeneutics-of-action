@@ -12,6 +12,10 @@
             format="html" scope="external">category</xref></li>
    <li>XML-TEI attributes: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" format="html" scope="external"><xmlatt>xml:id</xmlatt></xref></li>
    <li>Values: subjectiveData|CATEGORY|SUBCATEGORY</li>
+        <li>Existent RDF class: <xref href="http://www.gsi.dit.upm.es/ontologies/onyx/"
+            format="html" scope="external">Onyx Ontology Specification</xref> Class:onyx:<xref
+            href="http://www.gsi.dit.upm.es/ontologies/onyx/#EmotionCategory" format="html"
+            scope="external">EmotionCategory</xref></li>
     <li><xref href="schema.dita#concept_schemaIMG/image_subjVar" format="dita" scope="local">Schema
       of subjective variables</xref> ➟</li>
   </ul>
@@ -21,11 +25,11 @@
     &lt;category xml:id="NAME OF A VARIABLE"/>
       &lt;category xml:id="NAME OF A SUBVARIABLE"/>
 &lt;/taxonomy></codeblock>
-      <note>a variable = categorie or taxonomy. A subvariable = subcategorie or
-      subtaxonomie.</note></p>
+      <note>a variable = category or taxonomy. A subvariable = subcategory or
+      subtaxonomy.</note></p>
     <p> ➤ Each <xmlatt>xml:id</xmlatt> from <xmlelement>taxonomy</xmlelement> ➞
         <xmlelement>category</xmlelement>, and <xmlelement>taxonomy</xmlelement> ➞
-        <xmlelement>category</xmlelement> ➞ <xmlelement>category</xmlelement> will be use in R. </p>
+        <xmlelement>category</xmlelement> ➞ <xmlelement>category</xmlelement> will be used in R. </p>
     <p/>
       <ul id="ul_xdm_lzs_gz">
         <li id="conseq01"><b>Consequence</b><ul id="ul_ydm_lzs_gz">
@@ -41,45 +45,56 @@
         </li>
       </ul>
       <ul id="ul_zdm_lzs_gz">
-        <li id="affect01"><b>Affectivity</b> <ul id="ul_a2m_lzs_gz">
-            <li>&#x27af; what kind of affectivity and its degree?</li>
-            <li>Subcategories: rage, anger, anxious, betrayed, discouraged, hurt, pride,
-              satifaction. <ul id="ul_b2m_lzs_gz">
-                <li>Degree of affectivity <xmlelement>category</xmlelement> ➞
-                    <xmlatt>xml:id</xmlatt>: feeble, medium, normal, hight, very hight.</li>
-              </ul></li>
-            <li>XML-TEI example:
-            <codeblock outputclass="language-xml">&lt;category xml:id="Affectivity">
+        <li id="affect01"><b>Emotion</b>
+        <ul id="ul_a2m_lzs_gz">
+          <li>&#x27af; what kind of emotion (affectivity in philosophy of action) and its
+            intenstity?</li>
+          <li>Subcategories (26) from <xref
+              href="https://www.w3.org/TR/emotion-voc/#fsre-categories" format="html"
+              scope="external">FSRE categories</xref> (24: anger, anxiety, being hurt, compassion,
+            contempt, contentment, despair, disappointment, disgust, fear, guilt, happiness, hate,
+            interest, irritation, jealousy, joy, love, pleasure, pride, sadness, shame, stress,
+            surprise), to which I add satisfaction (from <xref
+              href="https://www.w3.org/TR/emotion-voc/#occ-categories" format="html"
+              scope="external">OCC categories</xref>) and discouragement. <ul id="ul_b2m_lzs_gz">
+              <li>hasEmotionIntensity <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>:
+                feeble, medium, normal, hight, very hight (equals a numerical value from 1 to
+                5)</li>
+            </ul></li>
+          <li>XML-TEI example:
+            <codeblock outputclass="language-xml">&lt;category xml:id="EmotionCategory">
     &lt;category xml:id="rage"/>
-    &lt;category xml:id="degreeAffectivity">
+    &lt;category xml:id="hasEmotionIntensity">
         &lt;category xml:id="medium"/>
     &lt;/category>  
 &lt;/category>        </codeblock>
           </li>
-          </ul>
-        </li>
+        </ul>
+      </li>
       </ul>
       <ul id="ul_c2m_lzs_gz">
-        <li id="degree01"><b>Degree of Desire</b> <ul id="ul_d2m_lzs_gz">
-            <li>&#x27af; What is the degree of desire of the action?</li>
-            <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: from one
-              to five (number_dD), and unknown (unknown_dD), broken context (B_ctx_dD)</li>
-            <li>XML-TEI example:
+        <li id="degree01"><b>Degree of desire</b>
+        <ul id="ul_d2m_lzs_gz">
+          <li>&#x27af; What is the action tendency?</li>
+          <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: from one to
+            five (number_dD), and unknown (unknown_dD), broken context (B_ctx_dD)</li>
+          <li>XML-TEI example:
             <codeblock outputclass="language-xml">&lt;category xml:id="degreeDesire">
    &lt;category xml:id="two_dD"/>
 &lt;/category>        </codeblock>
           </li>
-          </ul>
-        </li>
+        </ul>
+      </li>
       </ul>
       <ul id="ul_e2m_lzs_gz">
-        <li id="volIntent01"><b>Volontary Intentionality</b> <ul id="ul_f2m_lzs_gz">
-            <li>&#x27af; What type of volontary intentionality, and what motivation?</li>
-            <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: to kill,
-              to perform a rtiual, to destroy, to fight. <ul id="ul_g2m_lzs_gz">
-                <li id="motiv_vI01">What motivation: pressure or free will.</li>
-              </ul></li>
-            <li>XML-TEI example:
+        <li id="volIntent01"><b>Voluntary intentionality</b>
+        <ul id="ul_f2m_lzs_gz">
+          <li>&#x27af; What type of voluntary intentionality, and what motivation?</li>
+          <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: to kill, to
+            perform a rtiual, to destroy, to fight. <ul id="ul_g2m_lzs_gz">
+              <li id="motiv_vI01">What motivation: pressure or free will.</li>
+            </ul></li>
+          <li>XML-TEI example:
             <codeblock outputclass="language-xml">&lt;category xml:id="volontaryIntent">
    &lt;category xml:id="toKill"/>
    &lt;category xml:id="motivation_vI">
@@ -87,8 +102,8 @@
    &lt;/category> 
 &lt;/category>          </codeblock>
           </li>
-          </ul>
-        </li>
+        </ul>
+      </li>
       </ul>
 
  </conbody>

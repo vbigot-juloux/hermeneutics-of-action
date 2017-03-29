@@ -82,12 +82,17 @@
             ➞ <xmlelement>lg</xmlelement> , a practical example from KTU 1.3 (colonne 2, line
             5b-6a):</p>
         <p id="ex_KTU01">
-            <codeblock outputclass="language-xml">&lt;l n="5b-6a" ana="#ktu1-3_ii_l5b-6a_int" <b>xml:id="ktu1.3_ii_l5b-6a"</b> corresp="#ktu1-3_ii_l5b-6a_int">
-   &lt;w>w&lt;/w>&lt;space/>&lt;w>hln&lt;/w>&lt;g>.&lt;/g>
-   &lt;name type="entity" ana="#ANT #entity #v-ANT-ktu1-3_ii_l5b-6a">ʿnt&lt;/name>&lt;g>.&lt;/g>
-   &lt;w <b>type="verb"</b> ana="#MḪṢ01 <b>#ANT #action" #destruction</b> xml:id="ktu1-3_ii_l5b-6a_tmtḫṣ"><b>tm</b>&lt;lb break="no"<b>tḫṣ</b>&lt;/w>
-   &lt;g>.&lt;/g>&lt;w>b&lt;/w>&lt;space/>
-   &lt;w type="noun" ana="#ʿMQ">ʿmq&lt;/w>&lt;g>.&lt;/g>
+            <codeblock outputclass="language-xml">&lt;l n="5b-6a" xml:id="ktu1-3_ii_l5b-6a" ana="#ktu1-3_ii_l5b_6a_int" corresp="#ktu1-3_ii_l5b-6a_int">
+  &lt;w>w&lt;/w>&lt;space/>
+  &lt;w>hln&lt;/w>
+  &lt;g>.&lt;/g>
+  &lt;name type="character" ana="#Character #ANT #v-ANT-ktu1-3_ii_l5b-6a">ʿnt&lt;/name>
+  &lt;g>.&lt;/g>
+  &lt;w type="verb" ana="#MḪṢ01 <b>#verb.competition #contend</b> <b>#ANT</b>" xml:id="ktu1-3_ii_l5b-6a_tmtḫṣ">tm&lt;lb break="no"/>tḫṣ&lt;/w>
+  &lt;g>.&lt;/g>
+  &lt;w>b&lt;/w>&lt;space/>
+  &lt;w type="noun" ana="#ʿMQ">ʿmq&lt;/w>
+  &lt;g>.&lt;/g>
 &lt;/l></codeblock>
         </p>
         <p/>
@@ -103,7 +108,7 @@
                     essential to link the right ‘<xref href="ObjVar.dita" format="dita">objective
                         variables</xref>’ to ‘<xref href="SubjVar.dita" format="dita">subjective
                         variables</xref>’ for R statistics — in the repivous example,
-                        <b>xml:id="ktu1.3_ii_5b-6a</b>.</li>
+                        <b>xml:id="ktu1-3_ii_l5b-6a</b>.</li>
                 <li><xmlelement>w</xmlelement> :<ul id="ul_mb2_mjt_gz">
                         <li>➞ <xmlatt>type</xmlatt> ‘verb’ <ul id="ul_stg_34t_gz">
                                 <li>➞ <xmlatt>ana</xmlatt>
@@ -114,8 +119,8 @@
                                     <xref href="ObjVar.dita#concept_ObjVar01/verbTaxo01"
                                         format="dita">TAXO</xref> and <xref
                                         href="ObjVar.dita#concept_ObjVar01/verbSub01" format="dita"
-                                        >subTAXO</xref> — in previous example, <b>#action
-                                        #destruction</b>.</li>
+                                        >subTAXO</xref> — in previous example, <b>#verb.competition
+                                        #contend</b>.</li>
                             </ul></li>
                         <li>➞ verb ‘value’ —  in the previous example, <b>tmtḫṣ</b>.</li>
                     </ul></li>
@@ -128,7 +133,7 @@
         <image href="img/Transcription_example.svg" scope="local" height="280px" align="left"
             alt="schema within a transcription" id="image_usj_k5z_3z"/>
         <lines/>
-        <p>Specific case, verb repetition. For parsing XML-TEI in R, with and without emphasis.  <note>
+        <p>Specific case, verb repetition. For parsing XML-TEI in R, with and without emphasis. <note>
                 <ul>
                     <li>XML-TEI elements for the emphasis: <xmlelement>span</xmlelement></li>
                     <li>XML-TEI attribute: <xmlatt>type</xmlatt></li>
@@ -137,20 +142,20 @@
             </note><codeblock outputclass="language-xml">&lt;l n="23" ana="#ktu1-3_ii_l23" xml:id="ktu1-3_ii_23">
   &lt;lb/>&lt;w type="adv">mʾid&lt;/w>
   &lt;g>.&lt;/g>
-  &lt;w type="verb" ana="#MḪṢ01 #action #destruction #WAR" xml:id="ktu1-3_ii_23_tmtḫṣn">tmtḫṣn&lt;/w>
+  &lt;w type="verb" ana="#MḪṢ01 #verb.competition #contend #WAR" xml:id="ktu1-3_ii_23_tmtḫṣn">tmtḫṣn&lt;/w>
   &lt;g>.&lt;/g>
   &lt;w>w&lt;/w>&lt;space/>
-  &lt;w type="verb" ana="#ʿN01 #cognitive #watch #ANT" xml:id="ktu1-3_ii_23_tʿn">tʿn&lt;/w>
+  &lt;w type="verb" ana="#ʿN01 #verb.perception #observation #ANT" xml:id="ktu1-3_ii_23_tʿn">tʿn&lt;/w>
 &lt;/l>
 &lt;l n="24" ana="#ktu1-3_ii_l23" xml:id="ktu1-3_ii_24">&lt;span type="emphasize" ana="#ktu1-3_ii_23"/>
-  &lt;lb/>&lt;w type="verb" ana="#ḪSB01 #action #destruction #WAR" xml:id="ktu1-3_ii_24_tḫtṣb">
+  &lt;lb/>&lt;w type="verb" ana="#ḪSB01 #verb.competition #contend #WAR" xml:id="ktu1-3_ii_24_tḫtṣb">
       &lt;span type="emphasize" ana="#ktu1-3_ii_23_tmtḫṣn">tḫtṣb&lt;/span>&lt;/w>
   &lt;g>.&lt;/g>
   &lt;w>w&lt;/w>&lt;space/>
-  &lt;w type="verb" ana="#ḤDY01 #cognitive #watch #ANT" xml:id="ktu1-3_ii_24_tḥdy">
+  &lt;w type="verb" ana="#ḤDY01 #verb.perception #observation #ANT" xml:id="ktu1-3_ii_24_tḥdy">
     &lt;span type="emphasize" ana="#ktu1-3_ii_23_tʿn">tḥdy&lt;/span>&lt;/w>
   &lt;g>.&lt;/g>
-  &lt;name type="person" ana="#ANT #entity">ʿnt&lt;/name>
+  &lt;name type="character" ana="#Character #ANT">ʿnt&lt;/name>
 &lt;/l></codeblock></p><lines/>
         <ul>
             <li>In the previous example <xmlelement>span</xmlelement>
