@@ -39,7 +39,7 @@
         href="ObjVar.dita#concept_ObjVar01/role01" format="dita">role</xref>, <xref
         href="ObjVar.dita#concept_ObjVar01/bioSex01" format="dita">genetic-sex</xref>, which follow
       the same semantic frame for marking up a type of
-      taxonomy:<codeblock outputclass="language-xml">&lt;taxonomy xml:id="objectiveData">
+      taxonomy:<codeblock outputclass="language-xml">&lt;taxonomy xml:id="objectiveVar" ana="taxonomies">
     &lt;category xml:id="NAME OF A VARIABLE"/>
     &lt;category xml:id="NAME OF A SUBVARIABLE"/>
 &lt;/taxonomy></codeblock></p>
@@ -103,7 +103,7 @@
             battle, burial, complaint, feast, lawsuit, prayer, revenge, ritual, seduction, single
             combat, threat, visit, wedding, unknown (unknown_C), broken context (B_ctx_C).</li>
       <li>XML-TEI example:
-            <codeblock outputclass="language-xml">&lt;category xml:id="context">
+            <codeblock outputclass="language-xml">&lt;category xml:id="context" ana="objectiveVar">
     &lt;category xml:id="ritual"/>
 &lt;/category> </codeblock>
           </li>
@@ -113,7 +113,7 @@
       <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: inside,
               outside, unknown (unknown_S), broken context (B_ctx_S).</li>
       <li>XMT-TEI
-            example:<codeblock outputclass="language-xml">&lt;category xml:id="sphere">
+            example:<codeblock outputclass="language-xml">&lt;category xml:id="sphere" ana="objectiveVar">
     &lt;category xml:id="inside"/>
 &lt;/category></codeblock></li>
      </ul></li>
@@ -122,7 +122,7 @@
             <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: active,
             passive, both Active (animated entities X and Y)</li>
             <li>XML-TEI example:
-            <codeblock outputclass="language-xml">&lt;category xml:id="role">
+            <codeblock outputclass="language-xml">&lt;category xml:id="role" ana="objectiveVar">
     &lt;category xml:id="active"/>
 &lt;category/>      </codeblock>
           </li>
@@ -133,7 +133,7 @@
           <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: female,
             male</li>
           <li>XML-TEI example:
-            <codeblock outputclass="language-xml">&lt;category xml:id="Genetic-sex">
+            <codeblock outputclass="language-xml">&lt;category xml:id="Genetic-sex" ana="objectiveVar">
     &lt;category xml:id="Female"/>
 &lt;category/></codeblock>
           </li>

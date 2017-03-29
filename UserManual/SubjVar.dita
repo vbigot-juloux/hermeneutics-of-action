@@ -20,8 +20,9 @@
       of subjective variables</xref> ➟</li>
   </ul>
   </note>
-  <p>They are several variables: consequence, affectivity, degree of desire, volontary intent,
-      fallibility, which follow the same semantic frame for marking up a type of taxonomy:<codeblock outputclass="language-xml">&lt;taxonomy xml:id="subjectiveData">
+  <p>They are several variables: consequence, emotion (affectivity), degree of desire, voluntary
+      intentionality, which follow the same semantic frame for marking up a type of subjective
+      variables' taxonomy:<codeblock outputclass="language-xml">&lt;taxonomy xml:id="subjectiveVar" ana="taxonomies">
     &lt;category xml:id="NAME OF A VARIABLE"/>
       &lt;category xml:id="NAME OF A SUBVARIABLE"/>
 &lt;/taxonomy></codeblock>
@@ -37,7 +38,7 @@
             <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: affects
             AE (subject), affect AE (subject) and other, affect other AE(s).</li>
             <li>XML-TEI example:
-            <codeblock outputclass="language-xml">&lt;category xml:id="consequence">
+            <codeblock outputclass="language-xml">&lt;category xml:id="consequence" ana="subjectiveVar">
     &lt;category xml:id="affectEntity"/>
 &lt;/category>       </codeblock>
           </li>
@@ -62,9 +63,9 @@
                 5)</li>
             </ul></li>
           <li>XML-TEI example:
-            <codeblock outputclass="language-xml">&lt;category xml:id="EmotionCategory">
+            <codeblock outputclass="language-xml">&lt;category xml:id="EmotionCategory" ana="subjectiveVar">
     &lt;category xml:id="rage"/>
-    &lt;category xml:id="hasEmotionIntensity">
+    &lt;category xml:id="hasEmotionIntensity" ana="EmotionCategory">
         &lt;category xml:id="medium"/>
     &lt;/category>  
 &lt;/category>        </codeblock>
@@ -79,7 +80,7 @@
           <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: from one to
             five (number_dD), and unknown (unknown_dD), broken context (B_ctx_dD)</li>
           <li>XML-TEI example:
-            <codeblock outputclass="language-xml">&lt;category xml:id="degreeDesire">
+            <codeblock outputclass="language-xml">&lt;category xml:id="degreeDesire" ana="subjectiveVar">
    &lt;category xml:id="two_dD"/>
 &lt;/category>        </codeblock>
           </li>
@@ -95,7 +96,7 @@
               <li id="motiv_vI01">What motivation: pressure or free will.</li>
             </ul></li>
           <li>XML-TEI example:
-            <codeblock outputclass="language-xml">&lt;category xml:id="volontaryIntent">
+            <codeblock outputclass="language-xml">&lt;category xml:id="voluntaryIntent" ana="subjectiveVar">
    &lt;category xml:id="toKill"/>
    &lt;category xml:id="motivation_vI">
       &lt;category xml:id="free"/>

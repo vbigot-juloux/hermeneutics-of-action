@@ -17,16 +17,16 @@
   <p>Three <b>main</b> taxonomies are created for investigating a narrative text:</p>
   <ol>
    <li><xref href="PrimData.dita">Primary data</xref></li>
-   <li><xref href="ObjVar.dita">Objective data</xref></li>
-   <li><xref href="SubjVar.dita">Subjective data</xref></li>
+   <li><xref href="ObjVar.dita">Objective variables</xref></li>
+   <li><xref href="SubjVar.dita">Subjective variables</xref></li>
   </ol>
   <p>These taxonomies are described within two <xref
         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD5" format="html"
         scope="external">encoding description sections</xref>: <lines/>
-  <codeblock outputclass="language-xml">&#60;encodingDesc>&#60;classDecl>
+      <codeblock outputclass="language-xml">&#60;encodingDesc>&#60;classDecl>
    &#60;taxonomy xml:id="primaryData">  &#60;!-- Primary Data --> &#60;/taxonomy> 
-   &#60;taxonomy xml:id="objectiveData">  &#60;!-- Objective variables --> &#60;/taxonomy> 
-   &#60;taxonomy xml:id="subjectiveData">  &#60;!-- Subjective variables --> &#60;/taxonomy> 
+   &#60;taxonomy xml:id="objectiveVar">  &#60;!-- Objective variables --> &#60;/taxonomy> 
+   &#60;taxonomy xml:id="subjectiveVar">  &#60;!-- Subjective variables --> &#60;/taxonomy> 
    &#60;/classDecl>&#60;/encodingDesc> </codeblock></p><lines/>
    <p>In anticipation or the future development of an (<xref href="https://www.w3.org/TR/owl-guide/"
         format="html" scope="external">OWL</xref>) ontology of power relationships using linked open
@@ -34,7 +34,11 @@
       have been specified where relevant):
      <ul><li><xref href="http://www.gsi.dit.upm.es/ontologies/onyx/" format="html" scope="external">Onyx
             Ontology Specification</xref> for subjective data</li>
-       <li><xref href="http://www.contextus.net/ontomedia" format="html" scope="external">OntoMedia ontology</xref> for <xref href="PrimData.dita#concept_PrimVar01/primData_ontoM01" format="dita" scope="local">primary data</xref> and <xref href="ObjVar.dita#concept_ObjVar01/objVar_ontoM01" format="dita" scope="local">objective data</xref></li></ul></p>
+       <li><xref href="http://www.contextus.net/ontomedia" format="html" scope="external">OntoMedia
+            ontology</xref> for <xref href="PrimData.dita#concept_PrimVar01/primData_ontoM01"
+            format="dita" scope="local">primary data</xref> and <xref
+            href="ObjVar.dita#concept_ObjVar01/objVar_ontoM01" format="dita" scope="local">objective
+            variables</xref></li></ul></p>
     
     <p>My choice of using the OntoMedia ontology is relevant because we share the same primary goal,
       althought final purpose is different since mine is for anthropological purpose: <q

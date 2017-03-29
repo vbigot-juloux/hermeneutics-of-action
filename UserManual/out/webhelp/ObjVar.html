@@ -44,7 +44,7 @@
    <div class="p">They are several variables (<code class="keyword markupname xmlelement">&lt;category&gt;</code>) which provide relevant
       information on the character's acting (<a class="xref" href="PrimData.html">primary data</a>): <a class="xref" href="ObjVar.html#concept_ObjVar01__verbSem01">verb category</a>, <a class="xref" href="ObjVar.html#concept_ObjVar01__sphere01">sphere</a>, <a class="xref" href="ObjVar.html#concept_ObjVar01__context01">context</a>, <a class="xref" href="ObjVar.html#concept_ObjVar01__role01">role</a>, <a class="xref" href="ObjVar.html#concept_ObjVar01__bioSex01">genetic-sex</a>, which follow
       the same semantic frame for marking up a type of
-      taxonomy:<pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"objectiveData"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+      taxonomy:<pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"objectiveVar"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"taxonomies"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
     <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"NAME OF A VARIABLE"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
     <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"NAME OF A SUBVARIABLE"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
 <strong class="hl-tag" style="color:#000096">&lt;/taxonomy&gt;</strong></pre>
@@ -119,7 +119,7 @@
             combat, threat, visit, wedding, unknown (unknown_C), broken context (B_ctx_C).</li>
 
       <li class="li">XML-TEI example:
-            <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"context"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+            <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"context"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"objectiveVar"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
     <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"ritual"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
 <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong> </pre>
 
@@ -135,7 +135,7 @@
               outside, unknown (unknown_S), broken context (B_ctx_S).</li>
 
       <li class="li">XMT-TEI
-            example:<pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"sphere"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+            example:<pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"sphere"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"objectiveVar"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
     <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"inside"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
 <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong></pre>
 </li>
@@ -150,7 +150,7 @@
             passive, both Active (animated entities X and Y)</li>
 
             <li class="li">XML-TEI example:
-            <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"role"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+            <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"role"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"objectiveVar"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
     <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"active"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
 <strong class="hl-tag" style="color:#000096">&lt;category/&gt;</strong>      </pre>
 
@@ -167,7 +167,7 @@
             male</li>
 
           <li class="li">XML-TEI example:
-            <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"Genetic-sex"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+            <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"Genetic-sex"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"objectiveVar"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
     <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"Female"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
 <strong class="hl-tag" style="color:#000096">&lt;category/&gt;</strong></pre>
 

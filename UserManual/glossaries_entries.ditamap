@@ -3,14 +3,18 @@
 <map>
  <title>Glossary</title>
  <topichead navtitle="Glossary" chunk="to-content">
-  <topicref href="glossary/affect_gloss.dita"/>
-  <topicref href="glossary/bioSex_gloss.dita"/>
+  <topicref href="glossary/action_gloss.dita"/>
+  <topicref href="glossary/being_gloss.dita"/>
   <topicref href="glossary/conseq_gloss.dita"/>
   <topicref href="glossary/context_gloss.dita"/>
   <topicref href="glossary/degreeD_gloss.dita"/>
+  <topicref href="glossary/affect_gloss.dita"/> <!-- Emotion -->
+  <topicref href="glossary/bioSex_gloss.dita"/> <!-- Genetic sex -->
   <topicref href="glossary/role_gloss.dita"/>
   <topicref href="glossary/sphere_gloss.dita"/>
-  <topicref href="glossary/verbSem_gloss.dita"/>
+  <topicref href="glossary/subTaxo_gloss.dita"/>
+  <topicref href="glossary/taxo_gloss.dita"/>
+  <topicref href="glossary/verbSem_gloss.dita"/> <!-- Semantics cat -->
   <topicref href="glossary/volIntent_gloss.dita"/>
   
   

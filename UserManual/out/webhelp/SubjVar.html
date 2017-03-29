@@ -33,8 +33,9 @@
 
   </div>
 
-  <div class="p">They are several variables: consequence, affectivity, degree of desire, volontary intent,
-      fallibility, which follow the same semantic frame for marking up a type of taxonomy:<pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"subjectiveData"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+  <div class="p">They are several variables: consequence, emotion (affectivity), degree of desire, voluntary
+      intentionality, which follow the same semantic frame for marking up a type of subjective
+      variables' taxonomy:<pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;taxonomy</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"subjectiveVar"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"taxonomies"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
     <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"NAME OF A VARIABLE"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
       <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"NAME OF A SUBVARIABLE"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
 <strong class="hl-tag" style="color:#000096">&lt;/taxonomy&gt;</strong></pre>
@@ -57,7 +58,7 @@
             AE (subject), affect AE (subject) and other, affect other AE(s).</li>
 
             <li class="li">XML-TEI example:
-            <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"consequence"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+            <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"consequence"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"subjectiveVar"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
     <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"affectEntity"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
 <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong>       </pre>
 
@@ -87,9 +88,9 @@
 </li>
 
           <li class="li">XML-TEI example:
-            <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"EmotionCategory"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+            <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"EmotionCategory"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"subjectiveVar"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
     <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"rage"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"hasEmotionIntensity"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+    <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"hasEmotionIntensity"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"EmotionCategory"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
         <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"medium"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
     <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong>  
 <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong>        </pre>
@@ -111,7 +112,7 @@
             five (number_dD), and unknown (unknown_dD), broken context (B_ctx_dD)</li>
 
           <li class="li">XML-TEI example:
-            <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"degreeDesire"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+            <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"degreeDesire"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"subjectiveVar"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
    <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"two_dD"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
 <strong class="hl-tag" style="color:#000096">&lt;/category&gt;</strong>        </pre>
 
@@ -136,7 +137,7 @@
 </li>
 
           <li class="li">XML-TEI example:
-            <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"volontaryIntent"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+            <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"voluntaryIntent"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"subjectiveVar"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
    <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"toKill"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>
    <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"motivation_vI"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
       <strong class="hl-tag" style="color:#000096">&lt;category</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"free"</span><strong class="hl-tag" style="color:#000096">/&gt;</strong>

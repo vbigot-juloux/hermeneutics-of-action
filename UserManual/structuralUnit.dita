@@ -19,19 +19,22 @@
               Event|perform|who|behav|occasion|where|how </li>
     </ul></li>
  </ul></p>
-  <p>Structural unit of the interpretation according to taxonomies:
+   <p>Structural unit of the interpretation according to analytical taxonomies <xref
+        href="PrimData.dita" format="dita" scope="local">primary data</xref>, <xref
+        href="ObjVar.dita" format="dita" scope="local">objective variables</xref>, <xref
+        href="SubjVar.dita" format="dita" scope="local">subjective variables</xref>:
       <codeblock outputclass="language-xml">
     &lt;interpGrp resp="#Juloux" xml:id="hermeneutics" type="structuralUnit" ana="#taxonomies">
       &lt;!-- ref -->
-      &lt;interp n="1" xml:id="whatAction" ana="#primaryData #objectiveData #action #verb.category"/>
+      &lt;interp n="1" xml:id="whatAction" ana="#primaryData #objectiveVar #action #verb.category"/>
       &lt;!-- castList > castItem -->
       &lt;interp n="2" xml:id="whatCharacter" who" ana="#Character #primaryData #Genetic-sex"/>
-      &lt;interp n="3" xml:id="whatRole" ana="#role #objectiveData"/>
+      &lt;interp n="3" xml:id="whatRole" ana="#objectiveVar" #role />
       &lt;!-- view -->
-      &lt;interp n="4" xml:id="whatContext" ana="#context"/>
-      &lt;interp n="5" xml:id="whatSphere" ana="#objectiveData #sphere"/>
+      &lt;interp n="4" xml:id="whatContext" ana="#objectiveVar" #context"/>
+      &lt;interp n="5" xml:id="whatSphere" ana="#objectiveVar #sphere"/>
       &lt;!-- stage -->
-      &lt;interp n="6" xml:id="whatBehavior" ana="#subjectiveData">How acts the animated entity&lt;/interp>
+      &lt;interp n="6" xml:id="whatBehavior" ana="#subjectiveVar #consequence #EmotionCategory #hasEmotionIntensity #degreeDesire #voluntaryIntent">How acts the animated entity&lt;/interp>
    &lt;/interpGrp></codeblock>
     </p>
  </conbody>

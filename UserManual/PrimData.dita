@@ -76,7 +76,7 @@
     <p><b>Primary data</b> within the <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_primD" format="dita">elements</xref>
       <xmlelement>encodingDesc</xmlelement> ➞ <xmlelement>classDecl</xmlelement>: </p>
       <ul id="ul_qtp_t4g_jz">
-        <li>Action (verb): <ul id="ul_rtp_t4g_jz">
+        <li id="prim_action01">Action (verb): <ul id="ul_rtp_t4g_jz">
           <li>&#x27af; A <b>verb</b> is the most relevant lexeme in a group of words or a sentence
             which is used to denote an action — this hypothesis for this preliminary of hermeneutics
             of action was made following my reading on the philosophy of action and the
@@ -88,15 +88,15 @@
               href="ObjVar.dita#concept_ObjVar01/verbSub01" format="dita" scope="local"
               >subTAXO</xref>).</li>
           <li id="xmlTEI_verb"
-            >XML-TEI:<codeblock outputclass="language-xml">&lt;taxonomy xml:id="primaryData"> 
+            >XML-TEI:<codeblock outputclass="language-xml">&lt;taxonomy xml:id="primaryData" ana="taxonomies"> 
     &lt;category xml:id="action"/> 
 &lt;/taxonomy>     </codeblock></li>
         </ul></li>
-        <li>Being (= animated entity): <ul id="ul_stp_t4g_jz">
+        <li id="prim_Being01">Being (= animated entity): <ul id="ul_stp_t4g_jz">
           <li>&#x27af; any character acting within one or several relevant <xref href="ObjVar.dita"
               >objective</xref>  and <xref href="SubjVar.dita">subjective</xref> variables.</li>
           <li id="xmlTEI_entity02">XML-TEI attribute for Primary data Being:
-            <codeblock outputclass="language-xml">&lt;taxonomy xml:id="primaryData"> 
+            <codeblock outputclass="language-xml">&lt;taxonomy xml:id="primaryData" ana="taxonomies"> 
    &lt;category xml:id="Being"/>   
 &lt;/taxonomy>       </codeblock></li>
         </ul></li>
