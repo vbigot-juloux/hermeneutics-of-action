@@ -47,12 +47,14 @@
                 <note>Value in capital letters: implies to select the right choice of the
                   subcategory, ie SPHERE ➞ ‘outside’.</note></li>
               <li><xref href="SubjVar.dita">Subjective variables</xref>: <xref
-                  href="SubjVar.dita#conseq01" format="dita" scope="local">consequence</xref>
-                <note>Compute only for the need of the <xref href="process.dita#hermeneutics01">last
-                    step (C)</xref>: <xref href="SubjVar.dita#affect01" format="dita" scope="local"
-                    >Emotion</xref>|<xref href="SubjVar.dita#affect01" format="dita" scope="local"
-                    >degree of emotion</xref>|<xref href="SubjVar.dita#volIntent01">volontary
-                    intention</xref></note></li>
+                  href="SubjVar.dita#concept_SubjVar01/volIntent01">VOLUNTARY INTENT</xref>|<xref
+                  href="SubjVar.dita#concept_SubjVar01/motiv_vI01">MOTIVATION</xref>|<xref
+                  href="SubjVar.dita#concept_SubjVar01/degree01">DEGREE DESIRE</xref>|<xref
+                  href="SubjVar.dita#concept_SubjVar01/affect01">EMOTION</xref>|<xref
+                  href="SubjVar.dita#concept_SubjVar01/affect01">hasEmotionIntensity</xref>|<xref
+                  href="SubjVar.dita#concept_SubjVar01/conseq01">CONSEQUENCE</xref><note>Compute
+                  only for the need of the <xref href="process.dita#hermeneutics01">last step
+                    (C)</xref></note></li>
               <li>Other: ‘purpose’</li>
             </ul></li>
         </ul></note></p>
@@ -81,9 +83,9 @@
           &lt;placeName ana="#whatContext <b>#battle</b>">battle&lt;location ana="#whatSphere <b>#outside</b>"/>outside her household&lt;geo>valley&lt;/geo>&lt;/placeName>
         &lt;/view> 
         &lt;stage ana="whatBehavior">
-          &lt;span ana="<b>#toDestroy #free #rage #veryHight</b>">Voluntary intentionality, to destroy of her free will, with rage (level five).&lt;/span>
-          &lt;span ana="<b>#affectEntity_and_other</b>">The result of action has an impact on ʾAnatu and others&lt;/span>
-        &lt;/stage>
+          &lt;span ana="<b>#toDestroy #free #five_dD</b>">Voluntary intentionality, to destroy of her free will, and with a degree of desire level five&lt;/span>
+          &lt;span ana="<b>#rage #veryHight</b>">Emotion of rage, very hight&lt;/span> 
+          &lt;span ana="<b>#affectEntity_and_other</b>">The result of action has an impact on ʾAnatu and others&lt;/span>        &lt;/stage>
    &lt;/desc>  
 &lt;/interp></codeblock></li>
       </ol></p>
