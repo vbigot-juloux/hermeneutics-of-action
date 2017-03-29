@@ -14,22 +14,17 @@
    <appContext helpID="concept_introR" path="introR.html"/>
    <appContext helpID="concept_statistics" path="parsingTEI.html"/>
    <appContext helpID="concept_vizualisation" path="vizualisation.html"/>
-   <appContext helpID="Chunk1893399259" path="Chunk1893399259.html#Chunk1893399259"/>
-   <appContext helpID="glossentry_affect"
-               path="Chunk1893399259.html#glossentry_affect"/>
-   <appContext helpID="glossentry_bioSex"
-               path="Chunk1893399259.html#glossentry_bioSex"/>
-   <appContext helpID="glossentry_conseq"
-               path="Chunk1893399259.html#glossentry_conseq"/>
+   <appContext helpID="Chunk330406653" path="Chunk330406653.html#Chunk330406653"/>
+   <appContext helpID="glossentry_affect" path="Chunk330406653.html#glossentry_affect"/>
+   <appContext helpID="glossentry_bioSex" path="Chunk330406653.html#glossentry_bioSex"/>
+   <appContext helpID="glossentry_conseq" path="Chunk330406653.html#glossentry_conseq"/>
    <appContext helpID="glossentry_context"
-               path="Chunk1893399259.html#glossentry_context"/>
-   <appContext helpID="glossentry_degree"
-               path="Chunk1893399259.html#glossentry_degree"/>
-   <appContext helpID="glossentry_role" path="Chunk1893399259.html#glossentry_role"/>
-   <appContext helpID="glossentry_sphere"
-               path="Chunk1893399259.html#glossentry_sphere"/>
+               path="Chunk330406653.html#glossentry_context"/>
+   <appContext helpID="glossentry_degree" path="Chunk330406653.html#glossentry_degree"/>
+   <appContext helpID="glossentry_role" path="Chunk330406653.html#glossentry_role"/>
+   <appContext helpID="glossentry_sphere" path="Chunk330406653.html#glossentry_sphere"/>
    <appContext helpID="glossentry_verbSem"
-               path="Chunk1893399259.html#glossentry_verbSem"/>
+               path="Chunk330406653.html#glossentry_verbSem"/>
    <appContext helpID="glossentry_volIntent"
-               path="Chunk1893399259.html#glossentry_volIntent"/>
+               path="Chunk330406653.html#glossentry_volIntent"/>
 </map>

@@ -16,8 +16,7 @@
     <taskbody>
         <context>
             <div>-----------------------------<note>
-                    <p><?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?>A
-                        doctoral research project of Vanessa Juloux, from the <xref
+                    <p>A doctoral research project of Vanessa Juloux, from the <xref
                             href="https://www.ephe.fr/en" format="html" scope="external">Ecole
                             Pratique des Hautes Etudes</xref> (EPHE), Paris <xref
                             href="https://www.univ-psl.fr/en" format="html" scope="external"
@@ -29,10 +28,13 @@
                         action, <xref href="http://vanessajuloux.xyz/docs/research-project"
                             format="html" scope="external">read the abstract of my research project
                             ➟</xref>.</p>
-                    <p>⚠<i>This work is licensed under a <xref
-                                href="http://creativecommons.org/licenses/by-nc/4.0/" format="html"
-                                scope="external">Creative Commons Attribution-NonCommercial 4.0
-                                International License</xref>.</i><?oxy_custom_end?></p>
+                    <p><xref href="http://creativecommons.org/licenses/by-nc/4.0/" format="html"
+                            scope="external"><image
+                                href="https://i.creativecommons.org/l/by-nc/4.0/80x15.png"/></xref>
+                        <xref href="https://zenodo.org/badge/latestdoi/84451798" format="html"
+                            scope="external"><image href="https://zenodo.org/badge/84451798.svg"
+                                alt="DOI" height="17"/></xref>
+                    </p>
                     <p/>
                     <p>Particular acknowledgment to <xref
                             href="http://anu-au.academia.edu/TerhiNurmikkoFuller" format="html"
