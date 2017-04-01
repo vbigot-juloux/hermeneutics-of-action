@@ -90,9 +90,13 @@
       <ul id="ul_e2m_lzs_gz">
         <li id="volIntent01"><b>Voluntary intentionality</b>
         <ul id="ul_f2m_lzs_gz">
-          <li>&#x27af; What type of voluntary intentionality, and what motivation?</li>
-          <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: to kill, to
-            perform a rtiual, to destroy, to fight. <ul id="ul_g2m_lzs_gz">
+          <li>&#x27af; What type of voluntary intentionality (one or two subcategories can be used
+            according to <xref href="ObjVar.dita#concept_ObjVar01/context01" format="dita" scope="local">context</xref>), and what motivation?</li>
+          <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt> —
+            non-exhaustive listing: to advocate, to blame, to build, to buy, to claim, to clean, to
+            care for, to complain, to cure, to defense in court, to destroy, to feed, to fight, to
+            give birth, to kill, to make love, to negociate, to perform a ritual, to pray, to
+            protect, to revenge, to sentence, to sell, to threaten.<ul id="ul_g2m_lzs_gz">
               <li id="motiv_vI01">What motivation: pressure or free will.</li>
             </ul></li>
           <li>XML-TEI example:

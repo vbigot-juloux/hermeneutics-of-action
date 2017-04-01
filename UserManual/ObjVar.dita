@@ -100,8 +100,9 @@
      <ul>
        <li>&#x27af; in which the action takes place.</li>
       <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: assembly,
-            battle, burial, complaint, feast, lawsuit, prayer, revenge, ritual, seduction, single
-            combat, threat, visit, wedding, unknown (unknown_C), broken context (B_ctx_C).</li>
+            battle, burial, care (can be used with another context), feast, hunting, landscaping
+            project, lawsuit, maintenance, ritual, single combat, trade, visit, wedding, unknown
+            (unknown_C), broken context (B_ctx_C).</li>
       <li>XML-TEI example:
             <codeblock outputclass="language-xml">&lt;category xml:id="context" ana="objectiveVar">
     &lt;category xml:id="ritual"/>
