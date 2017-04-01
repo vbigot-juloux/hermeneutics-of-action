@@ -130,9 +130,9 @@
           </ul></li>
        <li id="bioSex01"><b>Genetic sex</b>
         <ul>
-          <li>&#x27af; traditionally known.</li>
-          <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: female,
-            male</li>
+          <li>&#x27af; traditionally known (or assumed by tradition).</li>
+          <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: Female,
+            Male, unknown</li>
           <li>XML-TEI example:
             <codeblock outputclass="language-xml">&lt;category xml:id="Genetic-sex" ana="objectiveVar">
     &lt;category xml:id="Female"/>

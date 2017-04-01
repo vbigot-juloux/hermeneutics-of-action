@@ -14,28 +14,22 @@
    <appContext helpID="concept_introR" path="introR.html"/>
    <appContext helpID="concept_statistics" path="parsingTEI.html"/>
    <appContext helpID="concept_vizualisation" path="vizualisation.html"/>
-   <appContext helpID="Chunk1377302806" path="Chunk1377302806.html#Chunk1377302806"/>
-   <appContext helpID="glossentry_action"
-               path="Chunk1377302806.html#glossentry_action"/>
-   <appContext helpID="glossentry_being" path="Chunk1377302806.html#glossentry_being"/>
-   <appContext helpID="glossentry_conseq"
-               path="Chunk1377302806.html#glossentry_conseq"/>
+   <appContext helpID="Chunk283081595" path="Chunk283081595.html#Chunk283081595"/>
+   <appContext helpID="glossentry_action" path="Chunk283081595.html#glossentry_action"/>
+   <appContext helpID="glossentry_being" path="Chunk283081595.html#glossentry_being"/>
+   <appContext helpID="glossentry_conseq" path="Chunk283081595.html#glossentry_conseq"/>
    <appContext helpID="glossentry_context"
-               path="Chunk1377302806.html#glossentry_context"/>
-   <appContext helpID="glossentry_degree"
-               path="Chunk1377302806.html#glossentry_degree"/>
-   <appContext helpID="glossentry_affect"
-               path="Chunk1377302806.html#glossentry_affect"/>
-   <appContext helpID="glossentry_bioSex"
-               path="Chunk1377302806.html#glossentry_bioSex"/>
-   <appContext helpID="glossentry_role" path="Chunk1377302806.html#glossentry_role"/>
-   <appContext helpID="glossentry_sphere"
-               path="Chunk1377302806.html#glossentry_sphere"/>
+               path="Chunk283081595.html#glossentry_context"/>
+   <appContext helpID="glossentry_degree" path="Chunk283081595.html#glossentry_degree"/>
+   <appContext helpID="glossentry_affect" path="Chunk283081595.html#glossentry_affect"/>
+   <appContext helpID="glossentry_bioSex" path="Chunk283081595.html#glossentry_bioSex"/>
+   <appContext helpID="glossentry_role" path="Chunk283081595.html#glossentry_role"/>
+   <appContext helpID="glossentry_sphere" path="Chunk283081595.html#glossentry_sphere"/>
    <appContext helpID="glossentry_subTaxo"
-               path="Chunk1377302806.html#glossentry_subTaxo"/>
-   <appContext helpID="glossentry_taxo" path="Chunk1377302806.html#glossentry_taxo"/>
+               path="Chunk283081595.html#glossentry_subTaxo"/>
+   <appContext helpID="glossentry_taxo" path="Chunk283081595.html#glossentry_taxo"/>
    <appContext helpID="glossentry_verbSem"
-               path="Chunk1377302806.html#glossentry_verbSem"/>
+               path="Chunk283081595.html#glossentry_verbSem"/>
    <appContext helpID="glossentry_volIntent"
-               path="Chunk1377302806.html#glossentry_volIntent"/>
+               path="Chunk283081595.html#glossentry_volIntent"/>
 </map>
