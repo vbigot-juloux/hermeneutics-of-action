@@ -64,17 +64,16 @@
                 </li>
                 <li>Values: <ul>
                         <li>Traditionaly proposed in XML-TEI: noun|verb</li>
-                        <li>from <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_entity01"
-                                >preliminary step</xref> before primary data: ENTITY'S NAME</li>
                         <li>from <xref href="PrimData.dita">primary data</xref>: <xref
                                 href="PrimData.dita#concept_PrimVar01/xmlTEI_entity02"
-                                >entity</xref>|<xref
+                                >Being</xref>|<xref
                                 href="PrimData.dita#concept_PrimVar01/xmlTEI_verb01"
-                            >VERB</xref></li>
+                            >Action</xref></li>
+                        <li>from <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_entity01">
+                        ENTITY'S NAME</xref></li>
                         <li>from <xref href="ObjVar.dita">objective variables</xref>: <xref
-                                href="ObjVar.dita#concept_ObjVar01/verbSem01">VERB</xref>|<xref
-                                href="ObjVar.dita#concept_ObjVar01/verbSem01">ACTION
-                            VERB</xref></li>
+                                href="ObjVar.dita#concept_ObjVar01/verbTaxo01">TAXO</xref>|<xref
+                                href="ObjVar.dita#concept_ObjVar01/verbSub01">subTAXO </xref></li>
                     </ul></li>
             </ul></note>
         <lines/>

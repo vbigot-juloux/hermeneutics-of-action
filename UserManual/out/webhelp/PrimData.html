@@ -37,51 +37,6 @@
 
     </div>
 
-    <p class="lines">------------------------------------</p>
-
-    <div class="p">
-      <div class="note note"><span class="notetitle">Note:</span> Preliminary step before introducing attributes values for Primary data: list of the
-        animated entities (characters, <u class="ph u">attribute's value #Being</u>) within the XML-TEI element
-          <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-listPerson.html" target="_blank"><code class="keyword markupname xmlelement">&lt;listPerson&gt;</code></a>: <ul class="ul">
-          <li class="li">XPath: /teiCorpus/TEI[1]/teiHeader[1]/profileDesc[1]/particDesc[1]</li>
-
-          <li class="li" id="concept_PrimVar01__xmlTEI_entity01">XML-TEI elements within <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html" target="_blank">TEI</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-teiHeader.html" target="_blank">teiHeader</a>: <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-profileDesc.html" target="_blank">profileDesc</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-particDesc.html" target="_blank">particDesc</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-listPerson.html" target="_blank">listPerson</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-person.html" target="_blank">person</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html" target="_blank">persName</a></li>
-
-          <li class="li">XML-TEI attributes: <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.typed.html" target="_blank"><code class="keyword markupname xmlatt">@type</code></a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.analytic.html" target="_blank"><code class="keyword markupname xmlatt">@ana</code></a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" target="_blank"><code class="keyword markupname xmlatt">@xml:id</code></a></li>
-
-          <li class="li">Values: Being|CHARACTER</li>
-
-        </ul>
-
-        <span style="text-decoration:overline" class="ph overline"></span>
-        <ul class="ul">
-          <li class="li" id="concept_PrimVar01__AE_value01">Current research in the Cycle of Baʿlu and ʿAnatu by alphabtetic
-            order, “Character”: ʿAnatu (ANT), ʾAṯiratu, (ATH), ʾAṯtartu (ATT), Baʿlu (BAL), ʾIlu
-            (ILU), Koṯaru (KOT), Baʿlu's messengers (MES_B), ʾIlu's messengers (MES_I), Yammu's
-            messenger (MES_Y)s, Môtu (MOT), Šapsu (SAP), Yammu (YAM), warrior(s) (WAR), unknown
-            (UNK).</li>
-
-          <li class="li">XML-TEI example for ʿAnatu, attributes within the <a class="xref" href="PrimData.html#concept_PrimVar01__xmlTEI_entity01">elements</a>
-            <code class="keyword markupname xmlelement">&lt;profileDesc&gt;</code> ➞ <code class="keyword markupname xmlelement">&lt;particDesc&gt;</code> ➞
-              <code class="keyword markupname xmlelement">&lt;listPerson&gt;</code> elements before the XML-TEI attributes for xml:id
-              <a class="xref" href="PrimData.html#concept_PrimVar01__xmlTEI_verb">action</a>
-            and <a class="xref" href="PrimData.html#concept_PrimVar01__xmlTEI_entity">Being</a>:
-            <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;profileDesc&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;particDesc&gt;</strong>
-   <strong class="hl-tag" style="color:#000096">&lt;listPerson</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">"character"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#Being"</span> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"Character"</span><strong class="hl-tag" style="color:#000096">&gt;</strong> <em class="hl-comment" style="color:#006400">&lt;!-- animated entity --&gt;</em>
-      <strong class="hl-tag" style="color:#000096">&lt;person</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#whatCharacter"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
-         <strong class="hl-tag" style="color:#000096">&lt;persName</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"ANT"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>ʾAnatu<strong class="hl-tag" style="color:#000096">&lt;/persName&gt;</strong>
-       <strong class="hl-tag" style="color:#000096">&lt;/person&gt;</strong>
-   <strong class="hl-tag" style="color:#000096">&lt;/listPerson&gt;</strong>
-<strong class="hl-tag" style="color:#000096">&lt;/particDesc&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;/profileDesc&gt;</strong>   </pre>
-</li>
-
-        </ul>
-</div>
-
-    </div>
-
-    <p class="lines">------------------------------------</p>
-
     <p class="p"><strong class="ph b">Primary data</strong> within the <a class="xref" href="PrimData.html#concept_PrimVar01__xmlTEI_primD">elements</a>
       <code class="keyword markupname xmlelement">&lt;encodingDesc&gt;</code> ➞ <code class="keyword markupname xmlelement">&lt;classDecl&gt;</code>: </p>
 
@@ -114,6 +69,44 @@
 </li>
 
       </ul>
+
+    <p class="lines"></p>
+ 
+   <div class="p">These <strong class="ph b">animated entities</strong> are named within the XML-TEI element <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html" target="_blank">persName</a><ul class="ul" id="concept_PrimVar01__ul_q1x_53f_lz">
+        <li class="li">XPath: /teiCorpus/TEI[1]/text[1]/body[1]/div1[1]/stage[1]/listPerson[1]</li>
+
+        <li class="li" id="concept_PrimVar01__xmlTEI_entity01">XML-TEI elements within <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html" target="_blank">TEI</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-text.html" target="_blank">text</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-body.html" target="_blank">body</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html" target="_blank">div1</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-stage.html" target="_blank">stage</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-listPerson.html" target="_blank">listPerson</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-person.html" target="_blank">person</a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html" target="_blank">persName</a></li>
+
+        <li class="li">XML-TEI attributes: <a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.typed.html" target="_blank"><code class="keyword markupname xmlatt">@type</code></a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.analytic.html" target="_blank"><code class="keyword markupname xmlatt">@ana</code></a>|<a class="xref" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" target="_blank"><code class="keyword markupname xmlatt">@xml:id</code></a></li>
+
+        <li class="li">Values: Being|CHARACTER</li>
+
+      </ul>
+
+      <span style="text-decoration:overline" class="ph overline"></span>
+      <ul class="ul" id="concept_PrimVar01__ul_r1x_53f_lz">
+        <li class="li" id="concept_PrimVar01__AE_value01">Current research in the Cycle of Baʿlu and ʿAnatu by alphabtetic order,
+          “Character”: ʿAnatu (ANT), ʾAṯiratu, (ATH), ʾAṯtartu (ATT), Baʿlu (BAL), ʾIlu (ILU),
+          Koṯaru (KOT), Baʿlu's messengers (MES_B), ʾIlu's messengers (MES_I), Yammu's messenger
+          (MES_Y)s, Môtu (MOT), Šapsu (SAP), Yammu (YAM), warrior(s) (WAR), unknown (UNK).</li>
+
+        <li class="li">XML-TEI example for ʿAnatu, attributes within the <a class="xref" href="PrimData.html#concept_PrimVar01__xmlTEI_entity01">elements</a>
+          <code class="keyword markupname xmlelement">&lt;profileDesc&gt;</code> ➞ <code class="keyword markupname xmlelement">&lt;particDesc&gt;</code> ➞
+            <code class="keyword markupname xmlelement">&lt;listPerson&gt;</code> elements before the XML-TEI attributes for xml:id
+            <a class="xref" href="PrimData.html#concept_PrimVar01__xmlTEI_verb">action</a> and
+            <a class="xref" href="PrimData.html#concept_PrimVar01__xmlTEI_entity">Being</a>:
+          <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;div1&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;stage&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;listPerson</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">"character"</span> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#Being"</span> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"Character"</span><strong class="hl-tag" style="color:#000096">&gt;</strong> <em class="hl-comment" style="color:#006400">&lt;!-- animated entity --&gt;</em>
+      <strong class="hl-tag" style="color:#000096">&lt;person</strong> <span class="hl-attribute" style="color: #ff7935">ana</span>=<span class="hl-value" style="color: #993300">"#whatCharacter"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+         <strong class="hl-tag" style="color:#000096">&lt;persName</strong> <span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">"ANT"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>ʾAnatu<strong class="hl-tag" style="color:#000096">&lt;/persName&gt;</strong>
+       <strong class="hl-tag" style="color:#000096">&lt;/person&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;/listPerson&gt;</strong>
+<strong class="hl-tag" style="color:#000096">&lt;/stage&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;/div1&gt;</strong>   </pre>
+</li>
+
+      </ul>
+
+    </div>
 
   </div>
 

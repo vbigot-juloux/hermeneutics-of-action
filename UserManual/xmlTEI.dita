@@ -37,7 +37,8 @@
     <li><xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/" format="html" scope="external">Extensible Markup Language-Text Encoding Initiative (XML-TEI) ➠</xref></li>
     <li><xref href="https://www.w3.org/TR/xpath/" format="html" scope="external">XML path language (XPath) ➠</xref></li></ul></p>
  <lines/>
-  <p><b>Structure of the XML-TEI document for the preliminary investigation to a hermeneutics of action:
+  <p><b>Structure of the XML-TEI document for the preliminary investigation to a hermeneutics of
+    action:
    document:</b><codeblock outputclass="language-xml">&lt;teiCorpus>
  &lt;TEI>   
   &lt;teiHeader>
@@ -51,6 +52,9 @@
   &lt;/teiHeader>
   &lt;text xml:id="KTU1">
    &lt;body>
+    &lt;div1>
+     [...] &lt;!-- animated entities'names -->
+    &lt;/div1>
     &lt;div1 xml:lang="uga" type="transcription">
      &lt;div2 type="tablet" xml:id="ktu1-1">
       &lt;div3 n="1.1.i" type="col" xml:id="ktu1-1_i">
