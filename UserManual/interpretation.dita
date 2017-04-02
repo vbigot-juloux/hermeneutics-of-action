@@ -100,10 +100,10 @@
                             in example below <b>#verb.competition #contend</b></li>
                     </ol></li>
                 <li><u>What animated entity </u> (#whatCharacter which belongs to <xref
-                        href="PrimData.dita#concept_PrimVar01/xmlTEI_entity01" format="dita"
-                        scope="local">preliminary</xref> of #primaryData) in
-                        <xmlelement>persName</xmlelement>, <xmlatt>ana</xmlatt> ‘Character’ and ‘AE
-                    value’ — in example below <b>#ANT</b></li>
+                        href="PrimData.dita" format="dita" scope="local">primaryData</xref> within
+                        <xmlelement>text</xmlelement>) in <xmlelement>persName</xmlelement>,
+                        <xmlatt>ana</xmlatt> ‘Character’ and ‘AE value’ — in example below
+                        <b>#ANT</b></li>
                 <li><u>What role</u> (#whatBehavior which belongs to #objectiveData) in
                         <xmlelement>state</xmlelement>, <xmlatt>ana</xmlatt> ‘ROLE’ — in example
                     below <b>#active</b></li>

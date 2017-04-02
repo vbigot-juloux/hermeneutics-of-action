@@ -106,7 +106,7 @@
                 <li id="xmlID01"><xmlelement>l</xmlelement> ➞ <xmlatt>xml:id</xmlatt>:"ktuREF" is
                     essential to link the right ‘<xref href="ObjVar.dita" format="dita">objective
                         variables</xref>’ to ‘<xref href="SubjVar.dita" format="dita">subjective
-                        variables</xref>’ for R statistics — in the repivous example,
+                        variables</xref>’ for R statistics — in the previous example,
                         <b>xml:id="ktu1-3_ii_l5b-6a</b>.</li>
                 <li><xmlelement>w</xmlelement> :<ul id="ul_mb2_mjt_gz">
                         <li>➞ <xmlatt>type</xmlatt> ‘verb’ <ul id="ul_stg_34t_gz">
