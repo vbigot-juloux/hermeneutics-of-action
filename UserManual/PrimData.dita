@@ -49,7 +49,7 @@
     <lines/> 
    <p>These <b>animated entities</b> are named within the XML-TEI element <xref
         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html" format="html"
-        scope="external">persName</xref><ul id="ul_q1x_53f_lz">
+        scope="external">persName</xref> related to <xmlatt>xml:id</xmlatt>="Being"<ul id="ul_q1x_53f_lz">
         <li>XPath: /teiCorpus/TEI[1]/text[1]/body[1]/div1[1]/stage[1]/listPerson[1]</li>
         <li id="xmlTEI_entity01">XML-TEI elements within <xref
             href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html" format="html"
@@ -90,7 +90,7 @@
             <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_verb" format="dita">action</xref> and
             <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_entity" format="dita">Being</xref>:
           <codeblock outputclass="language-xml">&lt;div1>&lt;stage>
-   &lt;listPerson type="character" ana="#Being" xml:id="Character"> &lt;!-- animated entity -->
+   &lt;listPerson type="character" ana="#Being #primaryData" xml:id="Character"> &lt;!-- animated entity -->
       &lt;person ana="#whatCharacter">
          &lt;persName xml:id="ANT">ʾAnatu&lt;/persName>
        &lt;/person>

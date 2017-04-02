@@ -51,7 +51,7 @@
                                     </tbody>
                                 </tgroup>
                             </table></li>
-                </ul><lines/></li>
+                    </ul><lines/></li>
                 <li id="xmlTEI_transcript">XML-TEI elements: <xref
                         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-lg.html"
                         format="html" scope="external">lg</xref>|<xref
@@ -70,7 +70,7 @@
                                 href="PrimData.dita#concept_PrimVar01/xmlTEI_verb01"
                             >Action</xref></li>
                         <li>from <xref href="PrimData.dita#concept_PrimVar01/xmlTEI_entity01">
-                        ENTITY'S NAME</xref></li>
+                                ENTITY'S NAME</xref></li>
                         <li>from <xref href="ObjVar.dita">objective variables</xref>: <xref
                                 href="ObjVar.dita#concept_ObjVar01/verbTaxo01">TAXO</xref>|<xref
                                 href="ObjVar.dita#concept_ObjVar01/verbSub01">subTAXO </xref></li>
@@ -127,10 +127,10 @@
         </p>
         <p/>
         <lines/>
+        <image href="img/transcription_example.svg" height="280px" align="left"
+            alt="schema within a transcription" id="image_dhs_hbg_lz"/>
         <p>Another pratical example with a schema, which meaning is “warriors are performing an
             action of destruction (tmtḫṣn)”:</p>
-        <image href="img/Transcription_example.svg" scope="local" height="280px" align="left"
-            alt="schema within a transcription" id="image_usj_k5z_3z"/>
         <lines/>
         <p>Specific case, verb repetition. For parsing XML-TEI in R, with and without emphasis. <note>
                 <ul>
@@ -138,7 +138,8 @@
                     <li>XML-TEI attribute: <xmlatt>type</xmlatt></li>
                     <li>Value: emphasize </li>
                 </ul>
-            </note><codeblock outputclass="language-xml">&lt;l n="23" ana="#ktu1-3_ii_l23" xml:id="ktu1-3_ii_23">
+            </note>
+            <lines/><codeblock outputclass="language-xml">&lt;l n="23" ana="#ktu1-3_ii_l23" xml:id="ktu1-3_ii_23">
   &lt;lb/>&lt;w type="adv">mʾid&lt;/w>
   &lt;g>.&lt;/g>
   &lt;w type="verb" ana="#MḪṢ01 #verb.competition #contend #WAR" xml:id="ktu1-3_ii_23_tmtḫṣn">tmtḫṣn&lt;/w>
@@ -155,7 +156,8 @@
     &lt;span type="emphasize" ana="#ktu1-3_ii_23_tʿn">tḥdy&lt;/span>&lt;/w>
   &lt;g>.&lt;/g>
   &lt;name type="character" ana="#Character #ANT">ʿnt&lt;/name>
-&lt;/l></codeblock></p><lines/>
+&lt;/l></codeblock></p>
+        <lines/>
         <ul>
             <li>In the previous example <xmlelement>span</xmlelement>
                 <xmlatt>type</xmlatt>="emphasize":<ul id="ul_bjx_szb_jz">

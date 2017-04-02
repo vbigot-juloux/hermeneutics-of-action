@@ -35,10 +35,7 @@
                 <li>XML-TEI attributes:
                         <xmlatt>xml:id</xmlatt>|<xmlatt>ana</xmlatt>|<xmlatt>type</xmlatt>|<xmlatt>cert</xmlatt></li>
                 <li>Attributes values: <ul>
-                        <li>Traditionally proposed in XML-TEI: REF POINTER</li>
-                        <li id="xmlTEI_entity02">from <xref
-                                href="PrimData.dita#concept_PrimVar01/xmlTEI_entity01">preliminary
-                            step</xref> before primary data: <xref href="PrimData.dita#concept_PrimVar01/AE_value01">CHARACTER</xref> (animated entitiy) </li>
+                        <li>traditionally proposed in XML-TEI: REF POINTER</li>
                         <li>from <xref href="ObjVar.dita">objective variables</xref>: <xref
                             href="ObjVar.dita#concept_ObjVar01/verbSem01">TAXO</xref>|<xref
                                 href="ObjVar.dita#concept_ObjVar01/verbSub01" format="dita" scope="local"
@@ -56,6 +53,11 @@
                                 >hasEmotionIntensity</xref>|<xref
                                 href="SubjVar.dita#concept_SubjVar01/conseq01"
                             >CONSEQUENCE</xref></li>
+                    <li id="xmlTEI_entity02">related to <xref href="PrimData.dita" format="dita"
+                                scope="local">primary data</xref> within
+                                <xmlelement>text</xmlelement>: <xref
+                                href="PrimData.dita#concept_PrimVar01/AE_value01">CHARACTER</xref>
+                            (animated entitiy) </li>
                     </ul></li>
             </ul></p>
         <p/>
@@ -64,7 +66,7 @@
       &lt;ref type="verb" ana="#whatAction <b>#ktu1-3_ii_l5b-6a_tmtḫṣ</b> <b>#verb.competition #contend</b>">competition verb: contend (mḫṣ, Gt: to fight)&lt;/ref> 
       &lt;castList> 
         &lt;castItem>
-          &lt;persName ana="#whatCharacter <b>#ANT</b> #Female" type="character" >&lt;state ana="#whatRole<b> #active</b>"/>ʾAnatu&lt;/persName>
+          &lt;persName ana="#whatCharacter <b>#ANT</b> #Female" type="character">&lt;state ana="#whatRole<b> #active</b>"/>ʾAnatu&lt;/persName>
           &lt;persName cert="low" ana="#UNK #Unknown" type="character">&lt;state ana="#passive"/>People from Qaratu&lt;/persName>
         &lt;/castItem>                                                                 
       &lt;/castList>
