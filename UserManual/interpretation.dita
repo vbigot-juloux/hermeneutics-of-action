@@ -63,7 +63,9 @@
         <p/>
      <p><codeblock outputclass="language-xml">&lt;interp xml:id="ktu1-3_ii_l5b_6a_int" ana="<b>#ktu1.3_ii_5b-6a</b>"> 
    &lt;desc>
-      &lt;ref type="verb" ana="#whatAction <b>#ktu1-3_ii_l5b-6a_tmtḫṣ</b> <b>#verb.competition #contend</b>">competition verb: contend (mḫṣ, Gt: to fight)&lt;/ref> 
+      &lt;ref type="verb" ana="#whatAction <b>#ktu1-3_ii_l5b-6a_tmtḫṣ</b> <b>#verb.competition #contend</b>">competition verb: contend (mḫṣ, Gt: to fight)
+      &lt;stage ana="whatResult #result #<b>defeate_ofOpposition</b>"/>
+      &lt;note ana="#ktu1-3_ii_l7_int #ktu1-3_ii_l8_int">According to results following this current action&lt;/note>&lt;/ref> 
       &lt;castList> 
         &lt;castItem>
           &lt;persName ana="#whatCharacter <b>#ANT</b> #Female" type="character">&lt;state ana="#whatRole<b> #active</b>"/>ʾAnatu&lt;/persName>
@@ -99,6 +101,12 @@
                         <li> ‘TAXO’ and ‘subTAXO’ (belongs to #objectiveData) according to “1.a.” —
                             in example below <b>#verb.competition #contend</b></li>
                     </ol></li>
+                <li id="whatResult01"><u>WhatResult</u> (#whatResult) in
+                        <xmlelement>stage</xmlelement>, <xmlatt>ana</xmlatt> ‘RESULT’ where can be
+                    added a comment for refering to the result of the action that follow the line
+                    within <xmlelement>note</xmlelement>, <xmlatt>ana</xmlatt> — in example below
+                        <b>#defeatOpposition</b> and refering to the result provided in lines
+                        <b>ktu1-3_ii_l7_int</b> and <b>ktu1-3_ii_l8_int</b>.</li>
                 <li><u>What animated entity </u> (#whatCharacter which belongs to <xref
                         href="PrimData.dita" format="dita" scope="local">primaryData</xref> within
                         <xmlelement>text</xmlelement>) in <xmlelement>persName</xmlelement>,

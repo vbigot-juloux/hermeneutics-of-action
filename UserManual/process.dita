@@ -70,6 +70,7 @@
                                             <li><xref href="ObjVar.dita#concept_ObjVar01/verbSem01"
                                                   format="dita" type="li">Semantic
                                                 category</xref></li>
+                                            <li><xref href="interpretation.dita#concept_ObjVar01/result01" format="dita" type="li">Result</xref></li>
                                             <li><xref href="ObjVar.dita#concept_ObjVar01/context01"
                                                   format="dita" type="li">Context</xref></li>
                                             <li><xref href="ObjVar.dita#concept_ObjVar01/sphere01"
