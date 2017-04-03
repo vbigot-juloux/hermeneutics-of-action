@@ -19,13 +19,13 @@
      <lines/>
   --------------------------------------
   </p>
-   <p id="image_objVar"> <b>➯ Objective variables schema:</b> <lines/>
-    <image href="img/Analytical_taxonomy_02.png" height="450px" 
-      alt="schema Objective variables"
-    /> <lines/>
-     Back to <xref href="ObjVar.dita" format="dita" scope="local">objective variables</xref> ➟ 
-     <lines/>
-  -------------------------------------- </p>
+   <p id="image_objVar">
+      <b>➯ Objective variables schema:</b>
+      <lines/>
+     <image href="img/Analytical_taxonomy_02.png" height="450px" 
+       alt="schema objective variables"/><lines/> Back to <xref
+        href="ObjVar.dita" format="dita" scope="local">objective variables</xref> ➟ <lines/>
+      -------------------------------------- </p>
    <p id="image_subjVar">
       <b>Subjective variables schema:</b><lines/>
      <image href="img/Analytical_taxonomy_03.png" height="650px" 
