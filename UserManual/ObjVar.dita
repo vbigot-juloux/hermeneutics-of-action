@@ -96,7 +96,7 @@
             </ul></li>
         </ul>
       </li>
-      <li id="result01"><b>Result</b><ul id="ol_onb_5cm_lz">
+      <li id="result01"><b>Result</b><ul>
           <li>&#x27af; result of the action.</li>
           <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt> —
             non-exhaustive listing: death of the Opponent (death_ofOpponent), Injury of the opponent
