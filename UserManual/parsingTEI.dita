@@ -28,22 +28,24 @@
               format="html" scope="external"><xmlatt>type</xmlatt></xref></li>
           <li id="valueNodes01">'Value' from: <ul>
               <li><xref href="PrimData.dita">Primary data</xref>: <xref
-                  href="PrimData.dita#xmlTEI_verb" format="dita" scope="local">action</xref>|<xref
-                  href="PrimData.dita#xmlTEI_entity02" format="dita" scope="local">Being</xref></li>
-              <li><xref href="dataMining.dita#concept_dataMining/dataMining_last" format="dita"
-                  type="li">Preliminary step</xref>: <xmlatt>ana</xmlatt> of identified <xref
+                href="PrimData.dita#concept_PrimVar01/xmlTEI_verb" format="dita" scope="local">action</xref>|<xref
+                  href="PrimData.dita#concept_PrimVar01/xmlTEI_entity02" format="dita" scope="local">Being</xref></li>
+            <li>Belongs to <xref href="PrimData.dita">Primary data</xref> in <xref
+                  href="PrimData.dita#concept_PrimVar01/AE_Being01">text</xref>:
+                  <xmlatt>ana</xmlatt> of identified <xref
                   href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-person.html"
                   format="html" scope="external">Character</xref>
               </li>
               <li><xref href="ObjVar.dita">Objective variables</xref> : <xref
                   href="ObjVar.dita#concept_ObjVar01/verbTaxo01" format="dita" scope="local"
                   >TAXO</xref>|<xref href="ObjVar.dita#concept_ObjVar01/verbSub01" format="dita"
-                  scope="local">subTAXO</xref>|<xref href="ObjVar.dita#concept_ObjVar01/context01"
-                  format="dita" scope="local">CONTEXT</xref>|<xref
-                  href="ObjVar.dita#concept_ObjVar01/sphere01" format="dita" scope="local"
-                  >SPHERE</xref>|<xref href="ObjVar.dita#concept_ObjVar01/role01" format="dita"
-                  scope="local">ROLE</xref>|<xref href="ObjVar.dita#concept_ObjVar01/bioSex01"
-                  >GENETIC SEX</xref>
+                  scope="local">subTAXO</xref>|<xref href="ObjVar.dita#concept_ObjVar01/result01"
+                  format="dita" scope="local">RESULT</xref>|<xref
+                  href="ObjVar.dita#concept_ObjVar01/context01" format="dita" scope="local"
+                  >CONTEXT</xref>|<xref href="ObjVar.dita#concept_ObjVar01/sphere01" format="dita"
+                  scope="local">SPHERE</xref>|<xref href="ObjVar.dita#concept_ObjVar01/role01"
+                  format="dita" scope="local">ROLE</xref>|<xref
+                  href="ObjVar.dita#concept_ObjVar01/bioSex01">GENETIC SEX</xref>
                 <note>Value in capital letters: implies to select the right choice of the
                   subcategory, ie SPHERE ➞ ‘outside’.</note></li>
               <li><xref href="SubjVar.dita">Subjective variables</xref>: <xref
@@ -72,8 +74,11 @@
             href="parsingTEI.dita#concept_statistics/dataMin_R01" format="dita" type="li">➟</xref>:
           <codeblock outputclass="language-xml">&lt;interp xml:id="ktu1-3_ii_l5b_6a_int" ana="<b>#ktu1.3_ii_5b-6a</b>"> 
    &lt;desc>
-      &lt;ref ana="#whatAction <b>#ktu1-3_ii_l5b-6a_tmtḫṣ</b> <b>#verb.competition #contend</b>">competition verb: contend (mḫṣ, Gt: to fight)&lt;/ref> 
-      &lt;castList> 
+      &lt;ref ana="#whatAction <b>#ktu1-3_ii_l5b-6a_tmtḫṣ</b> <b>#verb.competition #contend</b>">competition verb: contend (mḫṣ, Gt: to fight) 
+       &lt;stage ana="whatResult #result #<b>defeate_ofOpposition</b>">
+        &lt;note ana="#ktu1-3_ii_l7_int #ktu1-3_ii_l8_int">According to results following this current action&lt;/note>&lt;/stage>
+      &lt;/ref> 
+&lt;castList> 
         &lt;castItem>
           &lt;persName ana="#whatCharacter <b>#ANT</b> #Female" type="character" >&lt;state ana="#whatRole<b> #active</b>"/>ʾAnatu&lt;/persName>
           &lt;persName cert="low" ana="#UNK #Unknown" type="character">&lt;state ana="#passive"/>People from Qaratu&lt;/persName>

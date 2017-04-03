@@ -16,6 +16,8 @@
                         format="html" scope="external">interp</xref>|<xref
                         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-desc.html"
                         format="html" scope="external">desc</xref>|<xref
+                        href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-ref.html"
+                        format="html" scope="external">ref</xref>|<xref
                         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-castList.html"
                         format="html" scope="external">castList</xref>|<xref
                         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-castItem.html"
@@ -24,6 +26,8 @@
                         format="html" scope="external">persName</xref>|<xref
                         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-stage.html"
                         format="html" scope="external">stage</xref>|<xref
+                        href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-note.html"
+                        format="html" scope="external">note</xref>|<xref
                         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-view.html"
                         format="html" scope="external">view</xref>|<xref
                         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-placeName.html"
@@ -37,12 +41,14 @@
                 <li>Attributes values: <ul>
                         <li>traditionally proposed in XML-TEI: REF POINTER</li>
                         <li>from <xref href="ObjVar.dita">objective variables</xref>: <xref
-                            href="ObjVar.dita#concept_ObjVar01/verbSem01">TAXO</xref>|<xref
-                                href="ObjVar.dita#concept_ObjVar01/verbSub01" format="dita" scope="local"
-                                >subTAXO</xref>|<xref href="ObjVar.dita#concept_ObjVar01/role01"
-                                >ROLE</xref>|<xref href="ObjVar.dita#concept_ObjVar01/sphere01"
-                                >SPHERE</xref>|<xref href="ObjVar.dita#concept_ObjVar01/context01"
-                                >CONTEXT</xref></li>
+                                href="ObjVar.dita#concept_ObjVar01/verbSem01">TAXO</xref>|<xref
+                                href="ObjVar.dita#concept_ObjVar01/verbSub01" format="dita"
+                                scope="local">subTAXO</xref>|<xref
+                                    href="ObjVar.dita#concept_ObjVar01/result01" format="dita"
+                                    scope="local">RESULT</xref>|<xref
+                                href="ObjVar.dita#concept_ObjVar01/role01">ROLE</xref>|<xref
+                                href="ObjVar.dita#concept_ObjVar01/sphere01">SPHERE</xref>|<xref
+                                href="ObjVar.dita#concept_ObjVar01/context01">CONTEXT</xref></li>
                         <li>from <xref href="SubjVar.dita">subjective variables</xref>: <xref
                                 href="SubjVar.dita#concept_SubjVar01/volIntent01">VOLUNTARY
                                 INTENT</xref>|<xref href="SubjVar.dita#concept_SubjVar01/motiv_vI01"
@@ -102,7 +108,7 @@
                         <li> ‘TAXO’ and ‘subTAXO’ (belongs to #objectiveData) according to “1.a.” —
                             in example below <b>#verb.competition #contend</b></li>
                     </ol></li>
-                <li id="whatResult01"><u>WhatResult</u> (#whatResult) in
+                <li id="whatResult01"><u>What result</u> (#whatResult) in
                         <xmlelement>stage</xmlelement>, <xmlatt>ana</xmlatt> ‘RESULT’ where can be
                     added a comment for refering to the result of the action that follow the line
                     within <xmlelement>note</xmlelement>, <xmlatt>ana</xmlatt> — in example below
