@@ -117,7 +117,7 @@
                   ns:w (= namespace <xmlelement>w</xmlelement>) for counting verb's occurrences: <ul
                     id="ul_esy_4x3_fz">
                     <li>i.e previous example: <xmlatt>type</xmlatt> 'verb' from <xref
-                        href="ObjVar.dita#verbSem01">semantic verbal: </xref><xmlatt>ana</xmlatt>
+                        href="ObjVar.dita#verbSem01">verb category</xref><xmlatt>ana</xmlatt>
                       '#verb.competition'(= taxonomy, TAXO) and its subtaxonomy (subTAXO: #contend) </li>
                     <li>Optional: specify an animated entity's name (#Character 'value'), i.e.ʿAnatu
                         <xmlatt>ana</xmlatt> '#ANT' <xref href="ObjVar.dita#verbSem01"/>
@@ -191,15 +191,16 @@ and contains(<xmlatt>type</xmlatt>,'verb') </codeblock>
                       </tbody>
                     </tgroup>
                   </table><lines/></li>
-                <li id="dataMin_R01">Within <xref href="dataMining.dita" format="dita" scope="local"
-                    >Data mining</xref> section (primary data, objective and subjectives variables):
-                    <ul id="ul_bdr_gkj_fz">
-                    <li>From <xref href="ObjVar.dita#verbSem01">semantic category: </xref>
+                <li id="dataMin_R01">Within <xref href="interpretation.dita" format="dita"
+                    scope="local">interpretation</xref> section (primary data, objective and
+                  subjectives variables) ns:w (= namespace <xmlelement>interp</xmlelement>) for
+                  counting slected occurrences: <ul id="ul_bdr_gkj_fz">
+                    <li>From <xref href="ObjVar.dita#verbSem01">Verb category: </xref>
                       <xmlatt>ana</xmlatt> i.e. '#verb.competition'(= taxonomy, TAXO) and its
                       subtaxonomy (subTAXO: i.e. #contend) </li>
                     <li>Specify other <xmlatt>ana</xmlatt> objective variables' value-s, one or
-                      several: SPHERE #value (#outside/#inside), ROLE #value (#active/#passive),
-                      Genetic sex #value (#Female, #Male) </li>
+                      several: RESULT #value, SPHERE #value (#outside/#inside), ROLE #value
+                      (#active/#passive), Genetic sex #value (#Female/#Male) </li>
                     <li>Specify an animated entity's name (#CHARACTER 'value'), i.e.ʿAnatu
                         <xmlatt>ana</xmlatt> '#ANT' <xref href="ObjVar.dita#verbSem01">
                         <xmlatt>ana</xmlatt></xref></li>
@@ -229,12 +230,14 @@ and contains(<xmlatt>type</xmlatt>,'verb') </codeblock>
                           </thead>
                           <tbody>
                             <row>
-                              <entry>Amout of time ANT: TAXO ➞ subTAXO ➞ what SPHERE</entry>
-                              <entry>#ANT and TAXO #value ➞ subTAXO #value ➞ SPHERE #value</entry>
-                              <entry>//ns:span</entry>
+                              <entry>Amout of time ANT: TAXO ➞ subTAXO ➞ what RESULT ➞ what
+                                SPHERE</entry>
+                              <entry>#ANT and TAXO #value ➞ subTAXO #value ➞ RESULT #value ➞ SPHERE
+                                #value</entry>
+                              <entry>//ns:interp</entry>
                               <entry>
                                 <codeblock>contains(<xmlatt>ana</xmlatt>,'#ANT') and contains(<xmlatt>ana</xmlatt>,'#TAXO') and 
-contains(<xmlatt>ana</xmlatt>,'#SPHERE')</codeblock>
+contains(<xmlatt>ana</xmlatt>,'#RESULT') and contains(<xmlatt>ana</xmlatt>,'#SPHERE')</codeblock>
                               </entry>
                             </row>
                             <row>
@@ -242,15 +245,15 @@ contains(<xmlatt>ana</xmlatt>,'#SPHERE')</codeblock>
                                 ROLE</entry>
                               <entry>#ANT and TAXO #value ➞ subTAXO #value ➞ SPHERE #value, ROLE
                                 #value</entry>
-                              <entry>//ns:span</entry>
+                              <entry>//ns:interp</entry>
                               <entry>
                                 <codeblock>contains(<xmlatt>ana</xmlatt>,'#ANT') and contains(<xmlatt>ana</xmlatt>,'#TAXO') and
 contains(<xmlatt>ana</xmlatt>,'#SPHERE') and contains(<xmlatt>ana</xmlatt>,'#ROLE') </codeblock>
                               </entry>
                             </row>
                             <row>
-                              <entry>Total AE (Character)</entry>
-                              <entry>CHARACTER #value</entry>
+                              <entry>Total AE (Character) </entry>
+                              <entry>CHARACTER #value </entry>
                               <entry>//ns:persName</entry>
                               <entry>
                                 <codeblock>contains(<xmlatt>ana</xmlatt>,'#CHARACTER') and contains(<xmlatt>type</xmlatt>, 'character')</codeblock>

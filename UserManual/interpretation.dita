@@ -105,30 +105,30 @@
                                 <xmlatt>xml:id</xmlatt> of <xmlelement>w</xmlelement>,
                                 <xmlatt>type</xmlatt> ‘verb’ that is analyzed — in example below
                                 <b>#ktu1-3_ii_l5b-6a_tmtḫṣ</b> for ‘tmtḫṣ’</li>
-                        <li> ‘TAXO’ and ‘subTAXO’ (belongs to #objectiveData) according to “1.a.” —
+                        <li> ‘TAXO’ and ‘subTAXO’ (belongs to #objectiveVar) according to “1.a.” —
                             in example below <b>#verb.competition #contend</b></li>
                     </ol></li>
-                <li id="whatResult01"><u>What result</u> (#whatResult) in
-                        <xmlelement>stage</xmlelement>, <xmlatt>ana</xmlatt> ‘RESULT’ where can be
-                    added a comment for refering to the result of the action that follow the line
-                    within <xmlelement>note</xmlelement>, <xmlatt>ana</xmlatt> — in example below
-                        <b>#defeatOpposition</b> and refering to the result provided in lines
-                        <b>ktu1-3_ii_l7_int</b> and <b>ktu1-3_ii_l8_int</b>.</li>
+                <li id="whatResult01"><u>What result</u> (#whatResult which belongs to
+                    #objectiveVar) in <xmlelement>stage</xmlelement>, <xmlatt>ana</xmlatt> ‘RESULT’
+                    where can be added a comment for refering to the result of the action that
+                    follow the line within <xmlelement>note</xmlelement>, <xmlatt>ana</xmlatt> — in
+                    example below <b>#defeatOpposition</b> and refering to the result provided in
+                    lines <b>ktu1-3_ii_l7_int</b> and <b>ktu1-3_ii_l8_int</b>.</li>
                 <li><u>What animated entity </u> (#whatCharacter which belongs to <xref
                         href="PrimData.dita" format="dita" scope="local">primaryData</xref> within
                         <xmlelement>text</xmlelement>) in <xmlelement>persName</xmlelement>,
                         <xmlatt>ana</xmlatt> ‘Character’ and ‘AE value’ — in example below
                         <b>#ANT</b></li>
-                <li><u>What role</u> (#whatBehavior which belongs to #objectiveData) in
+                <li><u>What role</u> (#whatBehavior which belongs to #objectiveVar) in
                         <xmlelement>state</xmlelement>, <xmlatt>ana</xmlatt> ‘ROLE’ — in example
                     below <b>#active</b></li>
-                <li><u>What context</u> (#whatContext which belongs to #objectiveData) in
+                <li><u>What context</u> (#whatContext which belongs to #objectiveVar) in
                         <xmlelement>placeName</xmlelement>, <xmlatt>ana</xmlatt> ‘CONTEXT’ — in
                     example below <b>#battle</b></li>
-                <li><u>What sphere</u> (#whatSphere which belongs to #objectiveData) in
+                <li><u>What sphere</u> (#whatSphere which belongs to #objectiveVar) in
                         <xmlelement>location</xmlelement>, <xmlatt>ana</xmlatt> ‘SPHERE’ — in
                     example below <b>#outside</b></li>
-                <li><u>What behavior</u> (#whatRole which belongs to #subjectiveData) AE is
+                <li><u>What behavior</u> (#whatRole which belongs to #subjectiveVar) AE is
                     performing the action in <xmlelement>state</xmlelement> ➞
                         <xmlelement>span</xmlelement>:<ul id="ol_k3n_wyt_gz">
                         <li><xmlatt>ana</xmlatt>
