@@ -65,9 +65,9 @@
                 guidelines relies on my own responsibility.</fn>. It goes without saying that
               variation of ugaritic meaning will be analyzed within the <xref
                 href="process.dita#task_step/hermeneutics01" format="dita" scope="local"
-                >hermeneutics</xref> argumentation<fn>(A specific dictionary of semantics for
-                ancient Near Eastern languages is under development in xml-tei, with Ugaritic
-                language for the experimental development)</fn>.</p>
+                >hermeneutics</xref> argumentation<fn>A specific dictionary of semantics for ancient
+                Near Eastern languages is under development in xml-tei, with Ugaritic language for
+                the experimental development</fn>.</p>
             <ul id="ul_vrj_lfv_jz">
               <li>Semantics categories of: bodily functions and care (verb.body), cognition
                 (verb.cognition), communication (verb.communication), competition
@@ -82,7 +82,7 @@
               <li id="verbSub01">Subcategories (still under development as the transciption moves
                 forward), <xmlelement>category</xmlelement>[2], <xmlatt>xml:id</xmlatt> subTAXO:
                 i.e. attaching (for TAXO verb contact)<ul id="ul_chp_dhd_nz">
-                  <li>with equivalence of a referenced sucbategory <xref href="withinTranscrip.dita"
+                  <li>with equivalence of a referenced subcategory <xref href="withinTranscrip.dita"
                       format="dita" scope="local">within transcription</xref>,
                       <xmlelement>category</xmlelement>[3] ➞ <xmlelement>equiv</xmlelement> ,
                       <xmlatt>xml:id</xmlatt> verb's “infinitive” form </li>
