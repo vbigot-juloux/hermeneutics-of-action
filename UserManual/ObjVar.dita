@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_ObjVar01">
-
- <title>Objective variables</title>
-
- <shortdesc/>
+  <title>Objective variables</title>
+  <shortdesc/>
   <!-- revenir sur l'index 
   <prolog>
     <metadata>
@@ -12,26 +10,30 @@
     </metadata>
   </prolog>
   -->
- <conbody>
-   <note><ul>
-        <li>XPath: /teiCorpus/TEI[1]/teiHeader[1]/encodingDesc[1]/classDecl[1]/taxonomy[2]</li><li id="xmlTEI_objV">XML-TEI elements: <xref
+  <conbody>
+    <note>
+      <ul>
+        <li>XPath: /teiCorpus/TEI[1]/teiHeader[1]/encodingDesc[1]/classDecl[1]/taxonomy[2]</li>
+        <li id="xmlTEI_objV">XML-TEI elements: <xref
             href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-taxonomy.html"
             format="html" scope="external">taxonomy</xref>|<xref
             href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-category.html"
-            format="html" scope="external">category</xref></li>
-     <li>XML-TEI attributes: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" format="html" scope="external"><xmlatt>xml:id</xmlatt></xref></li>
-     <li>Values: objectiveData|CATEGORY|SUBCATEGORY</li>
+            format="html" scope="external">category</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-equiv.html" format="html" scope="external">equiv</xref></li>
+        <li>XML-TEI attributes: <xref
+            href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" format="html"
+            scope="external"><xmlatt>xml:id</xmlatt></xref></li>
+        <li>Values: objectiveData|CATEGORY|SUBCATEGORY</li>
         <li>Ontology: <ul id="ul_z1h_vwn_jz">
             <li id="objVar_ontoM01">OntoMedia module: <xref
                 href="http://www.contextus.net/ontology/ontomedia/ex/ext/common/trait" format="html"
                 scope="external">Trait</xref> (characteristics),
               <codeph>rdf:ID</codeph>="Genetic-sex"</li>
           </ul></li>
-     <li><xref href="schema.dita#concept_schemaIMG/image_objVar" format="dita" scope="local">Schema
-       of objective variables</xref> ➟</li>
-   </ul>
-   </note>
-   <p>They are several variables (<xmlelement>category</xmlelement>) which provide relevant
+        <li><xref href="schema.dita#concept_schemaIMG/image_objVar" format="dita" scope="local"
+            >Schema of objective variables</xref> ➟</li>
+      </ul>
+    </note>
+    <p>They are several variables (<xmlelement>category</xmlelement>) which provide relevant
       information on the character's acting (<xref href="PrimData.dita">primary data</xref>): <xref
         href="ObjVar.dita#concept_ObjVar01/verbSem01" format="dita">verb category</xref>, <xref
         href="ObjVar.dita#concept_ObjVar01/sphere01" format="dita">sphere</xref>, <xref
@@ -43,14 +45,14 @@
     &lt;category xml:id="NAME OF A VARIABLE"/>
     &lt;category xml:id="NAME OF A SUBVARIABLE"/>
 &lt;/taxonomy></codeblock></p>
-   <note>a variable = category or taxonomy. A subvariable = subcategory or subtaxonomy.</note>
+    <note>a variable = category or taxonomy. A subvariable = subcategory or subtaxonomy.</note>
     <p>➤ Each <xmlatt>xml:id</xmlatt> from <xmlelement>taxonomy</xmlelement> ➞
         <xmlelement>category</xmlelement>[1], and <xmlelement>taxonomy</xmlelement> ➞
         <xmlelement>category</xmlelement>[1] ➞ <xmlelement>category</xmlelement>[2] will be use in
       R. </p>
     <p/>
-     <ol>
-       <li id="verbSem01"><b>Verb category</b> (= action category)<ul>
+    <ol>
+      <li id="verbSem01"><b>Verb category</b> (= action category)<ul>
           <li>
             <p>For the semantic type of the lexicon verb — semantics categories are the ones used by
               the lexical database <xref href="http://wordnet.princeton.edu" format="html"
@@ -63,7 +65,9 @@
                 guidelines relies on my own responsibility.</fn>. It goes without saying that
               variation of ugaritic meaning will be analyzed within the <xref
                 href="process.dita#task_step/hermeneutics01" format="dita" scope="local"
-                >hermeneutics</xref> argumentation.</p>
+                >hermeneutics</xref> argumentation<fn>(A specific dictionary of semantics for
+                ancient Near Eastern languages is under development in xml-tei, with Ugaritic
+                language for the experimental development)</fn>.</p>
             <ul id="ul_vrj_lfv_jz">
               <li>Semantics categories of: bodily functions and care (verb.body), cognition
                 (verb.cognition), communication (verb.communication), competition
@@ -74,25 +78,35 @@
             </ul>
           </li>
           <li id="verbTaxo01">Category <xmlelement>category</xmlelement>[1] ➞
-              <xmlatt>xml:id</xmlatt> TAXO: verb.creation <ul>
+              <xmlatt>xml:id</xmlatt> TAXO: verb.contact <ul>
               <li id="verbSub01">Subcategories (still under development as the transciption moves
-                forward), <xmlelement>category</xmlelement>[2] ➞ <xmlatt>xml:id</xmlatt> subTAXO:
-                i.e. destroying (for TAXO verb creation)</li>
+                forward), <xmlelement>category</xmlelement>[2], <xmlatt>xml:id</xmlatt> subTAXO:
+                i.e. attaching (for TAXO verb contact)<ul id="ul_chp_dhd_nz">
+                  <li>with equivalence of a referenced sucbategory <xref href="withinTranscrip.dita"
+                      format="dita" scope="local">within transcription</xref>,
+                      <xmlelement>category</xmlelement>[3] ➞ <xmlelement>equiv</xmlelement> ,
+                      <xmlatt>xml:id</xmlatt> verb's “infinitive” form </li>
+                </ul></li>
               <li>XLM-TEI example:
-                <codeblock outputclass="language-xml">&lt;category xml:id="verb.category" ana="#action">
-  &lt;category xml:id="verb.creation">
-    &lt;!-- according to WordNet: “verbs of sewing, baking, painting, performing” -->
-    &lt;catDesc>taxonomy: creation verbs&lt;/catDesc>
-    &lt;category xml:id="destroying">
-      &lt;catDesc>subcategory of creaction's verb, as a concept: destroying
-      — see &lt;ref target="http://verbs.colorado.edu">VerbNet&lt;idno type="URI">http://verbs.colorado.edu/verb-index/vn/destroy-44.php&lt;/idno>&lt;/ref>, 
-      &lt;ref target="https://framenet2.icsi.berkeley.edu/">FrameNet&lt;idno type="https://framenet2.icsi.berkeley.edu/fnReports/data/frame/Destroying.xml">&lt;/idno>&lt;/ref>,
-      and &lt;ref target="http://wordnetweb.princeton.edu">WordNet&lt;idno type="URI">https://tinyurl.com/mxkdgw8&lt;/idno> (&lt;note>WordNet URI not conformed for "idno" element&lt;/note>)&lt;/ref> 
-    &lt;/catDesc>
-   &lt;/category>
- &lt;/category> 
+                <codeblock outputclass="language-xml">&lt;category xml:id="verb.category" ana="#objectiveVar #action">
+  &lt;catDesc xml:lang="en">According to WordNet lexical database&lt;/catDesc>
+  &lt;!-- example -->
+  &lt;category n="6" xml:id="verb.contact" ana="#verb.category #action">
+    &lt;catDesc>taxonomy: verbs of contact (WordNet[35])&lt;/catDesc>
+     &lt;category n="1" xml:id="attaching" ana="#verb.contact"> 
+       &lt;catDesc>subcategory of contact's verb: attaching (according to FrameNet) — 
+         see &lt;ref target="http://babelnet.org">BabelNet&lt;idno type="URI">http://live.babelnet.org/synset?word=bn:00083498v&lt;/idno>&lt;/ref>,
+         &lt;ref target="https://framenet2.icsi.berkeley.edu/">FrameNet&lt;idno type="https://framenet2.icsi.berkeley.edu/fnReports/data/frameIndex.xml?frame=Attaching">&lt;/idno>&lt;/ref>,
+         and &lt;ref target="http://wordnetweb.princeton.edu">WordNet&lt;idno type="URI">https://tinyurl.com/mpt6vka&lt;/idno> (&lt;note>WordNet URI not conformed for "idno" element&lt;/note>)&lt;/ref> 
+       &lt;/catDesc> 
+     &lt;category ana="#transcription" xml:lang="uga">
+      &lt;equiv n="1" xml:id="ʿtk"/> &lt;!-- within transcription, i.e.: &lt;w type="verb" ana="#ʿtk #verb.contact #attaching #ANT" xml:id="ktu1-3_ii_l11b-12a_ʿtkt">ʿtkt&lt;/w> -->
+      &lt;equiv n="2" xml:id="šns"/> &lt;!-- within transcription, i.e.: &lt;w type="verb" ana="#šns #verb.contact #attaching #ANT" xml:id="ktu1-3_ii_l12b-13a_šnst">šnst&lt;/w> -->                              
+      […]
+     &lt;/category>
+    &lt;/category>
  […]
-&lt;/category>              </codeblock></li>
+&lt;/category>             </codeblock></li>
             </ul></li>
         </ul>
       </li>
@@ -105,58 +119,60 @@
             (take_overThrone), unknown (unknown_R), broken context (B_ctx_R).</li>
           <li>Note: the result can be seen in the lines following the current action; an
             explaination is given within <xmlelement>note</xmlelement>, and referenced to
-            <xmlatt>ana</xmlatt>. Example within <xref href="interpretation.dita#concept_dataMining/whatResult01" format="dita" scope="local">interpretation</xref></li>
+              <xmlatt>ana</xmlatt>. Example within <xref
+              href="interpretation.dita#concept_dataMining/whatResult01" format="dita" scope="local"
+              >interpretation</xref></li>
           <li>XML-TEI
-            example:<codeblock outputclass="language-xml">&lt;category xml:id="result" ana="objectiveVar">
+            example:<codeblock outputclass="language-xml">&lt;category xml:id="result" ana="#objectiveVar">
     &lt;category xml:id="death_ofOpponent"/>
 &lt;/category> </codeblock>
           </li>
         </ul></li>
-       <li id="context01"><b>Context </b>
-     <ul>
-       <li>&#x27af; in which the action takes place.</li>
-      <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt> — non-exhaustive
-            listing: assembly, battle, burial, care (can be used with another context), feast,
-            hunting, landscaping project, lawsuit, maintenance, ritual, single combat, trade, visit,
-            wedding, unknown (unknown_C), broken context (B_ctx_C).</li>
-      <li>XML-TEI example:
-            <codeblock outputclass="language-xml">&lt;category xml:id="context" ana="objectiveVar">
+      <li id="context01"><b>Context </b>
+        <ul>
+          <li>&#x27af; in which the action takes place.</li>
+          <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt> —
+            non-exhaustive listing: assembly, battle, burial, care (can be used with another
+            context), feast, hunting, landscaping project, lawsuit, maintenance, ritual, single
+            combat, trade, visit, wedding, unknown (unknown_C), broken context (B_ctx_C).</li>
+          <li>XML-TEI example:
+            <codeblock outputclass="language-xml">&lt;category xml:id="context" ana="#objectiveVar">
     &lt;category xml:id="ritual"/>
 &lt;/category> </codeblock>
           </li>
-     </ul></li>
-       <li id="sphere01"><b>Sphere</b> <ul>
-       <li>&#x27af; where the event takes place, inside or outside the household.</li>
-      <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: inside,
-              outside, unknown (unknown_S), broken context (B_ctx_S).</li>
-      <li>XMT-TEI
-            example:<codeblock outputclass="language-xml">&lt;category xml:id="sphere" ana="objectiveVar">
+        </ul></li>
+      <li id="sphere01"><b>Sphere</b>
+        <ul>
+          <li>&#x27af; where the event takes place, inside or outside the household.</li>
+          <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: inside,
+            outside, unknown (unknown_S), broken context (B_ctx_S).</li>
+          <li>XMT-TEI
+            example:<codeblock outputclass="language-xml">&lt;category xml:id="sphere" ana="#objectiveVar">
     &lt;category xml:id="inside"/>
 &lt;/category></codeblock></li>
-     </ul></li>
-       <li id="role01"><b>Role</b> <ul>
-            <li>&#x27af; of the animated entity (= Being)</li>
-            <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: active,
+        </ul></li>
+      <li id="role01"><b>Role</b>
+        <ul>
+          <li>&#x27af; of the animated entity (= Being)</li>
+          <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: active,
             passive, both Active (animated entities X and Y)</li>
-            <li>XML-TEI example:
-            <codeblock outputclass="language-xml">&lt;category xml:id="role" ana="objectiveVar">
+          <li>XML-TEI example:
+            <codeblock outputclass="language-xml">&lt;category xml:id="role" ana="#objectiveVar">
     &lt;category xml:id="active"/>
 &lt;category/>      </codeblock>
           </li>
-          </ul></li>
-       <li id="bioSex01"><b>Genetic sex</b>
+        </ul></li>
+      <li id="bioSex01"><b>Genetic sex</b>
         <ul>
           <li>&#x27af; traditionally known (or assumed by tradition).</li>
           <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: Female,
             Male, unknown</li>
           <li>XML-TEI example:
-            <codeblock outputclass="language-xml">&lt;category xml:id="Genetic-sex" ana="objectiveVar">
+            <codeblock outputclass="language-xml">&lt;category xml:id="Genetic-sex" ana="#objectiveVar">
     &lt;category xml:id="Female"/>
 &lt;category/></codeblock>
           </li>
         </ul></li>
-     </ol>
-
- </conbody>
-
+    </ol>
+  </conbody>
 </concept>

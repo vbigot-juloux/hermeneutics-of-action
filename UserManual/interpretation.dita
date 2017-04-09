@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_dataMining">
- <title>Interpretation for a preliminary hermeneutics</title>
- <shortdesc/>
- <conbody>
-  <p>This section is one of the most important for the hermeneutics of action, from the taxonomies
-            primary data, objective, and subjective variables. <note>Value in capital letters:
-                implies to select the right choice of the subcategory, ie SPHERE ➞ 'outside'.</note>
+    <title>Interpretation for a preliminary hermeneutics</title>
+    <shortdesc/>
+    <conbody>
+        <p>This section is one of the most important for the hermeneutics of action, from the
+            taxonomies primary data, objective, and subjective variables. <note>Value in capital
+                letters: implies to select the right choice of the subcategory, ie SPHERE ➞
+                'outside'.</note>
             <ul>
                 <li>Data mining within the elements <xmlelement>TEI</xmlelement> ➞
                         <xmlelement>body</xmlelement> ➞ <xmlelement>div</xmlelement> ➞
@@ -37,18 +38,20 @@
                         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-span.html"
                         format="html" scope="external">span</xref></li>
                 <li>XML-TEI attributes:
-                        <xmlatt>xml:id</xmlatt>|<xmlatt>ana</xmlatt>|<xmlatt>type</xmlatt>|<xmlatt>cert</xmlatt></li>
+                        <xmlatt>n</xmlatt>|<xmlatt>target</xmlatt>|<xmlatt>xml:id</xmlatt>|<xmlatt>ana</xmlatt>|<xmlatt>type</xmlatt>|<xmlatt>cert</xmlatt></li>
                 <li>Attributes values: <ul>
                         <li>traditionally proposed in XML-TEI: REF POINTER</li>
                         <li>from <xref href="ObjVar.dita">objective variables</xref>: <xref
                                 href="ObjVar.dita#concept_ObjVar01/verbSem01">TAXO</xref>|<xref
                                 href="ObjVar.dita#concept_ObjVar01/verbSub01" format="dita"
                                 scope="local">subTAXO</xref>|<xref
-                                    href="ObjVar.dita#concept_ObjVar01/result01" format="dita"
-                                    scope="local">RESULT</xref>|<xref
+                                href="ObjVar.dita#concept_ObjVar01/result01" format="dita"
+                                scope="local">RESULT</xref>|<xref
                                 href="ObjVar.dita#concept_ObjVar01/role01">ROLE</xref>|<xref
                                 href="ObjVar.dita#concept_ObjVar01/sphere01">SPHERE</xref>|<xref
-                                href="ObjVar.dita#concept_ObjVar01/context01">CONTEXT</xref></li>
+                                    href="ObjVar.dita#concept_ObjVar01/context01">CONTEXT</xref>|<xref
+                                        href="ObjVar.dita#concept_ObjVar01/bioSex01">GENETIC
+                            SEX</xref></li>
                         <li>from <xref href="SubjVar.dita">subjective variables</xref>: <xref
                                 href="SubjVar.dita#concept_SubjVar01/volIntent01">VOLUNTARY
                                 INTENT</xref>|<xref href="SubjVar.dita#concept_SubjVar01/motiv_vI01"
@@ -59,7 +62,7 @@
                                 >hasEmotionIntensity</xref>|<xref
                                 href="SubjVar.dita#concept_SubjVar01/conseq01"
                             >CONSEQUENCE</xref></li>
-                    <li id="xmlTEI_entity02">related to <xref href="PrimData.dita" format="dita"
+                        <li id="xmlTEI_entity02">related to <xref href="PrimData.dita" format="dita"
                                 scope="local">primary data</xref> within
                                 <xmlelement>text</xmlelement>: <xref
                                 href="PrimData.dita#concept_PrimVar01/AE_value01">CHARACTER</xref>
@@ -67,93 +70,187 @@
                     </ul></li>
             </ul></p>
         <p/>
-     <p><codeblock outputclass="language-xml">&lt;interp xml:id="ktu1-3_ii_l5b_6a_int" ana="<b>#ktu1.3_ii_5b-6a</b>"> 
-   &lt;desc>
-      &lt;ref type="verb" ana="#whatAction <b>#ktu1-3_ii_l5b-6a_tmtḫṣ</b> <b>#verb.competition #contend</b>">competition verb: contend (mḫṣ, Gt: to fight)
-       &lt;stage ana="whatResult #result #<b>defeate_ofOpposition</b>">
-        &lt;note ana="#ktu1-3_ii_l7_int #ktu1-3_ii_l8_int">According to results following this current action&lt;/note>&lt;/stage>
-      &lt;/ref> 
-      &lt;castList> 
-        &lt;castItem>
-          &lt;persName ana="#whatCharacter <b>#ANT</b> #Female" type="character">&lt;state ana="#whatRole<b> #active</b>"/>ʾAnatu&lt;/persName>
-          &lt;persName cert="low" ana="#UNK #Unknown" type="character">&lt;state ana="#passive"/>People from Qaratu&lt;/persName>
-        &lt;/castItem>                                                                 
-      &lt;/castList>
-        &lt;view>
-          &lt;placeName ana="#whatContext <b>#battle</b>">battle&lt;location ana="#whatSphere <b>#outside</b>"/>outside her household&lt;geo>valley&lt;/geo>&lt;/placeName>
-        &lt;/view> 
-        &lt;stage ana="whatBehavior">
-          &lt;span ana="<b>#toDestroy #free #five_dD</b>">Voluntary intentionality, to destroy of her free will, and with a degree of desire level five&lt;/span>
-          &lt;span ana="<b>#rage #veryHight</b>">Emotion of rage, very hight&lt;/span> 
-          &lt;span ana="<b>#affectEntity_and_other</b>">The result of action has an impact on ʾAnatu and others&lt;/span>
-        &lt;/stage>
-   &lt;/desc>  
-&lt;/interp></codeblock></p>
-     <p>Explanations of <b>relevant elements and attributes</b> for the interpretation, according to
-            (1) <xref href="structuralUnit.dita" format="dita">structural unit</xref>, and (2) <xref
-                href="categories.dita" format="dita">analytical taxonomies</xref>: </p>
+        <p>
+            <codeblock outputclass="language-xml">&lt;interp xml:id="ktu1-3_ii_l5b_6a_int" ana="#<b>ktu1-3_ii_l5b-6a</b>" corresp="#ktu1-3_ii_l5b_6a">
+  &lt;desc>
+    &lt;ref n="1" target="#whatAction #<b>ktu1-3_ii_l5b-6a_tmtḫṣ</b>" type="verb" ana="#<b>verb.competition</b> #<b>contend</b> #mḫṣ01">Action belongs to verb competition, subcategory contend: mḫṣ&lt;/ref>;
+    &lt;ref n="2" target="#whatResult">&lt;stage ana="#<b>defeate_ofOpposition</b>">defeat of the opposition&lt;note ana="#ktu1-3_ii_l7_int #ktu1-3_ii_l8_int">According to results following this current action&lt;/note>&lt;/stage>&lt;/ref>
+    &lt;castList>
+      &lt;castItem n="1"> &lt;!-- one can have more than one castItem placed after the verb, if it is named, such as a warrior, people..., but none &lt;ref> is specified -->
+        &lt;ref n="3" target="#whatCharacter">&lt;persName type="character" ana="<b>#ANT</b> #<b>Female</b>">ʿAnatu&lt;/persName>;&lt;/ref>
+        &lt;ref n="4" target="#whatRole">&lt;state ana="#<b>active</b>" cert="high"/>role: active&lt;/ref>
+      &lt;/castItem>
+    &lt;/castList>
+    &lt;view>
+      &lt;ref n="5" target="#whatContext">&lt;placeName ana="#<b>battle</b>">battle&lt;geo>valley&lt;/geo>&lt;/placeName>&lt;/ref>
+      &lt;ref n="6" target="#whatSphere">&lt;location ana="#<b>outside</b>"/>outside her household&lt;/ref>
+    &lt;/view>
+    &lt;stage>
+     &lt;ref n="7" target="#whatBehavior">
+      &lt;span ana="#<b>toDestroy</b> #<b>free</b> #<b>veryHight</b> #<b>rage</b> #<b>five_dD</b>">Voluntary intentionality, to destroy of her free will, with rage (level five).&lt;/span>
+      &lt;span ana="#<b>affectEntity_and_other</b>">Consquence: an impact on ʾAnatu and others&lt;/span>
+     &lt;/ref>
+    &lt;/stage>
+  &lt;/desc>
+ &lt;/interp></codeblock>
+        </p>
+        <p>Explanations of <b>relevant elements and attributes</b> for the interpretation, according
+            to (1) <xref href="structuralUnit.dita" format="dita">structural unit</xref>, and (2)
+                <xref href="categories.dita" format="dita">analytical taxonomies</xref>: </p>
         <p>Preliminary step, one shall define the linked subsection within <xref
                 href="withinTranscrip.dita#concept_ephilo/xmlID01">within transcription</xref> to
             the words' group that are investigated: in <xmlelement>interp</xmlelement> , ref pointer
-                <xmlatt>ana</xmlatt> refers to <xmlatt>xml:id</xmlatt> of <xmlelement>l</xmlelement>
-            — in example below <b>ktu1.3_ii_l5b_6a</b><ol id="ol_ppt_ztz_gz">
-                <li><u>What action</u> (#whatAction) within <xmlelement>ref</xmlelement>:<ol
-                        id="ol_nvl_tsz_gz">
-                        <li>ACTION (belongs to #primaryData) within <xref
+                <xmlatt>ana</xmlatt> which refers to <xmlatt>xml:id</xmlatt> of
+                <xmlelement>l</xmlelement> — in example below <b>ktu1.3_ii_l5b_6a</b>. ￫ Xpath:
+                <xmlelement>interp</xmlelement>[<xmlatt>ana</xmlatt>=‘xml:id #value’]</p>
+        <p>Before each interpretation according to <xref href="categories.dita" format="dita"
+                >analytical taxonomies</xref>, and which follows an
+            <xmlelement>element</xmlelement>, <xmlelement>ref</xmlelement>, <xmlatt>target</xmlatt>
+            that points to a <xref href="structuralUnit.dita" format="dita" scope="local">structural
+                unit</xref> value. ￫ Summary:
+            <xmlelement>interp</xmlelement>[<xmlatt>ana</xmlatt>=‘xml:id
+                #value’]/<xmlelement>desc</xmlelement>/<xmlelement>one or two
+                element(s)</xmlelement>/<xmlelement>ref</xmlelement>[<xmlatt>n</xmlatt> =‘value
+            number’ and <xmlatt>target</xmlatt>=‘structural unit #value’]<ol id="ol_ppt_ztz_gz">
+                <li><u>What action</u> (#whatAction) in <xmlelement>ref</xmlelement>,
+                        <xmlatt>target</xmlatt> to point to <xref href="structuralUnit.dita"
+                        format="dita" scope="local">structural unit</xref>
+                    <xmlatt>n</xmlatt> ‘1’ ➞<ol id="ol_nvl_tsz_gz">
+                        <li>ACTION (belongs to <xref href="PrimData.dita" format="dita"
+                                scope="local">primaryData</xref> ) <xref
                                 href="withinTranscrip.dita#concept_ephilo/xmlID01">within
-                                transcription</xref> , <xmlatt>ana</xmlatt> refers to
-                                <xmlatt>xml:id</xmlatt> of <xmlelement>w</xmlelement>,
-                                <xmlatt>type</xmlatt> ‘verb’ that is analyzed — in example below
-                                <b>#ktu1-3_ii_l5b-6a_tmtḫṣ</b> for ‘tmtḫṣ’</li>
-                        <li> ‘TAXO’ and ‘subTAXO’ (belongs to #objectiveVar) according to “1.a.” —
-                            in example below <b>#verb.competition #contend</b></li>
+                                transcription</xref> , <xmlatt>xml:id</xmlatt> refers to
+                                <xmlelement>w</xmlelement>, <xmlatt>type</xmlatt> ‘verb’ that is
+                            analyzed — in example below <b>#ktu1-3_ii_l5b-6a_tmtḫṣ</b> for
+                            ‘tmtḫṣ’</li>
+                        <li> ‘TAXO’ and ‘subTAXO’ (belongs to <xref href="ObjVar.dita" format="dita"
+                                scope="local">objective variables</xref>) refers to
+                                <xmlatt>ana</xmlatt> from previous ACTION's verb — in example below
+                                <b>#verb.competition #contend</b></li>
+                        <li>￫ Summary: <xmlelement>ref</xmlelement>[<xmlatt>n</xmlatt>=‘1’ and
+                                <xmlatt>target</xmlatt>=‘#whatAction #ktu1-3_ii_l5b-6a_tmtḫṣ’ and
+                                <xmlatt>ana</xmlatt>=‘#verb.competition #contend’]<lines/></li>
                     </ol></li>
                 <li id="whatResult01"><u>What result</u> (#whatResult which belongs to
-                    #objectiveVar) in <xmlelement>stage</xmlelement>, <xmlatt>ana</xmlatt> ‘RESULT’
-                    where can be added a comment for refering to the result of the action that
-                    follow the line within <xmlelement>note</xmlelement>, <xmlatt>ana</xmlatt> — in
-                    example below <b>#defeatOpposition</b> and refering to the result provided in
-                    lines <b>ktu1-3_ii_l7_int</b> and <b>ktu1-3_ii_l8_int</b>.</li>
+                    #objectiveVar) in <xmlelement>ref</xmlelement> to point to <xref
+                        href="structuralUnit.dita" format="dita" scope="local">structural
+                        unit</xref>
+                    <xmlatt>n</xmlatt> ‘2’ ➞ <ol id="ol_iqs_4yd_nz">
+                        <li><xmlelement>stage</xmlelement>, <xmlatt>ana</xmlatt> ‘RESULT #value’
+                            where can be added a comment for refering to the result of the action
+                            that follow the line within <xmlelement>note</xmlelement>,
+                                <xmlatt>ana</xmlatt>=‘xml:id #line's value’ — in example below
+                                <b>#defeatOpposition</b> and refering to the result provided in
+                            lines <b>ktu1-3_ii_l7_int</b> and <b>ktu1-3_ii_l8_int</b>.</li>
+                        <li>￫ Summary: <xmlelement>ref</xmlelement>[<xmlatt>n</xmlatt>=‘2’ and
+                                <xmlatt>target</xmlatt>=‘#whatResult’]/<xmlelement>stage</xmlelement>[<xmlatt>ana</xmlatt>=‘#defeate_ofOpposition’]<lines/></li>
+                    </ol></li>
                 <li><u>What animated entity </u> (#whatCharacter which belongs to <xref
                         href="PrimData.dita" format="dita" scope="local">primaryData</xref> within
-                        <xmlelement>text</xmlelement>) in <xmlelement>persName</xmlelement>,
-                        <xmlatt>ana</xmlatt> ‘Character’ and ‘AE value’ — in example below
-                        <b>#ANT</b></li>
-                <li><u>What role</u> (#whatBehavior which belongs to #objectiveVar) in
-                        <xmlelement>state</xmlelement>, <xmlatt>ana</xmlatt> ‘ROLE’ — in example
-                    below <b>#active</b></li>
-                <li><u>What context</u> (#whatContext which belongs to #objectiveVar) in
-                        <xmlelement>placeName</xmlelement>, <xmlatt>ana</xmlatt> ‘CONTEXT’ — in
-                    example below <b>#battle</b></li>
-                <li><u>What sphere</u> (#whatSphere which belongs to #objectiveVar) in
-                        <xmlelement>location</xmlelement>, <xmlatt>ana</xmlatt> ‘SPHERE’ — in
-                    example below <b>#outside</b></li>
-                <li><u>What behavior</u> (#whatRole which belongs to #subjectiveVar) AE is
-                    performing the action in <xmlelement>state</xmlelement> ➞
-                        <xmlelement>span</xmlelement>:<ul id="ol_k3n_wyt_gz">
-                        <li><xmlatt>ana</xmlatt>
-                            <xref href="SubjVar.dita#concept_SubjVar01/volIntent01">VOLUNTARY
-                                INTENTIONALITY</xref>, <xref
-                                href="SubjVar.dita#concept_SubjVar01/motiv_vI01" format="dita"
-                                scope="local">MOTIVATION</xref>, <xref
-                                href="SubjVar.dita#concept_SubjVar01/degree01">DEGREE DESIRE</xref>
-                            — in example below <b>#toDestroy #free #five_dD</b></li>
-                        <li><xmlatt>ana</xmlatt>
-                            <xref href="SubjVar.dita#concept_SubjVar01/motiv_vI01">EMOTION</xref>,
-                                <xref href="SubjVar.dita#concept_SubjVar01/affect01"
-                                >hasEmotionIntensity</xref> — in example below <b>#rage
-                                #veryHight</b>
-                        </li>
-                        <li><xmlatt>ana</xmlatt>
-                            <xref href="SubjVar.dita#concept_SubjVar01/conseq01" format="dita"
-                                >CONSEQUENCE</xref> — in example below
-                                <b>#affectEntity_and_other</b></li>
-                    </ul>
-                </li>
+                        <xmlelement>text</xmlelement> and <xref href="ObjVar.dita" format="dita"
+                        scope="local">objective variables</xref>) in <xmlelement>ref</xmlelement> to
+                    point to <xref href="structuralUnit.dita" format="dita" scope="local">structural
+                        unit</xref>
+                    <xmlatt>n</xmlatt> ‘3’ ➞<ol id="ol_acx_bzd_nz">
+                        <li><xmlelement>ref</xmlelement> is within <xmlelement>castList</xmlelement>
+                            ➞ <xmlelement>castItem</xmlelement>[<xmlatt>n</xmlatt>=‘1’] ➞
+                                <xmlelement>persName</xmlelement> with
+                            <xmlatt>type</xmlatt>=‘Character’ and <xmlatt>ana</xmlatt> ‘AE value’
+                            and ‘genetic sex #value — in example below <b>#ANT</b>
+                            <b>#Female</b></li>
+                        <li>￫ Summary:
+                                <xmlelement>castList</xmlelement>/<xmlelement>castItem</xmlelement>/<xmlelement>ref</xmlelement>[<xmlatt>n</xmlatt>=‘3’
+                            and
+                                <xmlatt>target</xmlatt>=‘#whatCharacter’]/<xmlelement>persName</xmlelement>[<xmlatt>ana</xmlatt>=‘#ANT
+                            and #Female’]<lines/></li>
+                    </ol></li>
+                <li><u>What role</u> (#whatRole which belongs to <xref href="ObjVar.dita"
+                        format="dita" scope="local">objective variables</xref>) in
+                        <xmlelement>ref</xmlelement> to point to <xref href="structuralUnit.dita"
+                        format="dita" scope="local">structural unit</xref>
+                    <xmlatt>n</xmlatt> ‘4’ ➞<ol id="ol_dxd_vzd_nz">
+                        <li>
+                            <xmlelement>ref</xmlelement> is within
+                            <xmlelement>castList</xmlelement>,
+                                <xmlelement>castItem</xmlelement>[<xmlatt>n</xmlatt>=‘1’] ➞
+                                <xmlelement>state</xmlelement>, <xmlatt>ana</xmlatt> ‘ROLE value’ —
+                            in example below <b>#active</b></li>
+                        <li>￫ Summary:
+                                <xmlelement>castList</xmlelement>/<xmlelement>castItem</xmlelement>/<xmlelement>ref</xmlelement>[<xmlatt>n</xmlatt>=‘4’
+                            and
+                                <xmlatt>target</xmlatt>=‘#whatRole’]/<xmlelement>stage</xmlelement>[<xmlatt>ana</xmlatt>=‘#active’]<lines/></li>
+                    </ol></li>
+                <li><u>What context</u> (#whatContext which belongs to <xref href="ObjVar.dita"
+                        format="dita" scope="local">objective variables</xref>) in
+                        <xmlelement>ref</xmlelement> to point to <xref href="structuralUnit.dita"
+                        format="dita" scope="local">structural unit</xref>
+                    <xmlatt>n</xmlatt> ‘5’ ➞<ol id="ol_xgz_112_nz">
+                        <li>
+                            <xmlelement>ref</xmlelement> is within <xmlelement>view</xmlelement> ➞
+                                <xmlelement>placeName</xmlelement>, <xmlatt>ana</xmlatt> ‘CONTEXT
+                            value’ — in example below <b>#battle</b></li>
+                        <li>￫ Summary:
+                                <xmlelement>view</xmlelement>/<xmlelement>ref</xmlelement>[<xmlatt>n</xmlatt>=‘5’
+                            and
+                                <xmlatt>target</xmlatt>=‘#whatContext’]/<xmlelement>placeName</xmlelement>[<xmlatt>ana</xmlatt>=‘#battle’]<lines/></li>
+                    </ol></li>
+                <li><u>What sphere</u> (#whatSphere which belongs to <xref href="ObjVar.dita"
+                        format="dita" scope="local">objective variables</xref>) in
+                        <xmlelement>ref</xmlelement> to point to <xref href="structuralUnit.dita"
+                        format="dita" scope="local">structural unit</xref>
+                    <xmlatt>n</xmlatt> ‘6’ ➞<ol id="ol_cby_j12_nz">
+                        <li>
+                            <xmlelement>ref</xmlelement> is within
+                            <xmlelement>location</xmlelement>, <xmlatt>ana</xmlatt> ‘SPHERE value’ —
+                            in example below <b>#outside</b></li>
+                        <li>￫ Summary:
+                                <xmlelement>view</xmlelement>/<xmlelement>ref</xmlelement>[<xmlatt>n</xmlatt>=‘6’
+                            and
+                                <xmlatt>target</xmlatt>=‘#whatSphere’]/<xmlelement>location</xmlelement>[<xmlatt>ana</xmlatt>=‘#outside’]<lines/></li>
+                    </ol></li>
+                <li><u>What behavior</u> (#whatBehavior which belongs to <xref href="SubjVar.dita"
+                        format="dita" scope="local">subjective variables</xref>) AE is performing
+                    the action according to relevant behavior in <xmlelement>ref</xmlelement> to
+                    point to <xref href="structuralUnit.dita" format="dita" scope="local">structural
+                        unit</xref>
+                    <xmlatt>n</xmlatt> ‘7’ ➞<ol id="ol_qhy_bb2_nz">
+                        <li><xmlelement>ref</xmlelement> is within <xmlelement>stage</xmlelement> ➞
+                                <ul id="ol_k3n_wyt_gz">
+                                <li><xmlelement>span</xmlelement>
+                                    <xmlatt>ana</xmlatt>
+                                    <xref href="SubjVar.dita#concept_SubjVar01/volIntent01"
+                                        >VOLUNTARY INTENTIONALITY</xref>, <xref
+                                        href="SubjVar.dita#concept_SubjVar01/motiv_vI01"
+                                        format="dita" scope="local">MOTIVATION</xref>, <xref
+                                        href="SubjVar.dita#concept_SubjVar01/degree01">DEGREE
+                                        DESIRE</xref>, <xref
+                                        href="SubjVar.dita#concept_SubjVar01/motiv_vI01"
+                                        >EMOTION</xref>, <xref
+                                        href="SubjVar.dita#concept_SubjVar01/affect01"
+                                        >hasEmotionIntensity</xref> — in example below <b>#toDestroy
+                                        #free #five_dD</b>
+                                    <b>#rage #veryHight</b>
+                                </li>
+                                <li><xmlelement>span</xmlelement>
+                                    <xmlatt>ana</xmlatt>
+                                    <xref href="SubjVar.dita#concept_SubjVar01/conseq01"
+                                        format="dita">CONSEQUENCE</xref> — in example below
+                                        <b>#affectEntity_and_other</b></li>
+                            </ul></li>
+                        <li>￫ Summary(1):
+                                <xmlelement>stage</xmlelement>/<xmlelement>ref</xmlelement>[<xmlatt>n</xmlatt>=‘7’
+                            and
+                                <xmlatt>target</xmlatt>=‘#whatBehavior’]/<xmlelement>span</xmlelement>[<xmlatt>ana</xmlatt>=‘#toDestroy
+                            #free #five_dD #rage #veryHight’]</li>
+                        <li>￫ Summary(2):
+                                <xmlelement>stage</xmlelement>/<xmlelement>ref</xmlelement>[<xmlatt>n</xmlatt>=‘7’
+                            and
+                                <xmlatt>target</xmlatt>=‘#whatBehavior’]/<xmlelement>span</xmlelement>[<xmlatt>ana</xmlatt>=‘#affectEntity_and_other’]</li>
+                    </ol></li>
             </ol>Meaning: the animated entity ʿAnatu is performing an action from competition's verb
             grouping subcategory contend with a voluntary intentationality of destroying, from a
-            free will, with hight level of rage's emotion, and a hight degree of desire. She
-            performes oustide her household, and she will be affected by her action as well as other
-            entities.</p>
- </conbody>
+            free will, with hight level (level 5) of rage's emotion, and a hight degree of desire.
+            She performs oustide her household, and she will be affected by her action as well as
+            other entities.</p>
+    </conbody>
 </concept>

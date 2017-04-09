@@ -81,16 +81,16 @@
             ➞ <xmlelement>lg</xmlelement> , a practical example from KTU 1.3 (colonne 2, line
             5b-6a):</p>
         <p id="ex_KTU01">
-            <codeblock outputclass="language-xml">&lt;l n="5b-6a" xml:id="ktu1-3_ii_l5b-6a" ana="#ktu1-3_ii_l5b_6a_int" corresp="#ktu1-3_ii_l5b-6a_int">
+            <codeblock outputclass="language-xml">&lt;l n="5b-6a" xml:id="ktu1-3_ii_l5b-6a" ana="#ktu1-3_ii_l5b_6a_int">
   &lt;w>w&lt;/w>&lt;space/>
   &lt;w>hln&lt;/w>
   &lt;g>.&lt;/g>
   &lt;name type="character" ana="#Character #ANT #v-ANT-ktu1-3_ii_l5b-6a">ʿnt&lt;/name>
   &lt;g>.&lt;/g>
-  &lt;w type="verb" ana="#MḪṢ01 <b>#verb.competition #contend</b> <b>#ANT</b>" xml:id="ktu1-3_ii_l5b-6a_tmtḫṣ">tm&lt;lb break="no"/>tḫṣ&lt;/w>
+  &lt;w type="verb" ana="#mḫṣ01 <b>#verb.competition #contend</b> <b>#ANT</b>" xml:id="ktu1-3_ii_l5b-6a_tmtḫṣ">tm&lt;lb break="no"/>tḫṣ&lt;/w>
   &lt;g>.&lt;/g>
   &lt;w>b&lt;/w>&lt;space/>
-  &lt;w type="noun" ana="#ʿMQ">ʿmq&lt;/w>
+  &lt;w type="noun" ana="#ʿmq">ʿmq&lt;/w>
   &lt;g>.&lt;/g>
 &lt;/l></codeblock>
         </p>
