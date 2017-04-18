@@ -87,7 +87,7 @@
   &lt;g>.&lt;/g>
   &lt;name type="character" ana="#Character #ANT #v-ANT-ktu1-3_ii_l5b-6a">ʿnt&lt;/name>
   &lt;g>.&lt;/g>
-  &lt;w type="verb" ana="#mḫṣ01 <b>#verb.competition #contend</b> <b>#ANT</b>" xml:id="ktu1-3_ii_l5b-6a_tmtḫṣ">tm&lt;lb break="no"/>tḫṣ&lt;/w>
+  &lt;w type="verb" ana="#mḫṣ01 #yQTL <b>#verb.competition #contend</b> <b>#ANT</b>" xml:id="ktu1-3_ii_l5b-6a_tmtḫṣ">tm&lt;lb break="no"/>tḫṣ&lt;/w>
   &lt;g>.&lt;/g>
   &lt;w>b&lt;/w>&lt;space/>
   &lt;w type="noun" ana="#ʿmq">ʿmq&lt;/w>
@@ -142,17 +142,17 @@
             <lines/><codeblock outputclass="language-xml">&lt;l n="23" ana="#ktu1-3_ii_l23" xml:id="ktu1-3_ii_23">
   &lt;lb/>&lt;w type="adv">mʾid&lt;/w>
   &lt;g>.&lt;/g>
-  &lt;w type="verb" ana="#MḪṢ01 #verb.competition #contend #WAR" xml:id="ktu1-3_ii_23_tmtḫṣn">tmtḫṣn&lt;/w>
+  &lt;w type="verb" ana="#mḫṣ01 #yQTL #verb.competition #contend #WAR" xml:id="ktu1-3_ii_23_tmtḫṣn">tmtḫṣn&lt;/w>
   &lt;g>.&lt;/g>
   &lt;w>w&lt;/w>&lt;space/>
-  &lt;w type="verb" ana="#ʿN01 #verb.perception #observation #ANT" xml:id="ktu1-3_ii_23_tʿn">tʿn&lt;/w>
+  &lt;w type="verb" ana="#ʿn01 #yQTL #verb.perception #observation #ANT" xml:id="ktu1-3_ii_23_tʿn">tʿn&lt;/w>
 &lt;/l>
 &lt;l n="24" ana="#ktu1-3_ii_l23" xml:id="ktu1-3_ii_24">&lt;span type="emphasize" ana="#ktu1-3_ii_23"/>
-  &lt;lb/>&lt;w type="verb" ana="#ḪSB01 #verb.competition #contend #WAR" xml:id="ktu1-3_ii_24_tḫtṣb">
+  &lt;lb/>&lt;w type="verb" ana="#ḫṣ01 #yQTL #verb.competition #contend #WAR" xml:id="ktu1-3_ii_24_tḫtṣb">
       &lt;span type="emphasize" ana="#ktu1-3_ii_23_tmtḫṣn">tḫtṣb&lt;/span>&lt;/w>
   &lt;g>.&lt;/g>
   &lt;w>w&lt;/w>&lt;space/>
-  &lt;w type="verb" ana="#ḤDY01 #verb.perception #observation #ANT" xml:id="ktu1-3_ii_24_tḥdy">
+  &lt;w type="verb" ana="#ḥdy01 #yQTL #verb.perception #observation #ANT" xml:id="ktu1-3_ii_24_tḥdy">
     &lt;span type="emphasize" ana="#ktu1-3_ii_23_tʿn">tḥdy&lt;/span>&lt;/w>
   &lt;g>.&lt;/g>
   &lt;name type="character" ana="#Character #ANT">ʿnt&lt;/name>
@@ -179,5 +179,21 @@
                         </ul></li>
                 </ul></li>
         </ul>
+        <note>Specific to <b>Ugaritic</b>: form yQTL and QTL: <xmlatt>xml:id</xmlatt> within
+                <xmlelement>gram</xmlelement> — here I follow E. Greenstein<fn>Greenstein, Edward L.
+                “Forms and Functions of the Finite Verb in Ugaritic Narrative Verse.” In Biblical
+                Hebrew in Its Northwest Semitic Setting, edited by Steven E Fassberg and Avi
+                Hurvitz, 75–102, Jerusalem — Winona Lake, Indiana: Hebrew University Magnes Press —
+                Eisenbrauns, 2006.</fn>: <ul>
+                <li>form yQTL <xmlatt>ana</xmlatt>=#yQTL: verbs which describe the event </li>
+                <li>form QTL <xmlatt>ana</xmlatt>=#QTL: verbs of the off-line narration</li>
+            </ul>
+            <codeblock outputclass="language-xml">&#60;entryFree xml:lang="uga">
+    &#60;gramGrp>
+       &#60;gram xml:id="yQTL">yQTL: performance of the character&#60;/gram>
+       &#60;gram xml:id="QTL">QTL: describe the performance&#60;/gram>
+    &#60;/gramGrp>
+&#60;superEntry>            </codeblock>
+            It is a relevant information for counting ocurrences. </note>
     </conbody>
 </concept>
