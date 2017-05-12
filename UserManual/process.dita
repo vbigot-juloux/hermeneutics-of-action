@@ -102,11 +102,7 @@
                                 <li><xref href="interpretation.dita" format="dita">Interpretation for a preliminary hermeneutics</xref></li>
                                 </ol></li>
                         </ul><lines/></li>
-                    <li>B. <u>R</u><lines/>
-                        <ol>
-                            <li><xref href="parsingTEI.dita" format="dita">Parsing XML-TEI</xref></li>
-                            <li>Vizualisation</li>
-                        </ol><lines/></li>
+                    <li>B. <u>R</u><lines/></li>
                     <li id="hermeneutics01">C. <u>Setting up the hermeneutics of action</u>
                         <note>It won't be developped in this user manual.</note><lines/>
                         <ul>
