@@ -34,12 +34,12 @@
   <topicref href="schema.dita" type="concept" toc="yes" />
   </topicref>
 
- <topicref navtitle="R" href="introR.dita" type="concept" toc="yes">
+ <!-- <topicref navtitle="R" href="introR.dita" type="concept" toc="yes">
   <topicgroup>
    <topicref href="parsingTEI.dita" type="concept" toc="yes"/>
    <topicref href="vizualisation.dita" type="concept" toc="yes"/>
   </topicgroup>
- </topicref>
+ </topicref> -->
  <topicref href="glossaries_entries.ditamap" format="ditamap"/>
 
 </map>
