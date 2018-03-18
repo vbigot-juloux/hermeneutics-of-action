@@ -5,7 +5,7 @@
  <shortdesc/>
  <conbody>
    <note>xPath: /teiCorpus/TEI/teiHeader/encodingDesc
-     <ul><li id="xmlTEI_cat"> xPath XML-TEI elements: <xref
+     <ul><li id="xmlTEI_cat"> xPath TEI-XMLelements: <xref
             href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-teiCorpus.html"
             format="html" scope="external">teiCorpus</xref>|<xref
             href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html" format="html"
@@ -30,7 +30,7 @@
    &#60;/classDecl>&#60;/encodingDesc> </codeblock></p><lines/>
    <p>In anticipation or the future development of an (<xref href="https://www.w3.org/TR/owl-guide/"
         format="html" scope="external">OWL</xref>) ontology of power relationships using linked open
-      data standards, I have equated existent OWL or RDF classes with certain XML-TEI attributes (these
+      data standards, I have equated existent OWL or RDF classes with certain TEI-XML attributes (these
       have been specified where relevant):
      <ul><li><xref href="http://www.gsi.dit.upm.es/ontologies/onyx/" format="html" scope="external">Onyx
             Ontology Specification</xref> for subjective data</li>
