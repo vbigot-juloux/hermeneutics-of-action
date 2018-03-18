@@ -24,7 +24,7 @@
                     <p>For more information regarding the hermeneutics of action, <xref
                             href="http://vanessajuloux.xyz/docs/research-project" format="html"
                             scope="external">read the abstract of my research project ➟</xref>.</p>
-                    <p><xref href="mailto:vanessa.bigot-juloux@ephe.psl.eu" format="mail"
+                <p><xref href="mailto:vanessa.bigot-juloux@ephe.psl.eu" format="mail" scope="external"
                             >vanessa.bigot-juloux@ephe.psl.eu</xref> | <xref
                             href="http://vanessajuloux.xyz" format="html" scope="external"
                             >vanessajuloux.xyz</xref>
@@ -55,7 +55,7 @@
            
             <p>
                 <ul>
-                    <li>A. <u>TXML-TEI</u><lines/>
+                    <li>A. <u>XML-TEI</u><lines/>
                         <ul>
                             <li>A.i. Analytical taxonomies <ol>
                                     <li><xref href="PrimData.dita" format="dita" type="concept"
