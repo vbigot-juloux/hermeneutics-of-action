@@ -6,7 +6,7 @@
  <conbody>
  <p> 
   <ul>
-   <li>Data mining within the elements <xmlelement>TEI</xmlelement> ➞ <xmlelement>body</xmlelement>
+   <li>Text mining within the elements <xmlelement>TEI</xmlelement> ➞ <xmlelement>body</xmlelement>
      ➞ <xmlelement>div</xmlelement></li>
    <li id="xmlTEI_dataMining">XML-TEI elements: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-interpGrp.html" format="html" scope="external">interpGrp</xref>|<xref
       href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-interp.html" format="html"
@@ -24,7 +24,7 @@
         href="ObjVar.dita" format="dita" scope="local">objective variables</xref>, <xref
         href="SubjVar.dita" format="dita" scope="local">subjective variables</xref>:
       <codeblock outputclass="language-xml">
-    &lt;interpGrp resp="#Juloux" xml:id="hermeneutics" type="structuralUnit" ana="#taxonomies">
+    &lt;interpGrp resp="#Bigot-Juloux" xml:id="hermeneutics" type="structuralUnit" ana="#taxonomies">
       &lt;!-- ref -->
       &lt;interp n="1" xml:id="whatAction" ana="#primaryData #objectiveVar #action #verb.category"/>
       &lt;interp n="2" xml:id="whatResult" ana="#objectiveVar #result"/> 
