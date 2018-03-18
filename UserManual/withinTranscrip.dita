@@ -8,8 +8,8 @@
             ie ACTION VERB ➞ confrontation. (2) Only highlighted relevant elements and attributes
             for hermeneutics of action.<ul>
                 <li>XPath: <ul id="xPath_wTransc">
-                        <li>from <xref href="dataMining.dita#concept_dataM/xmlTEI_dataM"
-                                format="dita" scope="local">data mining</xref>: ➞
+                        <li>from <xref href="textMining.dita#concept_dataM/xmlTEI_dataM"
+                                format="dita" scope="local">text mining</xref>: ➞
                                 div1[1]|div2[n]/div3[n]/div4[n]<lines/><table id="table_kz2_m43_fz">
                                 <tgroup cols="3">
                                     <colspec colwidth="118px" colsep="1" rowsep="1" align="left"
@@ -52,18 +52,18 @@
                                 </tgroup>
                             </table></li>
                     </ul><lines/></li>
-                <li id="xmlTEI_transcript">XML-TEI elements: <xref
+                <li id="xmlTEI_transcript">TEI-XML elements: <xref
                         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-lg.html"
                         format="html" scope="external">lg</xref>|<xref
                         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-l.html"
                         format="html" scope="external">l</xref>|<xref
                         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-w.html"
                         format="html" scope="external">w</xref></li>
-                <li>XML-TEI attributes:
+                <li>TEI-XML attributes:
                         <xmlatt>ana</xmlatt>|<xmlatt>type</xmlatt>|<xmlatt>xml:id</xmlatt>
                 </li>
                 <li>Values: <ul>
-                        <li>Traditionaly proposed in XML-TEI: noun|verb</li>
+                        <li>Traditionaly proposed in TEI-XML: noun|verb</li>
                         <li>from <xref href="PrimData.dita">primary data</xref>: <xref
                                 href="PrimData.dita#concept_PrimVar01/xmlTEI_entity02"
                                 >Being</xref>|<xref
@@ -98,7 +98,7 @@
         <p>Only elements from <xref href="PrimData.dita">primary data</xref> and <xref
                 href="ObjVar.dita">objective variables</xref> are used at this stage: <ol>
                 <li>Annotated translation.</li>
-                <li><xref href="parsingTEI.dita" format="dita">Parsing XML-TEI</xref> with R.</li>
+                <li><xref href="parsingTEI.dita" format="dita">Parsing TEI-XML</xref> with R.</li>
             </ol></p>
         <p/>
         <p>
@@ -132,10 +132,10 @@
         <p>Another pratical example with a schema, which meaning is “warriors are performing an
             action of destruction (tmtḫṣn)”:</p>
         <lines/>
-        <p>Specific case, verb repetition. For parsing XML-TEI in R, with and without emphasis. <note>
+        <p>Specific case, verb repetition. For parsing TEI-XML in R, with and without emphasis. <note>
                 <ul>
-                    <li>XML-TEI elements for the emphasis: <xmlelement>span</xmlelement></li>
-                    <li>XML-TEI attribute: <xmlatt>type</xmlatt></li>
+                    <li>TEI-XML elements for the emphasis: <xmlelement>span</xmlelement></li>
+                    <li>TEI-XML attribute: <xmlatt>type</xmlatt></li>
                     <li>Value: emphasize </li>
                 </ul>
             </note>
