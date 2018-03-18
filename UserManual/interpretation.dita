@@ -9,7 +9,7 @@
                 letters: implies to select the right choice of the subcategory, ie SPHERE ➞
                 'outside'.</note>
             <ul>
-                <li>Data mining within the elements <xmlelement>TEI</xmlelement> ➞
+                <li>Text mining within the elements <xmlelement>TEI</xmlelement> ➞
                         <xmlelement>body</xmlelement> ➞ <xmlelement>div</xmlelement> ➞
                         <xmlelement>interpGrp</xmlelement></li>
                 <li id="xmlTEI_dataMining">XML-TEI elements:<xref
