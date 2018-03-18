@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_statistics">
- <title>Parsing XML-TEI</title>
+ <title>Parsing TEI-XML</title>
  <shortdesc/>
  <conbody>
    <p><note> ⚠ Be aware: this section is under development. <ul>
@@ -62,7 +62,7 @@
         </ul></note></p>
       
    <p>For the interpretation, which is the last section for suggesting a hermeneutics of action:</p> 
-   <p><b>Reminder</b>: computation is done <u>within two sections</u> in the XML-TEI file ‘doc’: <ol>
+   <p><b>Reminder</b>: computation is done <u>within two sections</u> in the TEI-XML file ‘doc’: <ol>
         <li><xref href="withinTranscrip.dita" format="dita" scope="local">Within
             transcription</xref> section: transcription with primary data and objective variables to
           compute verbs for each or all animated entities (very useful for the agency) <xref

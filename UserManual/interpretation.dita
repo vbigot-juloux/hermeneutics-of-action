@@ -9,10 +9,10 @@
                 letters: implies to select the right choice of the subcategory, ie SPHERE ➞
                 'outside'.</note>
             <ul>
-                <li>Data mining within the elements <xmlelement>TEI</xmlelement> ➞
+                <li>Text mining within the elements <xmlelement>TEI</xmlelement> ➞
                         <xmlelement>body</xmlelement> ➞ <xmlelement>div</xmlelement> ➞
                         <xmlelement>interpGrp</xmlelement></li>
-                <li id="xmlTEI_dataMining">XML-TEI elements:<xref
+                <li id="xmlTEI_dataMining">TEI-XML elements:<xref
                         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-interp.html"
                         format="html" scope="external">interp</xref>|<xref
                         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-desc.html"
@@ -37,10 +37,10 @@
                         format="html" scope="external">location</xref>|<xref
                         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-span.html"
                         format="html" scope="external">span</xref></li>
-                <li>XML-TEI attributes:
+                <li>TEI-XML attributes:
                         <xmlatt>n</xmlatt>|<xmlatt>target</xmlatt>|<xmlatt>xml:id</xmlatt>|<xmlatt>ana</xmlatt>|<xmlatt>type</xmlatt>|<xmlatt>cert</xmlatt></li>
                 <li>Attributes values: <ul>
-                        <li>traditionally proposed in XML-TEI: REF POINTER</li>
+                        <li>traditionally proposed in TEI-XML: REF POINTER</li>
                         <li>from <xref href="ObjVar.dita">objective variables</xref>: <xref
                                 href="ObjVar.dita#concept_ObjVar01/verbSem01">TAXO</xref>|<xref
                                 href="ObjVar.dita#concept_ObjVar01/verbSub01" format="dita"

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_dataM">
- <title>Data mining</title>
+ <title>Text mining</title>
  <shortdesc/>
  <conbody>
-  <note>XML-TEI elements: teiCorpus|TEI|text|group|text|body|div[n] </note>
+  <note>TEI-XML elements: teiCorpus|TEI|text|group|text|body|div[n] </note>
     
   <p>Data mining is divided into two sections:
   <ol>

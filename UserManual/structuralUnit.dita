@@ -6,15 +6,15 @@
  <conbody>
  <p> 
   <ul>
-   <li>Data mining within the elements <xmlelement>TEI</xmlelement> ➞ <xmlelement>body</xmlelement>
+   <li>Text mining within the elements <xmlelement>TEI</xmlelement> ➞ <xmlelement>body</xmlelement>
      ➞ <xmlelement>div</xmlelement></li>
-   <li id="xmlTEI_dataMining">XML-TEI elements: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-interpGrp.html" format="html" scope="external">interpGrp</xref>|<xref
+   <li id="xmlTEI_dataMining">TEI-XML elements: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-interpGrp.html" format="html" scope="external">interpGrp</xref>|<xref
       href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-interp.html" format="html"
       scope="external">interp</xref></li>
-   <li>XML-TEI attributes: <xmlatt>resp</xmlatt>
+   <li>TEI-XML attributes: <xmlatt>resp</xmlatt>
      <xmlatt>xml:id</xmlatt>|<xmlatt>ana</xmlatt>|<xmlatt>type</xmlatt></li>
    <li>Attributes values: 
-    <ul><li>Traditionally proposed in XML-TEI: structuralUnit </li>
+    <ul><li>Traditionally proposed in TEI-XML: structuralUnit </li>
      <li>for structural unit of the preparation to a hermeneutics:
               whatAction|whatResult|whatCharacter|whatRole|whatContext|whatSphere|whatBehavior</li>
     </ul></li>

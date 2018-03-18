@@ -5,7 +5,7 @@
  <title>Guidelines for a hermeneutics of action</title>
 
  <topicmeta>
-  <author>Vanessa Juloux</author>
+  <author>Vanessa Bigot Juloux</author>
   <critdates>
    <created date="February, 2017"/>
   </critdates>
@@ -14,10 +14,10 @@
 
  <!-- Menu -->
  <topicref navtitle="Process" href="process.dita"/>
- <!-- XML-TEI -->
- <topicref navtitle="XML-TEI" href="xmlTEI.dita" toc="yes">
+ <!-- TEI-XML -->
+ <topicref navtitle="TEI-XML" href="xmlTEI.dita" toc="yes">
   <topicgroup> <!-- taxonomies -->
-  <topicref navtitle="XML-TEI: Analytical taxonomies" href="categories.dita" toc="yes"
+  <topicref navtitle="TEI-XML: Analytical taxonomies" href="categories.dita" toc="yes"
    chunk="by-concept">
    <topicref href="PrimData.dita" toc="yes"/>
      <topicref href="ObjVar.dita" toc="yes"/>
@@ -25,7 +25,7 @@
   </topicref>
   </topicgroup>
     <topicgroup> <!-- Data mining -->
-     <topicref navtitle="Data mining" href="dataMining.dita" type="concept" toc="yes">
+     <topicref navtitle="Text mining" href="textMining.dita" type="concept" toc="yes">
       <topicref href="withinTranscrip.dita" type="concept" toc="yes"/>
       <topicref href="structuralUnit.dita" type="concept" toc="yes"/>
       <topicref href="interpretation.dita" type="concept" toc="yes"/>

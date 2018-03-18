@@ -5,12 +5,12 @@
  <shortdesc/>
  <conbody>
   <note><ul>
-        <li>XPath: /teiCorpus/TEI/teiHeader/encodingDesc[1]/classDecl[1]/taxonomy[3]</li><li id="xmlTEI_subjD">XML-TEI elements: <xref
+        <li>XPath: /teiCorpus/TEI/teiHeader/encodingDesc[1]/classDecl[1]/taxonomy[3]</li><li id="xmlTEI_subjD">TEI-XML elements: <xref
             href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-taxonomy.html"
             format="html" scope="external">taxonomy</xref>|<xref
             href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-category.html"
             format="html" scope="external">category</xref></li>
-   <li>XML-TEI attributes: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" format="html" scope="external"><xmlatt>xml:id</xmlatt></xref></li>
+   <li>TEI-XML attributes: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" format="html" scope="external"><xmlatt>xml:id</xmlatt></xref></li>
    <li>Values: subjectiveData|CATEGORY|SUBCATEGORY</li>
         <li>Existent RDF class: <xref href="http://www.gsi.dit.upm.es/ontologies/onyx/"
             format="html" scope="external">Onyx Ontology Specification</xref> Class:onyx:<xref
@@ -37,7 +37,7 @@
             <li>&#x27af; how is the AE affected by the action?</li>
             <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: affects
             AE (subject), affect AE (subject) and other, affect other AE(s).</li>
-            <li>XML-TEI example:
+            <li>TEI-XML example:
             <codeblock outputclass="language-xml">&lt;category xml:id="consequence" ana="subjectiveVar">
     &lt;category xml:id="affectEntity"/>
 &lt;/category>       </codeblock>
@@ -62,7 +62,7 @@
                 feeble, medium, normal, hight, very hight (equals a numerical value from 1 to
                 5)</li>
             </ul></li>
-          <li>XML-TEI example:
+          <li>TEI-XML example:
             <codeblock outputclass="language-xml">&lt;category xml:id="EmotionCategory" ana="subjectiveVar">
     &lt;category xml:id="rage"/>
     &lt;category xml:id="hasEmotionIntensity" ana="EmotionCategory">
@@ -79,7 +79,7 @@
           <li>&#x27af; What is the action tendency?</li>
           <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: from one to
             five (number_dD), and unknown (unknown_dD), broken context (B_ctx_dD)</li>
-          <li>XML-TEI example:
+          <li>TEI-XML example:
             <codeblock outputclass="language-xml">&lt;category xml:id="degreeDesire" ana="subjectiveVar">
    &lt;category xml:id="two_dD"/>
 &lt;/category>        </codeblock>
@@ -99,7 +99,7 @@
             protect, to revenge, to sentence, to sell, to threaten.<ul id="ul_g2m_lzs_gz">
               <li id="motiv_vI01">What motivation: pressure or free will.</li>
             </ul></li>
-          <li>XML-TEI example:
+          <li>TEI-XML example:
             <codeblock outputclass="language-xml">&lt;category xml:id="voluntaryIntent" ana="subjectiveVar">
    &lt;category xml:id="toKill"/>
    &lt;category xml:id="motivation_vI">

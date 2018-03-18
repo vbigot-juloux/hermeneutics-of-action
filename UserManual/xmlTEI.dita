@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_xmlTEI">
- <title>XML-TEI: structure</title>
+ <title>TEI-XML: structure</title>
  <shortdesc/>
  <conbody>
-  <note> XML-TEI elements: <xref
+  <note> TEI-XML elements: <xref
     href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-teiCorpus.html" format="html"
     scope="external">teiCorpus</xref>|<xref
     href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-TEI.html" format="html"
@@ -29,15 +29,15 @@
      transcription</xref>”: /teiCorpus/TEI[1]/text[1]/body[1]/div1[1]/div2[n]/div3[n]/div4[n] ➞
      <xmlelement>lg</xmlelement> ➞ <xmlelement>l</xmlelement>
    </li>
-   <li>XPath “<xref href="dataMining.dita" format="dita" scope="local">data mining</xref>”:
+   <li>XPath “<xref href="textMining.dita" format="dita" scope="local">text mining</xref>”:
     /teiCorpus/TEI[1]/text[1]/body[1]/div1[2] ➞ <xmlelement>div2</xmlelement></li>
   </ol>
   <p>More information about:
    <ul>
-    <li><xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/" format="html" scope="external">Extensible Markup Language-Text Encoding Initiative (XML-TEI) ➠</xref></li>
+    <li><xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/" format="html" scope="external">Extensible Markup Language-Text Encoding Initiative (TEI-XML) ➠</xref></li>
     <li><xref href="https://www.w3.org/TR/xpath/" format="html" scope="external">XML path language (XPath) ➠</xref></li></ul></p>
  <lines/>
-  <p><b>Structure of the XML-TEI document for the preliminary investigation to a hermeneutics of
+  <p><b>Structure of the TEI-XML document for the preliminary investigation to a hermeneutics of
     action:
    document:</b><codeblock outputclass="language-xml">&lt;teiCorpus>
  &lt;TEI>   
@@ -68,7 +68,7 @@
     &lt;/div1>
     &lt;div1 xml:id="ktu1_anal" xml:lang="en">
      &lt;div2 type="interp"> 
-      [...] &lt;!-- data mining -->
+      [...] &lt;!-- text mining -->
      &lt;/div2>
     &lt;/div1> 
   &lt;/body>

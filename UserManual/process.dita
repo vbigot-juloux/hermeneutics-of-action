@@ -4,10 +4,10 @@
     <title>Process for investigating a text</title>
     <shortdesc/>
     <prolog>
-        <author>Vanessa Juloux</author>
+        <author>Vanessa Bigot Juloux</author>
         <copyright>
             <copyryear year="2017"/>
-            <copyrholder>Vanessa Juloux</copyrholder>
+            <copyrholder>Vanessa Bigot Juloux</copyrholder>
         </copyright>
         <critdates>
             <created date="2017"/>
@@ -16,16 +16,16 @@
     <taskbody>
         <context>
             <div>-----------------------------<note>
-                    <p>A doctoral research project of Vanessa Juloux, from the <xref
+                    <p>A doctoral research project of Vanessa Bigot Juloux, from the <xref
                             href="https://www.ephe.fr/en" format="html" scope="external">Ecole
                             Pratique des Hautes Etudes</xref> (EPHE), Paris <xref
                             href="https://www.univ-psl.fr/en" format="html" scope="external"
-                            >Sciences et Lettres (PSL) Research University</xref></p>
+                            >Sciences et Lettres (PSL)</xref></p>
                     <p>For more information regarding the hermeneutics of action, <xref
                             href="http://vanessajuloux.xyz/docs/research-project" format="html"
                             scope="external">read the abstract of my research project ➟</xref>.</p>
-                    <p><xref href="mailto:vanessa.juloux@ephe.sorbonne.fr" format="mail"
-                            >vanessa.juloux@ephe.sorbonne.fr</xref> | <xref
+                    <p><xref href="mailto:vanessa.bigot-juloux@ephe.psl.eu" format="mail"
+                            >vanessa.bigot-juloux@ephe.psl.eu</xref> | <xref
                             href="http://vanessajuloux.xyz" format="html" scope="external"
                             >vanessajuloux.xyz</xref>
                     </p>
@@ -47,7 +47,7 @@
                         been very helpful: Terhi for her kind advices for taxonomies attributes (in
                         anticipation to LOD)<fn>Planned project after my Ph.D dissertation (2018-19)
                             in collaboration with Terhi Nurmikko-Fuller.</fn>, and Daniel for his
-                        contribution for parsing XML-TEI into R. But it goes without saying, I am
+                        contribution for parsing TEI-XML into R. But it goes without saying, I am
                         entirely responsible of the guidelines content.</p>
                 </note> -----------------------------</div>
             <p><xref href="schema.dita#concept_schemaIMG/image_genProc" format="dita" scope="local">Schema of the general for a hermeneutics of action</xref> ➟</p>
@@ -55,7 +55,7 @@
            
             <p>
                 <ul>
-                    <li>A. <u>XML-TEI</u><lines/>
+                    <li>A. <u>TXML-TEI</u><lines/>
                         <ul>
                             <li>A.i. Analytical taxonomies <ol>
                                     <li><xref href="PrimData.dita" format="dita" type="concept"
@@ -94,7 +94,7 @@
                                                   scope="local">Consequence</xref></li>
                                         </ol></li>
                                 </ol></li>
-                            <li>A.ii. Data mining <ol>
+                            <li>A.ii. Text mining <ol>
                                     <li><xref href="withinTranscrip.dita" format="dita"
                                         >Within transcription</xref></li>
                                 <li><xref href="structuralUnit.dita" format="dita"
@@ -102,7 +102,7 @@
                                 <li><xref href="interpretation.dita" format="dita">Interpretation for a preliminary hermeneutics</xref></li>
                                 </ol></li>
                         </ul><lines/></li>
-                    <li>B. <u>R</u><lines/></li>
+                    <li>B. <u>R</u>(upcoming)<lines/></li>
                     <li id="hermeneutics01">C. <u>Setting up the hermeneutics of action</u>
                         <note>It won't be developped in this user manual.</note><lines/>
                         <ul>
