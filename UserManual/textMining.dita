@@ -4,9 +4,9 @@
  <title>Text mining</title>
  <shortdesc/>
  <conbody>
-  <note>TEI-XML elements: teiCorpus|TEI|text|group|text|body|div[n] </note>
+  <note>XML-TEI elements: teiCorpus|TEI|text|group|text|body|div[n] </note>
     
-  <p>Data mining is divided into two sections:
+  <p>Text mining is divided into two sections:
   <ol>
    <li><xref href="withinTranscrip.dita" format="dita" scope="local">Within transcription</xref>:
      (a) <xref href="PrimData.dita" format="dita" scope="local">primary data</xref>, and (b) <xref

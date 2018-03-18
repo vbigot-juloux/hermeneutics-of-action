@@ -5,7 +5,11 @@
  <shortdesc/>
  <conbody>
    <note>xPath: /teiCorpus/TEI/teiHeader/encodingDesc
+<<<<<<< HEAD
      <ul><li id="xmlTEI_cat"> xPath TEI-XML elements: <xref
+=======
+     <ul><li id="xmlTEI_cat"> xPath TEI-XMLelements: <xref
+>>>>>>> origin/master
             href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-teiCorpus.html"
             format="html" scope="external">teiCorpus</xref>|<xref
             href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html" format="html"

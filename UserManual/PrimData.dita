@@ -9,7 +9,11 @@
       <ul>
         <li>XPath: /teiCorpus/TEI/teiHeader/encodingDesc[1]/classDecl[1]/taxonomy[1]</li>
         <li id="xmlTEI_primD">TEI-XML elements: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-taxonomy.html" format="html" scope="external">taxonomy</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-category.html" format="html" scope="external">category</xref></li>
+<<<<<<< HEAD
         <li>TEI-XML attributes: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" format="html" scope="external"><xmlatt>xml:id</xmlatt></xref></li>
+=======
+        <li>XML-TEI attributes: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" format="html" scope="external"><xmlatt>xml:id</xmlatt></xref></li>
+>>>>>>> origin/master
         <li>Values: action|Being</li>
         <li id="primData_ontoM01">OntoMedia ontology: class <xref
             href="http://www.contextus.net/ontology/ontomedia/ex/ext/common/being" format="html"
