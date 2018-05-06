@@ -5,12 +5,12 @@
     <shortdesc/>
     <conbody>
         <note>(1) Value in capital letters: implies to select the right choice of the subcategory,
-            ie ACTION VERB ➞ confrontation. (2) Only highlighted relevant elements and attributes
+            i.e., ACTION VERB ➞ confrontation. (2) Only highlighted relevant elements and attributes
             for hermeneutics of action.<ul>
                 <li>XPath: <ul id="xPath_wTransc">
-                        <li>from <xref href="textMining.dita#concept_dataM/xmlTEI_dataM"
-                                format="dita" scope="local">text mining</xref>: ➞
-                                div1[1]|div2[n]/div3[n]/div4[n]<lines/><table id="table_kz2_m43_fz">
+                        <li>from <xref href="TextMining.dita#concept_dataM" format="dita"
+                                scope="local">text mining</xref>: ➞
+                                div1|div2/div3/div4<lines/><table id="table_kz2_m43_fz">
                                 <tgroup cols="3">
                                     <colspec colwidth="118px" colsep="1" rowsep="1" align="left"
                                         colnum="1" colname="1a"/>
@@ -60,10 +60,10 @@
                         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-w.html"
                         format="html" scope="external">w</xref></li>
                 <li>TEI-XML attributes:
-                        <xmlatt>ana</xmlatt>|<xmlatt>type</xmlatt>|<xmlatt>xml:id</xmlatt>
+                        <xmlatt>ana</xmlatt>|<xmlatt>pos</xmlatt>|<xmlatt>type</xmlatt>|<xmlatt>xml:id</xmlatt>
                 </li>
                 <li>Values: <ul>
-                        <li>Traditionaly proposed in TEI-XML: noun|verb</li>
+                        <li>Traditionally proposed in TEI-XML: noun|verb</li>
                         <li>from <xref href="PrimData.dita">primary data</xref>: <xref
                                 href="PrimData.dita#concept_PrimVar01/xmlTEI_entity02"
                                 >Being</xref>|<xref
@@ -77,8 +77,8 @@
                     </ul></li>
             </ul></note>
         <lines/>
-        <p>Following transcription within the elements TEI ➞ text ➞ group ➞ body ➞ div[…] ➞ div4[n]
-            ➞ <xmlelement>lg</xmlelement> , a practical example from KTU 1.3 (colonne 2, line
+        <p>Following transcription within the elements TEI ➞ text ➞ group ➞ body ➞ div[…] ➞ div4➞
+                <xmlelement>lg</xmlelement> , a practical example from KTU 1.3 (colonne 2, line
             5b-6a):</p>
         <p id="ex_KTU01">
             <codeblock outputclass="language-xml">&lt;l n="5b-6a" xml:id="ktu1-3_ii_l5b-6a" ana="#ktu1-3_ii_l5b_6a_int">
@@ -87,10 +87,10 @@
   &lt;g>.&lt;/g>
   &lt;name type="character" ana="#Character #ANT #v-ANT-ktu1-3_ii_l5b-6a">ʿnt&lt;/name>
   &lt;g>.&lt;/g>
-  &lt;w type="verb" ana="#mḫṣ01 #yQTL <b>#verb.competition #contend</b> <b>#ANT</b>" xml:id="ktu1-3_ii_l5b-6a_tmtḫṣ">tm&lt;lb break="no"/>tḫṣ&lt;/w>
+  &lt;w pos="verb" ana="#mḫṣ01 #yQTL <b>#verb.competition #contend</b> <b>#ANT</b>" xml:id="ktu1-3_ii_l5b-6a_tmtḫṣ">tm&lt;lb break="no"/>tḫṣ&lt;/w>
   &lt;g>.&lt;/g>
   &lt;w>b&lt;/w>&lt;space/>
-  &lt;w type="noun" ana="#ʿmq">ʿmq&lt;/w>
+  &lt;w pos="noun" ana="#ʿmq">ʿmq&lt;/w>
   &lt;g>.&lt;/g>
 &lt;/l></codeblock>
         </p>
@@ -98,7 +98,7 @@
         <p>Only elements from <xref href="PrimData.dita">primary data</xref> and <xref
                 href="ObjVar.dita">objective variables</xref> are used at this stage: <ol>
                 <li>Annotated translation.</li>
-                <li><xref href="parsingTEI.dita" format="dita">Parsing TEI-XML</xref> with R.</li>
+                    <li><!-- <xref href="parsingTEI.dita" format="dita">Parsing TEI-XML</xref> --> Parsing TEI-XML with R.</li>
             </ol></p>
         <p/>
         <p>
@@ -107,9 +107,9 @@
                     essential to link the right ‘<xref href="ObjVar.dita" format="dita">objective
                         variables</xref>’ to ‘<xref href="SubjVar.dita" format="dita">subjective
                         variables</xref>’ for R statistics — in the previous example,
-                        <b>xml:id="ktu1-3_ii_l5b-6a</b>.</li>
+                        <b>xml:id="ktu1-3_ii_l5b-6a"</b>.</li>
                 <li><xmlelement>w</xmlelement> :<ul id="ul_mb2_mjt_gz">
-                        <li>➞ <xmlatt>type</xmlatt> ‘verb’ <ul id="ul_stg_34t_gz">
+                        <li>➞ <xmlatt>pos</xmlatt> ‘verb’ <ul id="ul_stg_34t_gz">
                                 <li>➞ <xmlatt>ana</xmlatt>
                                     <xref href="PrimData.dita#concept_PrimVar01/AE_value01"
                                         format="dita">#AE VALUE</xref> and ʿentityʾ — in the
@@ -127,7 +127,7 @@
         </p>
         <p/>
         <lines/>
-        <image href="img/transcription_example.svg" height="280px" align="left"
+        <image href="img/GuidelinesSchemaTranscriptionExample.svg" height="339px" width="695px" align="left"
             alt="schema within a transcription" id="image_dhs_hbg_lz"/>
         <p>Another pratical example with a schema, which meaning is “warriors are performing an
             action of destruction (tmtḫṣn)”:</p>
@@ -140,19 +140,19 @@
                 </ul>
             </note>
             <lines/><codeblock outputclass="language-xml">&lt;l n="23" ana="#ktu1-3_ii_l23" xml:id="ktu1-3_ii_23">
-  &lt;lb/>&lt;w type="adv">mʾid&lt;/w>
+  &lt;lb/>&lt;w pos="adv">mʾid&lt;/w>
   &lt;g>.&lt;/g>
-  &lt;w type="verb" ana="#mḫṣ01 #yQTL #verb.competition #contend #WAR" xml:id="ktu1-3_ii_23_tmtḫṣn">tmtḫṣn&lt;/w>
+  &lt;w pos="verb" ana="#mḫṣ01 #yQTL #verb.competition #contend #WAR" xml:id="ktu1-3_ii_23_tmtḫṣn">tmtḫṣn&lt;/w>
   &lt;g>.&lt;/g>
   &lt;w>w&lt;/w>&lt;space/>
-  &lt;w type="verb" ana="#ʿn01 #yQTL #verb.perception #observation #ANT" xml:id="ktu1-3_ii_23_tʿn">tʿn&lt;/w>
+  &lt;w pos="verb" ana="#ʿn01 #yQTL #verb.perception #observation #ANT" xml:id="ktu1-3_ii_23_tʿn">tʿn&lt;/w>
 &lt;/l>
 &lt;l n="24" ana="#ktu1-3_ii_l24" xml:id="ktu1-3_ii_24">&lt;span type="emphasize" ana="#ktu1-3_ii_23"/>
-  &lt;lb/>&lt;w type="verb" ana="#ḫṣ01 #yQTL #verb.competition #contend #WAR" xml:id="ktu1-3_ii_24_tḫtṣb">
+  &lt;lb/>&lt;w pos="verb" ana="#ḫṣ01 #yQTL #verb.competition #contend #WAR" xml:id="ktu1-3_ii_24_tḫtṣb">
       &lt;span type="emphasize" ana="#ktu1-3_ii_23_tmtḫṣn">tḫtṣb&lt;/span>&lt;/w>
   &lt;g>.&lt;/g>
   &lt;w>w&lt;/w>&lt;space/>
-  &lt;w type="verb" ana="#ḥdy01 #yQTL #verb.perception #observation #ANT" xml:id="ktu1-3_ii_24_tḥdy">
+  &lt;w pos="verb" ana="#ḥdy01 #yQTL #verb.perception #observation #ANT" xml:id="ktu1-3_ii_24_tḥdy">
     &lt;span type="emphasize" ana="#ktu1-3_ii_23_tʿn">tḥdy&lt;/span>&lt;/w>
   &lt;g>.&lt;/g>
   &lt;name type="character" ana="#Character #ANT">ʿnt&lt;/name>
@@ -185,8 +185,8 @@
                 Hebrew in Its Northwest Semitic Setting, edited by Steven E Fassberg and Avi
                 Hurvitz, 75–102, Jerusalem — Winona Lake, Indiana: Hebrew University Magnes Press —
                 Eisenbrauns, 2006.</fn>: <ul>
-                <li>form yQTL <xmlatt>ana</xmlatt>=#yQTL: verbs which describe the event </li>
-                <li>form QTL <xmlatt>ana</xmlatt>=#QTL: verbs of the off-line narration</li>
+                <li>form yQTL <xmlatt>ana</xmlatt>="#yQTL": verbs which describe the event </li>
+                <li>form QTL <xmlatt>ana</xmlatt>="#QTL": verbs of the off-line narration</li>
             </ul>
             <codeblock outputclass="language-xml">&#60;entryFree xml:lang="uga">
     &#60;gramGrp>

@@ -11,8 +11,8 @@
    <li id="xmlTEI_dataMining">TEI-XML elements: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-interpGrp.html" format="html" scope="external">interpGrp</xref>|<xref
       href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-interp.html" format="html"
       scope="external">interp</xref></li>
-   <li>TEI-XML attributes: <xmlatt>resp</xmlatt>
-     <xmlatt>xml:id</xmlatt>|<xmlatt>ana</xmlatt>|<xmlatt>type</xmlatt></li>
+   <li>TEI-XML attributes:
+            <xmlatt>resp</xmlatt>|<xmlatt>xml:id</xmlatt>|<xmlatt>ana</xmlatt>|<xmlatt>type</xmlatt></li>
    <li>Attributes values: 
     <ul><li>Traditionally proposed in TEI-XML: structuralUnit </li>
      <li>for structural unit of the preparation to a hermeneutics:
@@ -29,10 +29,10 @@
       &lt;interp n="1" xml:id="whatAction" ana="#primaryData #objectiveVar #action #verb.category"/>
       &lt;interp n="2" xml:id="whatResult" ana="#objectiveVar #result"/> 
       &lt;!-- castList > castItem -->
-      &lt;interp n="3" xml:id="whatCharacter" who" ana="#primaryData #objectiveVar #Character #Genetic-sex"/>
-      &lt;interp n="4" xml:id="whatRole" ana="#objectiveVar" #role />
+      &lt;interp n="3" xml:id="whatCharacter" ana="#primaryData #objectiveVar #Character #Genetic-sex"/>
+      &lt;interp n="4" xml:id="whatRole" ana="#objectiveVar #role" />
       &lt;!-- view -->
-      &lt;interp n="5" xml:id="whatContext" ana="#objectiveVar" #context"/>
+      &lt;interp n="5" xml:id="whatContext" ana="#objectiveVar #context"/>
       &lt;interp n="6" xml:id="whatSphere" ana="#objectiveVar #sphere"/>
       &lt;!-- stage -->
       &lt;interp n="7" xml:id="whatBehavior" ana="#subjectiveVar #consequence #EmotionCategory #hasEmotionIntensity #degreeDesire #voluntaryIntent">How acts the animated entity&lt;/interp>

@@ -73,11 +73,11 @@
         <p>
             <codeblock outputclass="language-xml">&lt;interp xml:id="ktu1-3_ii_l5b_6a_int" ana="#<b>ktu1-3_ii_l5b-6a</b>" corresp="#ktu1-3_ii_l5b_6a">
   &lt;desc>
-    &lt;ref n="1" target="#whatAction #<b>ktu1-3_ii_l5b-6a_tmtḫṣ</b>" type="verb" ana="#<b>verb.competition</b> #<b>contend</b> #mḫṣ01">Action belongs to verb competition, subcategory contend: mḫṣ&lt;/ref>;
+    &lt;ref n="1" target="#whatAction #<b>ktu1-3_ii_l5b-6a_tmtḫṣ</b>" type="verb" ana="#<b>verb.competition</b> #<b>contend</b> #mḫṣ01">Action belongs to verb competition, subcategory contend: mḫṣ&lt;/ref>
     &lt;ref n="2" target="#whatResult">&lt;stage ana="#<b>defeate_ofOpposition</b>">defeat of the opposition&lt;note ana="#ktu1-3_ii_l7_int #ktu1-3_ii_l8_int">According to results following this current action&lt;/note>&lt;/stage>&lt;/ref>
     &lt;castList>
       &lt;castItem n="1"> &lt;!-- one can have more than one castItem placed after the verb, if it is named, such as a warrior, people..., but none &lt;ref> is specified -->
-        &lt;ref n="3" target="#whatCharacter">&lt;persName type="character" ana="<b>#ANT</b> #<b>Female</b>">ʿAnatu&lt;/persName>;&lt;/ref>
+        &lt;ref n="3" target="#whatCharacter">&lt;persName type="character" ana="<b>#ANT</b> #<b>Female</b>">ʿAnatu&lt;/persName>&lt;/ref>
         &lt;ref n="4" target="#whatRole">&lt;state ana="#<b>active</b>" cert="high"/>role: active&lt;/ref>
       &lt;/castItem>
     &lt;/castList>
@@ -87,8 +87,8 @@
     &lt;/view>
     &lt;stage>
      &lt;ref n="7" target="#whatBehavior">
-      &lt;span ana="#<b>toDestroy</b> #<b>free</b> #<b>veryHight</b> #<b>rage</b> #<b>five_dD</b>">Voluntary intentionality, to destroy of her free will, with rage (level five).&lt;/span>
-      &lt;span ana="#<b>affectEntity_and_other</b>">Consquence: an impact on ʾAnatu and others&lt;/span>
+      &lt;span ana="#<b>toDestroy</b> #<b>free</b> #<b>veryHight</b> #<b>rage</b> #<b>five_dD</b>">Voluntary intentionality, to destroy of her free will, with rage (level five)&lt;/span>
+      &lt;span ana="#<b>affectEntity_and_other</b>">Consequence: an impact on ʿAnatu and others&lt;/span>
      &lt;/ref>
     &lt;/stage>
   &lt;/desc>
@@ -120,7 +120,7 @@
                                 scope="local">primaryData</xref> ) <xref
                                 href="withinTranscrip.dita#concept_ephilo/xmlID01">within
                                 transcription</xref> , <xmlatt>xml:id</xmlatt> refers to
-                                <xmlelement>w</xmlelement>, <xmlatt>type</xmlatt> ‘verb’ that is
+                                <xmlelement>w</xmlelement>, <xmlatt>pos</xmlatt> ‘verb’ that is
                             analyzed — in example below <b>#ktu1-3_ii_l5b-6a_tmtḫṣ</b> for
                             ‘tmtḫṣ’</li>
                         <li> ‘TAXO’ and ‘subTAXO’ (belongs to <xref href="ObjVar.dita" format="dita"

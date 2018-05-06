@@ -65,13 +65,13 @@
    <p><b>Reminder</b>: computation is done <u>within two sections</u> in the TEI-XML file ‘doc’: <ol>
         <li><xref href="withinTranscrip.dita" format="dita" scope="local">Within
             transcription</xref> section: transcription with primary data and objective variables to
-          compute verbs for each or all animated entities (very useful for the agency) <xref
+          compute verbs for each or all animated entities (very useful for the agency) <!-- <xref
             href="parsingTEI.dita#concept_statistics/ephilo_R01" format="dita" type="li"
-          >➟</xref>.</li>
+          >➟</xref> -->.</li>
         <li><xref href="interpretation.dita" format="dita" scope="local">Interpretation</xref>
           section: interpretation with primary data, objective variables and subjective variables,
-          more specifically the “R” <xmlelement>span</xmlelement> element <xref
-            href="parsingTEI.dita#concept_statistics/dataMin_R01" format="dita" type="li">➟</xref>:
+          more specifically the “R” <xmlelement>span</xmlelement> element <!-- <xref
+            href="parsingTEI.dita#concept_statistics/dataMin_R01" format="dita" type="li">➟</xref> -->:
           <codeblock outputclass="language-xml">&lt;interp xml:id="ktu1-3_ii_l5b_6a_int" ana="<b>#ktu1.3_ii_5b-6a</b>"> 
    &lt;desc>
       &lt;ref ana="#whatAction <b>#ktu1-3_ii_l5b-6a_tmtḫṣ</b> <b>#verb.competition #contend</b>">competition verb: contend (mḫṣ, Gt: to fight) 
@@ -116,7 +116,7 @@
                     >Within transcription</xref> section (primary data and objective variables),
                   ns:w (= namespace <xmlelement>w</xmlelement>) for counting verb's occurrences: <ul
                     id="ul_esy_4x3_fz">
-                    <li>i.e previous example: <xmlatt>type</xmlatt> 'verb' from <xref
+                    <li>i.e previous example: <xmlatt>pos</xmlatt> 'verb' from <xref
                         href="ObjVar.dita#verbSem01">verb category</xref><xmlatt>ana</xmlatt>
                       '#verb.competition'(= taxonomy, TAXO) and its subtaxonomy (subTAXO: #contend) </li>
                     <li>Optional: specify an animated entity's name (#Character 'value'), i.e.ʿAnatu
@@ -148,7 +148,7 @@
                           <entry>#verb.competition</entry>
                           <entry>//ns:w</entry>
                           <entry>
-                            <codeblock>contains(<xmlatt>ana</xmlatt>,'#verb.competition') and contains(<xmlatt>type</xmlatt>,'verb')</codeblock>
+                            <codeblock>contains(<xmlatt>ana</xmlatt>,'#verb.competition') and contains(<xmlatt>pos</xmlatt>,'verb')</codeblock>
                           </entry>
                         </row>
                         <row>
@@ -157,7 +157,7 @@
                           <entry>//ns:w</entry>
                           <entry>
                             <codeblock>contains(<xmlatt>ana</xmlatt>,'#verb.competition') and contains(<xmlatt>ana</xmlatt>,'#contend') 
-and contains(<xmlatt>type</xmlatt>,'verb')</codeblock>
+and contains(<xmlatt>pos</xmlatt>,'verb')</codeblock>
                           </entry>
                         </row>
                         <row>
@@ -165,8 +165,8 @@ and contains(<xmlatt>type</xmlatt>,'verb')</codeblock>
                           <entry>#ANT and #verb.competition ➞ #subTAXO VALUE #contend</entry>
                           <entry>//ns:w</entry>
                           <entry>
-                            <codeblock>contains(<xmlatt>ana</xmlatt>,'#ANT') and contains(<xmlatt>type</xmlatt>,'#verb.competition') 
-and contains(<xmlatt>type</xmlatt>,'verb')</codeblock>
+                            <codeblock>contains(<xmlatt>ana</xmlatt>,'#ANT') and contains(<xmlatt>pos</xmlatt>,'#verb.competition') 
+and contains(<xmlatt>pos</xmlatt>,'verb')</codeblock>
                           </entry>
                         </row>
                         <row>
@@ -176,7 +176,7 @@ and contains(<xmlatt>type</xmlatt>,'verb')</codeblock>
                           <entry>//ns:w</entry>
                           <entry>
                             <codeblock>contains(<xmlatt>ana</xmlatt>,'#ANT') and contains(<xmlatt>ana</xmlatt>,'#verb.competition') 
-and contains(<xmlatt>type</xmlatt>,'#contend') and contains(<xmlatt>type</xmlatt>,'verb')</codeblock>
+and contains(<xmlatt>pos</xmlatt>,'#contend') and contains(<xmlatt>pos</xmlatt>,'verb')</codeblock>
                           </entry>
                         </row>
                         <row>
@@ -185,7 +185,7 @@ and contains(<xmlatt>type</xmlatt>,'#contend') and contains(<xmlatt>type</xmlatt
                           <entry>//ns:w</entry>
                           <entry>
                             <codeblock>contains(<xmlatt>ana</xmlatt>,'#verb.competition') and not(contains(<xmlatt>ana</xmlatt>, '#ANT') 
-and contains(<xmlatt>type</xmlatt>,'verb') </codeblock>
+and contains(<xmlatt>pos</xmlatt>,'verb') </codeblock>
                           </entry>
                         </row>
                       </tbody>

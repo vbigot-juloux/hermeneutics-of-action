@@ -7435,116 +7435,11 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../computation/corpus_ilimilku.xsl</String>
+                                    <String>TextMining.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>corpus_ilimilku</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>../uga/verb.css</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>verb3</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>../uga/bibliography.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>bibliography</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>../uga/verb.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>verb2</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>../uga/abrev_notes.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>abrev_notes</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>../uga/verb.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>verb3</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>../../../../../../Applications/Oxygen%20XML%20Editor/frameworks/xslt/saxon/templates/Saxon%20configuration.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>verb3 - Copie</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>docmap.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>docmap (WebHelp Classic)4</String>
+                                        <String>docmap (WebHelp Classic)</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -7555,7 +7450,37 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>process.dita</String>
+                                    <String>interpretation.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>docmap (WebHelp Classic)</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ObjVar.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>docmap (WebHelp Classic)1</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>SubjVar.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -7600,16 +7525,16 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../uga/tablet_KTU_1_3_recto.xsl</String>
+                                    <String>process.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>tablets KTU 1:3</String>
+                                        <String>docmap (WebHelp Classic)</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
-                                        <String>XML</String>
+                                        <String>DITAMAP</String>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -7630,6 +7555,201 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>xmlTEI.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>docmap (WebHelp Classic)</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>structuralUnit.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>docmap (WebHelp Classic)</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>parsingTEI.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>docmap (WebHelp Classic)</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../uga/corpus_ilimilku.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>corpus_ilimilku</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../uga/verb.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>verb2</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../uga/bibliography.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>bibliography</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../uga/verb.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>verb3</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../computation/corpus_ilimilku.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>corpus_ilimilku</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../uga/verb.css</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>verb3</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../uga/abrev_notes.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>abrev_notes</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../../../../Applications/Oxygen%20XML%20Editor/frameworks/xslt/saxon/templates/Saxon%20configuration.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>verb3 - Copie</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>docmap.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>docmap (WebHelp Classic)4</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../uga/tablet_KTU_1_3_recto.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>tablets KTU 1:3</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>dataMining.dita</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -7645,41 +7765,11 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>ObjVar.dita</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>docmap (WebHelp Classic)1</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>schema.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>docmap (WebHelp Classic)4</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>interpretation.dita</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>docmap (WebHelp Classic)</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -9660,7 +9750,7 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                     <String>${currentFileURL}</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>file:/Users/vjuloux/Dropbox/Github/hermeneutics-of-action/computation/corpus_ilimilku.xml</String>
+                                    <String>file:/Users/vjuloux/Dropbox/Github/hermeneutics-of-action/uga/corpus_ilimilku.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>

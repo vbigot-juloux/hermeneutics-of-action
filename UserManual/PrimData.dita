@@ -7,13 +7,9 @@
    <p>Primary data are data faithfully extracted from text, and marked up with a type of attributes to be parsed with R - <b>this first step is essential for counting the performances of action per (animated) entity</b>.</p>
     <note>
       <ul>
-        <li>XPath: /teiCorpus/TEI/teiHeader/encodingDesc[1]/classDecl[1]/taxonomy[1]</li>
+        <li>XPath: /teiCorpus/TEI/teiHeader/encodingDesc/classDecl/taxonomy</li>
         <li id="xmlTEI_primD">TEI-XML elements: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-taxonomy.html" format="html" scope="external">taxonomy</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-category.html" format="html" scope="external">category</xref></li>
-<<<<<<< HEAD
         <li>TEI-XML attributes: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" format="html" scope="external"><xmlatt>xml:id</xmlatt></xref></li>
-=======
-        <li>XML-TEI attributes: <xref href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" format="html" scope="external"><xmlatt>xml:id</xmlatt></xref></li>
->>>>>>> origin/master
         <li>Values: action|Being</li>
         <li id="primData_ontoM01">OntoMedia ontology: class <xref
             href="http://www.contextus.net/ontology/ontomedia/ex/ext/common/being" format="html"
@@ -37,7 +33,7 @@
               href="ObjVar.dita#concept_ObjVar01/verbSub01" format="dita" scope="local"
               >subTAXO</xref>).</li>
           <li id="xmlTEI_verb"
-            >TEI-XML:<codeblock outputclass="language-xml">&lt;taxonomy xml:id="primaryData" ana="taxonomies"> 
+            >TEI-XML:<codeblock outputclass="language-xml">&lt;taxonomy xml:id="primaryData" ana="#taxonomies"> 
     &lt;category xml:id="action"/> 
 &lt;/taxonomy>     </codeblock></li>
         </ul></li>
@@ -45,7 +41,7 @@
           <li>&#x27af; any character acting within one or several relevant <xref href="ObjVar.dita"
               >objective</xref>  and <xref href="SubjVar.dita">subjective</xref> variables.</li>
           <li id="xmlTEI_entity02">TEI-XML attribute for Primary data Being:
-            <codeblock outputclass="language-xml">&lt;taxonomy xml:id="primaryData" ana="taxonomies"> 
+            <codeblock outputclass="language-xml">&lt;taxonomy xml:id="primaryData" ana="#taxonomies"> 
    &lt;category xml:id="Being"/>   
 &lt;/taxonomy>       </codeblock></li>
         </ul></li>
@@ -54,7 +50,7 @@
    <p id="AE_Being01">These <b>animated entities</b> are named within the TEI-XML element <xref
         href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html" format="html"
         scope="external">persName</xref> related to <xmlatt>xml:id</xmlatt>="Being"<ul id="ul_q1x_53f_lz">
-        <li>XPath: /teiCorpus/TEI[1]/text[1]/body[1]/div1[1]/stage[1]/listPerson[1]</li>
+        <li>XPath: /teiCorpus/TEI/text/body/div1/stage/listPerson</li>
         <li id="xmlTEI_entity01">TEI-XML elements within <xref
             href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html" format="html"
             scope="external">TEI</xref>|<xref
@@ -84,9 +80,10 @@
       <overline/>
       <ul id="ul_r1x_53f_lz">
         <li id="AE_value01">Current research in the Cycle of Baʿlu and ʿAnatu by alphabtetic order,
-          “Character”: ʿAnatu (ANT), ʾAṯiratu, (ATH), ʾAṯtartu (ATT), Baʿlu (BAL), ʾIlu (ILU),
-          Koṯaru (KOT), Baʿlu's messengers (MES_B), ʾIlu's messengers (MES_I), Yammu's messenger
-          (MES_Y)s, Môtu (MOT), Šapsu (SAP), Yammu (YAM), warrior(s) (WAR), unknown (UNK).</li>
+          “Character”: ʿAnatu (ANT), ʾAṯiratu, (ATH), ʾAṯtartu (ATT), Baʿlu (BAL), ʾIlu's clan
+          (ClanILU), Koṯaru (KOT), Baʿlu's messengers (MES_B), ʾIlu's messengers (MES_I), Yammu's
+          messengers (MES_Y), Môtu (MOT), Rdmn (RDM), Šapsu (SAP), unknown (UNK), warrior(s) (WAR),
+          Yammu (YAM).</li>
         <li>TEI-XML example for ʿAnatu, attributes within the <xref
             href="PrimData.dita#concept_PrimVar01/xmlTEI_entity01" format="dita">elements</xref>
           <xmlelement>profileDesc</xmlelement> ➞ <xmlelement>particDesc</xmlelement> ➞
@@ -96,7 +93,7 @@
           <codeblock outputclass="language-xml">&lt;div1>&lt;stage>
    &lt;listPerson type="character" ana="#Being #primaryData" xml:id="Character"> &lt;!-- animated entity -->
       &lt;person ana="#whatCharacter">
-         &lt;persName xml:id="ANT">ʾAnatu&lt;/persName>
+         &lt;persName xml:id="ANT">ʿAnatu&lt;/persName>
        &lt;/person>
    &lt;/listPerson>
 &lt;/stage>&lt;/div1>   </codeblock></li>

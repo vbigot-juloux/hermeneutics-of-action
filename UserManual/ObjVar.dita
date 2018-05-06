@@ -13,16 +13,12 @@
   <conbody>
     <note>
       <ul>
-        <li>XPath: /teiCorpus/TEI[1]/teiHeader[1]/encodingDesc[1]/classDecl[1]/taxonomy[2]</li>
+        <li>XPath: /teiCorpus/TEI/teiHeader/encodingDesc/classDecl/taxonomy</li>
         <li id="xmlTEI_objV">TEI-XML elements: <xref
             href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-taxonomy.html"
             format="html" scope="external">taxonomy</xref>|<xref
             href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-category.html"
-<<<<<<< HEAD
             format="html" scope="external">category</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/gloss.html" format="html" scope="external">gloss</xref></li>
-=======
-            format="html" scope="external">category</xref>|<xref href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-equiv.html" format="html" scope="external">equiv</xref></li>
->>>>>>> origin/master
         <li>TEI-XML attributes: <xref
             href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CORS" format="html"
             scope="external"><xmlatt>xml:id</xmlatt></xref></li>
@@ -45,7 +41,7 @@
         href="ObjVar.dita#concept_ObjVar01/role01" format="dita">role</xref>, <xref
         href="ObjVar.dita#concept_ObjVar01/bioSex01" format="dita">genetic-sex</xref>, which follow
       the same semantic frame for marking up a type of
-      taxonomy:<codeblock outputclass="language-xml">&lt;taxonomy xml:id="objectiveVar" ana="taxonomies">
+      taxonomy:<codeblock outputclass="language-xml">&lt;taxonomy xml:id="objectiveVar" ana="#taxonomies">
     &lt;category xml:id="NAME OF A VARIABLE"/>
     &lt;category xml:id="NAME OF A SUBVARIABLE"/>
 &lt;/taxonomy></codeblock></p>
@@ -106,8 +102,8 @@
         &lt;/term>    
       &lt;/catDesc> 
       &lt;category ana="#verb.contact #attaching" xml:lang="uga">
-        &lt;gloss n="1" xml:id="ʿtk01" target="../uga/verb.html#ʿtk"/>&lt;!-- within transcription, i.e.: &lt;w type="verb" ana="#ʿtk #verb.contact #attaching #ANT" xml:id="ktu1-3_ii_l11b-12a_ʿtkt">ʿtkt&lt;/w> -->
-        &lt;gloss n="2" xml:id="šns01" target="./uga/verb.html#šns"/>&lt;!-- within transcription, i.e.: &lt;w type="verb" ana="#šns #verb.contact #attaching #ANT" xml:id="ktu1-3_ii_l12b-13a_šnst">šnst&lt;/w> -->    
+        &lt;gloss n="1" xml:id="ʿtk01" target="../uga/verb.html#ʿtk"/>&lt;!-- within transcription, i.e.: &lt;w pos="verb" ana="#ʿtk #verb.contact #attaching #ANT" xml:id="ktu1-3_ii_l11b-12a_ʿtkt">ʿtkt&lt;/w> -->
+        &lt;gloss n="2" xml:id="šns01" target="./uga/verb.html#šns"/>&lt;!-- within transcription, i.e.: &lt;w pos="verb" ana="#šns #verb.contact #attaching #ANT" xml:id="ktu1-3_ii_l12b-13a_šnst">šnst&lt;/w> -->    
         […]
      &lt;/category>
      […]
@@ -151,12 +147,7 @@
           <li>&#x27af; where the event takes place, inside or outside the household.</li>
           <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: inside,
             outside, unknown (unknown_S), broken context (B_ctx_S).</li>
-<<<<<<< HEAD
-          <li>TEI-XML
-=======
-          <li>TEI-XM
->>>>>>> origin/master
-            example:<codeblock outputclass="language-xml">&lt;category xml:id="sphere" ana="#objectiveVar">
+          <li>TEI-XML example:<codeblock outputclass="language-xml">&lt;category xml:id="sphere" ana="#objectiveVar">
     &lt;category xml:id="inside"/>
 &lt;/category></codeblock></li>
         </ul></li>

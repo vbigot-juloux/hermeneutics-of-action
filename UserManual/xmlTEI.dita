@@ -24,13 +24,14 @@
   </note>
   <ol>
    <li>XPath “<xref href="categories.dita" format="dita" scope="local">analytical
-    taxonomies</xref>”: /teiCorpus/TEI[1]/teiHeader[1]/encodingDesc[1]/classDecl[1] ➞ <xmlelement>taxonomy</xmlelement></li>
+    taxonomies</xref>”: /teiCorpus/TEI/teiHeader/encodingDesc/classDecl ➞
+     <xmlelement>taxonomy</xmlelement></li>
    <li>XPath “<xref href="withinTranscrip.dita" format="dita" scope="local">within
-     transcription</xref>”: /teiCorpus/TEI[1]/text[1]/body[1]/div1[1]/div2[n]/div3[n]/div4[n] ➞
+     transcription</xref>”: /teiCorpus/TEI/text/body/div1/div2/div3/div4 ➞
      <xmlelement>lg</xmlelement> ➞ <xmlelement>l</xmlelement>
    </li>
-   <li>XPath “<xref href="textMining.dita" format="dita" scope="local">text mining</xref>”:
-    /teiCorpus/TEI[1]/text[1]/body[1]/div1[2] ➞ <xmlelement>div2</xmlelement></li>
+   <li>XPath “<xref href="TextMining.dita" format="dita" scope="local">text mining</xref>”:
+    /teiCorpus/TEI/text/body/div1➞ <xmlelement>div2</xmlelement></li>
   </ol>
   <p>More information about:
    <ul>
@@ -75,7 +76,7 @@
  &lt;/TEI>
 &lt;teiCorpus></codeblock></p>
   <lines/>
-  <p>This preliminary process is going to be scrutinized within these sections: </p>
+  <p>This preliminary process is going to be scrutinized within these sections. </p>
   
  </conbody>
 </concept>

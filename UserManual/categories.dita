@@ -4,12 +4,8 @@
   <title>Analytical taxonomies</title>
  <shortdesc/>
  <conbody>
-   <note>xPath: /teiCorpus/TEI/teiHeader/encodingDesc
-<<<<<<< HEAD
-     <ul><li id="xmlTEI_cat"> xPath TEI-XML elements: <xref
-=======
-     <ul><li id="xmlTEI_cat"> xPath TEI-XMLelements: <xref
->>>>>>> origin/master
+   <note>XPath: /teiCorpus/TEI/teiHeader/encodingDesc <ul>
+        <li id="xmlTEI_cat"> XPath TEI-XML elements: <xref
             href="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-teiCorpus.html"
             format="html" scope="external">teiCorpus</xref>|<xref
             href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html" format="html"
@@ -17,7 +13,8 @@
             href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-teiHeader.html"
             format="html" scope="external">teiHeader</xref>|<xref
             href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-encodingDesc.html"
-            format="html" scope="external">encodingDesc</xref></li></ul></note>
+            format="html" scope="external">encodingDesc</xref></li>
+      </ul></note>
   <p>Three <b>main</b> taxonomies are created for investigating a narrative text:</p>
   <ol>
    <li><xref href="PrimData.dita">Primary data</xref></li>
