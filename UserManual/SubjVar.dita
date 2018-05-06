@@ -80,7 +80,7 @@
           <li>Subcategories <xmlelement>category</xmlelement> ➞ <xmlatt>xml:id</xmlatt>: from one to
             five (number_dD), and unknown (unknown_dD), broken context (B_ctx_dD)</li>
           <li>TEI-XML example:
-            <codeblock outputclass="language-xml">&lt;category xml:id="degreeDesire" ana="subjectiveVar">
+            <codeblock outputclass="language-xml">&lt;category xml:id="degreeDesire" ana="#subjectiveVar">
    &lt;category xml:id="two_dD"/>
 &lt;/category>        </codeblock>
           </li>
@@ -100,7 +100,7 @@
               <li id="motiv_vI01">What motivation: pressure or free will.</li>
             </ul></li>
           <li>TEI-XML example:
-            <codeblock outputclass="language-xml">&lt;category xml:id="voluntaryIntent" ana="subjectiveVar">
+            <codeblock outputclass="language-xml">&lt;category xml:id="voluntaryIntent" ana="#subjectiveVar">
    &lt;category xml:id="toKill"/>
    &lt;category xml:id="motivation_vI">
       &lt;category xml:id="free"/>
