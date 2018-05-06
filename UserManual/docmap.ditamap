@@ -25,7 +25,7 @@
   </topicref>
   </topicgroup>
     <topicgroup> <!-- Data mining -->
-     <topicref navtitle="Text mining" href="textMining.dita" type="concept" toc="yes">
+     <topicref navtitle="Text mining" href="TextMining.dita" type="concept" toc="yes">
       <topicref href="withinTranscrip.dita" type="concept" toc="yes"/>
       <topicref href="structuralUnit.dita" type="concept" toc="yes"/>
       <topicref href="interpretation.dita" type="concept" toc="yes"/>
