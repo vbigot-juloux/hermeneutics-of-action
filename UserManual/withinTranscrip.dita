@@ -193,7 +193,7 @@
        &#60;gram xml:id="yQTL">yQTL: performance of the character&#60;/gram>
        &#60;gram xml:id="QTL">QTL: describe the performance&#60;/gram>
     &#60;/gramGrp>
-&#60;superEntry>            </codeblock>
+&#60;entryFree>            </codeblock>
             It is a relevant information for counting ocurrences. </note>
     </conbody>
 </concept>
