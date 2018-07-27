@@ -10,10 +10,11 @@ This is a lab with a case-study, the Ugaritic text KTU 1.1-6. It shall be consid
 
 
 ## <a name="tei-xml"></a>TEI-XML
-- _Examples soon_
+- _Example soon_
 - [guidelines](https://vbigot-juloux.github.io/hermeneutics-of-action/UserManual/out/webhelp/index.html#process.html)
 
 ## <a name="xsl"></a>XSL
+- _Example soon_
 
 ## <a name="parsing-tei"></a>Parsing TEI with R
 Work in [progress](https://github.com/vbigot-juloux/hermeneutics-of-action/projects/1?). I have opened issues to follow each step:
