@@ -5,7 +5,7 @@ This is a lab with a case-study, the Ugaritic text KTU 1.1-6. It shall be consid
 
 ## Table of content:
 - [TEI-XML](#tei-xml)
-- [XSL]((#xsl)
+- [XSL](#xsl)
 - [Parsing TEI with R](#parsing-tei)
 
 
