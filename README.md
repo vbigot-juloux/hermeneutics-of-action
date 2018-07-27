@@ -5,17 +5,17 @@ This is a lab with a case-study, the Ugaritic text KTU 1.1-6. It shall be consid
 
 ## Table of content:
 - [TEI-XML](#tei-xml)
-- <a name="xsl">XSL</a>
-- <a name="parsin-tei">Parsing TEI with R</a>
+- [XSL]((#xsl)
+- [Parsing TEI with R](#parsing-tei)
 
 
-## [TEI-XML](){:name='tei-xml'}
+## <a name="tei-xml"></a>TEI-XML
 - _Examples soon_
 - [guidelines](https://vbigot-juloux.github.io/hermeneutics-of-action/UserManual/out/webhelp/index.html#process.html)
 
-## [XSL](#xsl)
+## <a name="xsl"></a>XSL
 
-## [Parsing TEI with R](#parsing-tei)
+## <a name="parsin-tei"></a>Parsing TEI with R
 Work in [progress](https://github.com/vbigot-juloux/hermeneutics-of-action/projects/1?). I have opened issues to follow each step:
 - [Objective variables](https://github.com/vbigot-juloux/hermeneutics-of-action/issues/1)
 - [Subjective variables](https://github.com/vbigot-juloux/hermeneutics-of-action/issues/3)
