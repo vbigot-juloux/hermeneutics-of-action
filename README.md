@@ -5,6 +5,7 @@ This is a lab with a case-study, the Ugaritic text KTU 1.1-6. It shall be consid
 
 ## Table of content:
 - [TEI-XML](#tei-xml)
+- [ODD](#odd)
 - [XSL](#xsl)
 - [Parsing TEI with R](#parsing-tei)
 
@@ -12,6 +13,9 @@ This is a lab with a case-study, the Ugaritic text KTU 1.1-6. It shall be consid
 ## <a name="tei-xml"></a>TEI-XML
 - _Example soon_
 - [Guidelines](https://vbigot-juloux.github.io/hermeneutics-of-action/UserManual/out/webhelp/index.html#process.html) <img src="https://user-images.githubusercontent.com/8985066/43297660-e1d7510e-9152-11e8-970a-d5537a22e69c.png" width="30"/>
+
+## <a name="odd"></a>ODD
+<img src="https://user-images.githubusercontent.com/8985066/43298048-ab56921e-9154-11e8-9397-b106ed52cf2e.png" width="60" />
 
 ## <a name="xsl"></a>XSL
 - _Example soon_
