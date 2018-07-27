@@ -20,6 +20,6 @@ This is a lab with a case-study, the Ugaritic text KTU 1.1-6. It shall be consid
 Work in [progress](https://github.com/vbigot-juloux/hermeneutics-of-action/projects/1?). I have opened issues to follow each step:
 - [Objective variables](https://github.com/vbigot-juloux/hermeneutics-of-action/issues/1)
 - [Subjective variables](https://github.com/vbigot-juloux/hermeneutics-of-action/issues/3)
-- [Get characters](https://github.com/vbigot-juloux/hermeneutics-of-action/issues/2)![done](/img/done.png)
+- [Get characters](https://github.com/vbigot-juloux/hermeneutics-of-action/issues/2)![Preview](https://raw.githubusercontent.com/vbigot-juloux/project/master/image-path/done.png)<span style="height: 10px; padding: 0.15em; font-size: 10px; border-radius: 2px; background-color: #ff630f">Done</span>
 
 Don't hesitate to comment each issue.
