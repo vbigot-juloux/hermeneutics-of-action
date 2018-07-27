@@ -1,7 +1,7 @@
 # Preliminary to the hermeneutics of action
 _A project of [Vanessa Bigot Juloux](http://vanessajuloux.xyz)_
 
-This is a lab with a case-study, the Ugaritic text KTU 1.1-6. It shall be considered as an experimental project for testing the relevance of diverse digital approaches for setting up a hermeneutics of action.
+This is a lab with the following case-study, the Ugaritic text KTU 1.1-6. It shall be considered as an experimental project for testing the relevance of diverse digital approaches for setting up a hermeneutics of action.
 
 ## Table of content:
 - [TEI-XML](#tei-xml)
